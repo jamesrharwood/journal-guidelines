@@ -1,0 +1,6 @@
+/venv
+.DS_Core
+.vscode
+*code-workspace
+*.pyc
+*.log

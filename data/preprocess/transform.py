@@ -1,24 +1,27 @@
 # %%
 import csv
 
+from zipfile import ZipFile
 from collections import namedtuple
 
 from lxml import etree
 
-INFILE = "data/medline_journals.xml"
+INFILE = "data/medline_journals.xml.zip"
 OUTFILE = "data/medline_journals.csv"
 
 
 def xml_to_csv():
-    nodes = etree.iterparse(INFILE, tag="NLMCatalogRecord")
-    fields = fields_to_extract()
-    fieldnames = [f.label for f in fields]
-    with open(OUTFILE, "w") as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-        writer.writeheader()
-        for event, node in nodes:
-            data = extract_fields_from_node_to_dict(fields, node)
-            writer.writerow(data)
+    with ZipFile(INFILE) as myzip:
+        infile = INFILE.replace(".zip", "")
+        nodes = etree.iterparse(infile, tag="NLMCatalogRecord")
+        fields = fields_to_extract()
+        fieldnames = [f.label for f in fields]
+        with open(OUTFILE, "w") as csv_file:
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+            writer.writeheader()
+            for event, node in nodes:
+                data = extract_fields_from_node_to_dict(fields, node)
+                writer.writerow(data)
 
 
 def fields_to_extract():

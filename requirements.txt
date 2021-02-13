@@ -2,8 +2,11 @@ appdirs==1.4.4
 appnope==0.1.2
 backcall==0.2.0
 black==20.8b1
+certifi==2020.12.5
+chardet==4.0.0
 click==7.1.2
 decorator==4.4.2
+idna==2.10
 ipykernel==5.4.3
 ipython==7.19.0
 ipython-genutils==0.2.0
@@ -22,10 +25,12 @@ Pygments==2.7.4
 python-dateutil==2.8.1
 pyzmq==22.0.0
 regex==2020.11.13
+requests==2.25.1
 six==1.15.0
 toml==0.10.2
 tornado==6.1
 traitlets==5.0.5
 typed-ast==1.4.2
 typing-extensions==3.7.4.3
+urllib3==1.26.3
 wcwidth==0.2.5

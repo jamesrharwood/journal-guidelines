@@ -1,14 +1,14 @@
-def before(string):
+def preceeded_by(string):
     return r"(?<={})".format(string)
 
 
-def after(string):
+def followed_by(string):
     return r"(?={})".format(string)
 
 
-def not_before(string):
+def not_preceeded_by(string):
     return r"(?<!{})".format(string)
 
 
-def not_after(string):
+def not_followed_by(string):
     return r"(?!{})".format(string)

@@ -3,14 +3,8 @@ import itertools
 
 
 class FieldCollection:
-    _instance = None
-
-    def __init__(self, fields=[]):
-        if self._instance:
-            return self._instance
+    def __init__(self):
         self._fields = defaultdict(list)
-        self.register_fields(fields)
-        self._instance = self
 
     def register_fields(self, fields):
         for field in fields:

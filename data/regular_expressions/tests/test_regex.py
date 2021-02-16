@@ -12,9 +12,6 @@ class RegularExpressionsWithTestData(RegularExpressions):
         self._matches.update({module.name: getattr(module, "matches")})
         self._non_matches.update({module.name: getattr(module, "non_matches")})
 
-    def __iter__(self):
-        return (attr for attr in dir(self) if not attr.startswith("_"))
-
 
 class TestRegularExpressions(unittest.TestCase):
     pass
@@ -29,7 +26,7 @@ def match_test_factory(rex, test_data):
     def test(self):
         match = rex.search(a)
         self.assertTrue(
-            match, "{} not a match for regex: {}".format(a, rex.pattern[:20])
+            match, "{} not a match for regex: {}".format(a, rex.pattern[:30])
         )
         if type(b) == int:
             self.assertEqual(len(rex.findall(a)), b)

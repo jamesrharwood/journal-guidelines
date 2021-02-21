@@ -1,15 +1,22 @@
-from abc import ABC, abstractproperty
+import ast
+from dataclasses import dataclass
+
 from .fields import FIELDS
 
 
-def abstract_class_property(func):
-    return property(classmethod(abstractproperty(func)))
+class MetaField(type):
+    def __call__(self, *args, **kwargs):
+        instance = super().__call__(*args, **kwargs)
+        FIELDS.register_field(instance)
+        return instance
 
 
-class AbstractField(ABC):
-    @abstract_class_property
-    def TYPE(self):
-        ...
+class AbstractField(metaclass=MetaField):
+    deserializer = None
 
-    def register(self):
-        FIELDS.register_field(self)
+    def name(self):
+        raise NotImplementedError
+
+
+class AbstractListField(AbstractField):
+    deserializer = staticmethod(ast.literal_eval)

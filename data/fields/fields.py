@@ -1,10 +1,6 @@
-from collections import defaultdict
-import itertools
-
-
 class FieldCollection:
     def __init__(self):
-        self._fields = defaultdict(list)
+        self._fields = []
 
     def register_fields(self, fields):
         for field in fields:
@@ -13,10 +9,13 @@ class FieldCollection:
     def register_field(self, field):
         setattr(self, field.name, field)
         setattr(self, field.name + "_", field.name)
-        self._fields[field.TYPE].append(field)
+        self._fields.append(field)
+
+    def iter_by_class(self, cls):
+        return (field for field in self._fields if isinstance(field, cls))
 
     def __iter__(self):
-        return itertools.chain.from_iterable(self._fields.values())
+        return (field for field in self._fields)
 
 
 FIELDS = FieldCollection()

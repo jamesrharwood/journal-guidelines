@@ -1,8 +1,13 @@
 from data.preprocess import preprocess
 from data.constants import (
-    MEDLINE_XML_ZIP_FILE_PATH,
-    JOURNALS_CSV_FILE_PATH,
+    RAW_DATA_FILE_PATH,
+    PREPROCESSED_DATA_FILE_PATH,
 )
 
+
 def process():
-    preprocess(MEDLINE_XML_ZIP_FILE_PATH, JOURNALS_CSV_FILE_PATH)
+    preprocess(RAW_DATA_FILE_PATH, PREPROCESSED_DATA_FILE_PATH)
+
+
+if __name__ == "__main__":
+    preprocess()

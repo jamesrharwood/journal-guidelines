@@ -1,16 +1,6 @@
 import unittest
 
-from data.regular_expressions import RegularExpressions
-
-
-class RegularExpressionsWithTestData(RegularExpressions):
-    _matches = {}
-    _non_matches = {}
-
-    def _register_module(self, module):
-        super()._register_module(module)
-        self._matches.update({module.name: getattr(module, "matches")})
-        self._non_matches.update({module.name: getattr(module, "non_matches")})
+from ..targets import TARGETS
 
 
 class TestRegularExpressions(unittest.TestCase):
@@ -48,20 +38,16 @@ def non_match_test_factory(rex, test_data):
     return test
 
 
-rx = RegularExpressionsWithTestData()
-
-for pattern_name in rx:
-    pattern = getattr(rx, pattern_name)
-    matches = rx._matches[pattern_name]
-    for idx, m in enumerate(matches):
-        test = match_test_factory(pattern, m)
-        test_name = "test_match_{0}_{1}".format(pattern_name, idx)
-        setattr(TestRegularExpressions, test_name, test)
-    non_matches = rx._non_matches[pattern_name]
-    for idx, nm in enumerate(non_matches):
-        test = non_match_test_factory(pattern, nm)
-        test_name = "test_non_match_{0}_{1}".format(pattern_name, idx)
-        setattr(TestRegularExpressions, test_name, test)
+for target in TARGETS:
+    for pattern in target.patterns:
+        for idx, m in enumerate(pattern.matches):
+            test = match_test_factory(pattern, m)
+            test_name = "test_match_{0}_{1}".format(pattern.name, idx)
+            setattr(TestRegularExpressions, test_name, test)
+        for idx, nm in enumerate(pattern.non_matches):
+            test = non_match_test_factory(pattern, nm)
+            test_name = "test_non_match_{0}_{1}".format(pattern.name, idx)
+            setattr(TestRegularExpressions, test_name, test)
 
 
 if __name__ == "__main__":

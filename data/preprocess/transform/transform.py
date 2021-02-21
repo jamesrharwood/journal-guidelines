@@ -1,15 +1,18 @@
 # %%
 import pandas as pd
 
-from .fields import FIELDS
+from .fields import FIELDS as TRANSFORMED_FIELDS
+from data.fields import FIELDS
+
+
+def load_csv_to_df(in_file_path):
+    df = pd.read_csv(in_file_path, converters={f.name: f.deserializer for f in FIELDS})
+    return df
 
 
 def transform(IN_FILE_PATH):
-    df = pd.read_csv(
-        IN_FILE_PATH,
-        converters={f.name: f.csv_read_converter for f in FIELDS.extracted},
-    )
-    for field in FIELDS.preprocessed:
+    df = load_csv_to_df(IN_FILE_PATH)
+    for field in TRANSFORMED_FIELDS:
         df[field.name] = field.apply_to_dataframe(df)
     df.to_csv(IN_FILE_PATH)
 

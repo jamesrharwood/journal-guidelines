@@ -7,12 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 LOG_LEVEL = "INFO"
-LOG_FILE = "log.txt"
+LOG_FILE = "scraper_log.txt"
 BOT_NAME = "journal_author_guidelines"
 
 SPIDER_MODULES = ["data.scrape.scraper.spiders"]
 NEWSPIDER_MODULE = "data.scrape.scraper.spiders"
 
+# Allow duplifications of URLs so that we catch journals that link to shared guideline page
+DUPEFILTER_CLASS = "scrapy.dupefilters.BaseDupeFilter"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0"
@@ -90,3 +92,13 @@ HTTPCACHE_DIR = "httpcache"
 HTTPCACHE_IGNORE_HTTP_CODES = []
 HTTPCACHE_STORAGE = "scrapy.extensions.httpcache.FilesystemCacheStorage"
 HTTPCACHE_GZIP = True
+
+from data.constants import SCRAPED_DATA_FILE_PATH
+from data.scrape.fields import FIELDS
+
+FEEDS = {
+    SCRAPED_DATA_FILE_PATH: {
+        "format": "csv",
+        "fields": ["url", "id"] + [f.name for f in FIELDS],
+    }
+}

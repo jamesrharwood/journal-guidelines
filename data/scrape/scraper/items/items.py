@@ -5,7 +5,7 @@
 
 from scrapy.item import Item, Field
 
-from data.scrape.fields import TEXT_FIELDS, LINK_FIELDS
+from data.scrape.fields import FIELDS
 
 
 def serialize_match_list(lst):
@@ -18,10 +18,5 @@ class PageData(Item):
     status = Field()
 
 
-for field in TEXT_FIELDS:
-    setattr(
-        PageData,
-        field.name,
-        Field(serializer=serialize_match_list),
-    )
-    setattr(PageData, field.name, Field())
+for field in FIELDS:
+    PageData.fields.update({field.name: Field(output_processor=field.output_processor)})

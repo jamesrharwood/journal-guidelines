@@ -1,1 +1,1 @@
-from .fields import FIELDS
+from .abstract import FIELDS

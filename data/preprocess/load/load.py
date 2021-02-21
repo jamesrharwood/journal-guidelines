@@ -15,7 +15,7 @@ def xml_to_csv(xml_file_path, csv_file_path):
 
 
 def write_nodes_to_csv(nodes, csv_file_path):
-    fieldnames = [f.name for f in FIELDS.extracted]
+    fieldnames = [f.name for f in FIELDS]
     with open(csv_file_path, "w") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
@@ -24,9 +24,9 @@ def write_nodes_to_csv(nodes, csv_file_path):
 
 
 def write_node_to_csv(node, csv_writer):
-    data = extract_fields_from_node_to_dict(FIELDS.extracted, node)
+    data = extract_fields_from_node_to_dict(FIELDS, node)
     csv_writer.writerow(data)
 
 
 def extract_fields_from_node_to_dict(fields, node):
-    return {f.name: f.extract_from_xml(node) for f in fields}
+    return {f.name: f.load_from_xml(node) for f in fields}

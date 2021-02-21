@@ -1,12 +1,11 @@
 import re
 
 from data.fields import FIELDS
-from data.fields.abstract import AbstractField
+from data.fields.abstract import AbstractField, AbstractListField
+from data.constants import PIVOT_FROM_COL
 
 
-class TransformedField(AbstractField):
-    TYPE = "transformed"
-
+class TransformedFieldBase:
     def __init__(self, name, from_field_name, method):
         self.name = name
         self.from_field_name = from_field_name
@@ -14,6 +13,14 @@ class TransformedField(AbstractField):
 
     def apply_to_dataframe(self, df):
         return df[self.from_field_name].apply(self.method)
+
+
+class TransformedField(TransformedFieldBase, AbstractField):
+    pass
+
+
+class TransformedListField(TransformedFieldBase, AbstractListField):
+    pass
 
 
 def include_url(url):
@@ -35,11 +42,9 @@ def is_english(languages):
 FIELDS = [
     TransformedField(
         "is_periodical",
-        FIELDS.publication_types,
+        FIELDS.publication_types_,
         is_periodical,
     ),
-    TransformedField("is_english", FIELDS.languages, is_english),
-    TransformedField("urls_filtered", FIELDS.urls, url_filter),
+    TransformedField("is_english", FIELDS.languages_, is_english),
+    TransformedListField(PIVOT_FROM_COL, FIELDS.urls_raw_, url_filter),
 ]
-for field in FIELDS:
-    field.register()

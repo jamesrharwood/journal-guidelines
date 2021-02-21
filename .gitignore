@@ -7,3 +7,4 @@
 .env
 */medline_journals.xml
 **/.scrapy
+scraper_log.txt

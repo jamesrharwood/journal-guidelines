@@ -10,11 +10,11 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 MODULE_FILE_PATH = os.path.join(CURRENT_DIR, MODULE_DIR)
 
 
-class Guideline(Target):
+class GuidelineTarget(Target):
     pass
 
 
-class Guidelines:
+class GuidelineTargets:
     def __init__(self):
         self._load_guidelines()
 
@@ -31,7 +31,7 @@ class Guidelines:
         patterns = [self._make_rx(RX, name, text_module)]
         if domain_module:
             patterns.append(self._make_rx(DOMAIN_RX, name, domain_module))
-        return Guideline(name, patterns)
+        return GuidelineTarget(name, patterns)
 
     def _ignore_file(self, file_):
         if file_.startswith("_"):
@@ -68,4 +68,4 @@ class Guidelines:
         return (getattr(self, x) for x in dir(self) if not x.startswith("_"))
 
 
-GUIDELINES = Guidelines()
+GUIDELINE_TARGETS = GuidelineTargets()

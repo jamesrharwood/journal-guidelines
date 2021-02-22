@@ -19,5 +19,5 @@ class Target(metaclass=TargetMeta):
         self.fields = [pattern.make_field() for pattern in self.patterns]
 
 
-from .guidelines import GUIDELINES
-from . import equator
+from .guidelines import GUIDELINE_TARGETS
+from .equator import EQUATOR_TARGET

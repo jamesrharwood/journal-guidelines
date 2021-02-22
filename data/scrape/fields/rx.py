@@ -8,6 +8,7 @@ DEFAULT_FLAGS = re.IGNORECASE
 class RX:
     _instances = []
     field_class = ScrapedTextField
+    name_suffix = "_matches"
 
     def __init__(
         self,
@@ -26,7 +27,7 @@ class RX:
         self._instances.append(self)
 
     def make_field(self):
-        return self.field_class(self.compiled_pattern, self.name + "_matches")
+        return self.field_class(self.compiled_pattern, self.name + self.name_suffix)
 
     @property
     def instances(self):
@@ -40,4 +41,5 @@ class RX:
 
 
 class DOMAIN_RX(RX):
+    name_suffix = "_domain_matches"
     field_class = ScrapedLinkField

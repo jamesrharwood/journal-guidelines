@@ -3,9 +3,10 @@ import pandas as pd
 
 from .fields import FIELDS as TRANSFORMED_FIELDS
 from data.fields import FIELDS
+from data.constants import INDEX_COL
 
 
-def load_csv_to_df(in_file_path):
+def load_csv_to_df(in_file_path, index_cols=[INDEX_COL]):
     df = pd.read_csv(in_file_path, converters={f.name: f.deserializer for f in FIELDS})
     return df
 

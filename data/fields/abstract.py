@@ -4,6 +4,15 @@ from dataclasses import dataclass
 from .fields import FIELDS
 
 
+def literal_deserializer(string):
+    if string is "":
+        return None
+    try:
+        return ast.literal_eval(string)
+    except Exception:
+        raise Exception("Cannot eval: " + string)
+
+
 class MetaField(type):
     def __call__(self, *args, **kwargs):
         instance = super().__call__(*args, **kwargs)
@@ -19,4 +28,4 @@ class AbstractField(metaclass=MetaField):
 
 
 class AbstractListField(AbstractField):
-    deserializer = staticmethod(ast.literal_eval)
+    deserializer = staticmethod(literal_deserializer)

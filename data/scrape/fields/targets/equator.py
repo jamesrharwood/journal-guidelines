@@ -28,7 +28,12 @@ domain_rx = DOMAIN_RX(
     non_matches=["equator.org"],
 )
 
-Target(
+
+class EQUATOR_Target(Target):
+    pass
+
+
+EQUATOR_TARGET = EQUATOR_Target(
     "EQUATOR",
     [text_rx, domain_rx],
 )

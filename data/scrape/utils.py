@@ -1,5 +1,18 @@
-from bs4 import BeautifulSoup
+import io
 from urllib.parse import urlparse
+
+import pdftotext
+from bs4 import BeautifulSoup
+
+
+
+def get_text_from_response(response):
+    try:
+        text = get_text_from_xml(response.text.encode("utf-8"))
+    except AttributeError as err:
+        text = get_text_from_pdf(response)
+    return text
+
 
 
 def get_text_from_xml(html):
@@ -18,6 +31,12 @@ def get_text_from_xml(html):
     chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
     # drop blank lines
     text = "\n".join(chunk for chunk in chunks if chunk)
+    return text
+
+
+def get_text_from_pdf(response):
+    pdf = pdftotext.PDF(io.Bytes.IO(response.body))
+    text = "\n\n".join(pdf)
     return text
 
 

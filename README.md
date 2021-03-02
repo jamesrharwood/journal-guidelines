@@ -9,3 +9,8 @@
 4. We used an automated, iterative process to find and scrape author guideline pages. Generally publishers use similar URL patterns across their journals so we automate as far as possible and then fill in the blanks when necessary.
 5. We attempt to comfirm that we have scraped the correct page successfully by looking for the presence of phrases common to author guideline pages: table, figure, abstract etc.
 6. We use regular expressions to check for mentions of, or links to, the EQUATOR Network or common reporting guidelines.
+
+**Get started**
+1. Install [pdftotext](https://github.com/jalan/pdftotext)
+2. Install dependencies `pip install -r requirements.txt` (install [pip](https://pip.pypa.io/en/stable/installing/) first if necessary)
+3. ...TODO

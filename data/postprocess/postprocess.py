@@ -15,14 +15,13 @@ def apply_postprocessed_fields(df):
 
 
 def create_pivot_table(PREPROCESSED_DATA_FILE_PATH, SCRAPED_DATA_FILE_PATH):
-    df = load_csv_to_df(
-        PREPROCESSED_DATA_FILE_PATH, index_cols=[INDEX_COL, PIVOT_TO_COL]
+    journal_df = load_csv_to_df(PREPROCESSED_DATA_FILE_PATH, index_cols=[INDEX_COL])
+    scraped_df = load_csv_to_df(
+        SCRAPED_DATA_FILE_PATH, index_cols=[INDEX_COL, PIVOT_TO_COL]
     )
-    scraped_df = load_csv_to_df(SCRAPED_DATA_FILE_PATH)
-    scraped_df = scraped_df.set_index(INDEX_COL, PIVOT_TO_COL)
     apply_postprocessed_fields(scraped_df)
-    scraped_df.join(df, how="inner")
-    return scraped_df
+    df = scraped_df.join(journal_df, how="inner")
+    return df
 
 
 def postprocess(PREPROCESSED_FP, SCRAPED_FP, POSTPROCESSED_FP):

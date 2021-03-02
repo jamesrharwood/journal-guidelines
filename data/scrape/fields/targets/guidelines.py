@@ -5,17 +5,21 @@ from . import Target
 from data.scrape.fields.rx import RX, DOMAIN_RX, DEFAULT_FLAGS
 
 
-MODULE_DIR = "guideline_modules"
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-MODULE_FILE_PATH = os.path.join(CURRENT_DIR, MODULE_DIR)
 
 
 class GuidelineTarget(Target):
     pass
 
+class NonGuidelineTarget(Target):
+    pass
 
-class GuidelineTargets:
-    def __init__(self):
+
+class TargetCollection:
+    def __init__(self, module_dir, target_class):
+        self._module_dir = module_dir
+        self._module_file_path = os.path.join(CURRENT_DIR, module_dir)
+        self._target_class = target_class
         self._load_guidelines()
 
     def _make_rx(self, rx_class, name, module):
@@ -27,11 +31,11 @@ class GuidelineTargets:
             getattr(module, "flags", DEFAULT_FLAGS),
         )
 
-    def _make_guideline(self, name, text_module, domain_module=None):
+    def _make_target(self, name, text_module, domain_module=None):
         patterns = [self._make_rx(RX, name, text_module)]
         if domain_module:
             patterns.append(self._make_rx(DOMAIN_RX, name, domain_module))
-        return GuidelineTarget(name, patterns)
+        return self._target_class(name, patterns)
 
     def _ignore_file(self, file_):
         if file_.startswith("_"):
@@ -40,8 +44,8 @@ class GuidelineTargets:
             return True
 
     def _load_guidelines(self):
-        print("Loading guidelines from ", MODULE_FILE_PATH)
-        for root, dir, files in os.walk(MODULE_FILE_PATH):
+        print("Loading targets from ", self._module_dir)
+        for root, dir, files in os.walk(self._module_file_path):
             if root.endswith("_"):
                 continue
             name = root.split("/")[-1]
@@ -59,13 +63,14 @@ class GuidelineTargets:
                     assert text_module is None
                     text_module = module
             if text_module:
-                guideline = self._make_guideline(
+                target = self._make_target(
                     name, text_module=text_module, domain_module=domain_module
                 )
-                setattr(self, name, guideline)
+                setattr(self, name, target)
 
     def __iter__(self):
         return (getattr(self, x) for x in dir(self) if not x.startswith("_"))
 
 
-GUIDELINE_TARGETS = GuidelineTargets()
+GUIDELINE_TARGETS = TargetCollection('guideline_targets', GuidelineTarget)
+NON_GUIDELINE_TARGETS = TargetCollection('non_guideline_targets', NonGuidelineTarget)

@@ -7,7 +7,11 @@ from data.constants import INDEX_COL
 
 
 def load_csv_to_df(in_file_path, index_cols=[INDEX_COL]):
-    df = pd.read_csv(in_file_path, converters={f.name: f.deserializer for f in FIELDS})
+    df = pd.read_csv(
+        in_file_path,
+        index_col=index_cols,
+        converters={f.name: f.deserializer for f in FIELDS},
+    )
     return df
 
 

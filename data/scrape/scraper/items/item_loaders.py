@@ -1,7 +1,7 @@
 from scrapy.loader import ItemLoader
 
 from data.scrape.fields import FIELDS
-from data.scrape.utils import get_text_from_xml
+from data.scrape.utils import get_text_from_response
 
 
 class PageDataLoader(ItemLoader):
@@ -11,7 +11,7 @@ class PageDataLoader(ItemLoader):
         loader.add_value("id", response.meta["id"])
         loader.add_value("url", response.url)
         loader.add_value("status", response.status)
-        loader.context["text"] = get_text_from_xml(response.text.encode("utf-8"))
+        loader.context["text"] = get_text_from_response(response)
         for field in FIELDS:
             field.add_to_item_loader(loader)
         return loader

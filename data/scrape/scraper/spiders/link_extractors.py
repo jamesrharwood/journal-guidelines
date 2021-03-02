@@ -26,6 +26,8 @@ NOT_ALLOWED_LINKS = (
     "/doi/",
     "/privacy/",
     "/terms/",
+    "template",
+    "/librar",
 )
 
 

@@ -20,7 +20,7 @@ DUPEFILTER_CLASS = "scrapy.dupefilters.BaseDupeFilter"
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False  # We are only scraping each page once
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 CONCURRENT_REQUESTS_PER_DOMAIN = 1000

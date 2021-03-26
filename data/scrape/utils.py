@@ -5,14 +5,8 @@ import pdftotext
 from bs4 import BeautifulSoup
 
 
-
 def get_text_from_response(response):
-    try:
-        text = get_text_from_xml(response.text.encode("utf-8"))
-    except AttributeError as err:
-        text = get_text_from_pdf(response)
-    return text
-
+    return get_text_from_xml(response.text.encode("utf-8"))
 
 
 def get_text_from_xml(html):
@@ -35,9 +29,14 @@ def get_text_from_xml(html):
 
 
 def get_text_from_pdf(response):
-    pdf = pdftotext.PDF(io.Bytes.IO(response.body))
+    pdf = pdftotext.PDF(io.BytesIO(response.body))
     text = "\n\n".join(pdf)
     return text
+
+
+def get_bytes_from_pdf(response):
+    text = get_text_from_pdf(response)
+    return text.encode()
 
 
 def extract_match_from_text(match, text):

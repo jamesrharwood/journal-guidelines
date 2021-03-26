@@ -10,7 +10,6 @@ def load_journal_urls_from_csv(csv_file):
     df = df.explode(PIVOT_TO_COL)
     df = df.dropna()
     max_ = len(df.index)
-    locs = [randint(0, max_) for x in range(100)]
+    locs = [randint(0, max_ - 1) for x in range(100)]
     df = df.iloc[locs]
-    df = {'url': 'https://www.karger.com/journal/files/submissionstatementanm-1', 'id':'test'}
     return df

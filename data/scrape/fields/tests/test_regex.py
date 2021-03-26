@@ -1,6 +1,6 @@
 import unittest
 
-from ..targets import TARGETS
+from data.scrape.fields.targets import TARGETS
 
 
 class TestRegularExpressions(unittest.TestCase):

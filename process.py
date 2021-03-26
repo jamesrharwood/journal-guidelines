@@ -1,6 +1,7 @@
 import sys
 
 from data.preprocess import preprocess as preprocess_
+from data.scrape import scrape as scrape_
 from data.postprocess import postprocess as postprocess_
 from data.constants import (
     RAW_DATA_FILE_PATH,
@@ -12,6 +13,10 @@ from data.constants import (
 
 def preprocess():
     preprocess_(RAW_DATA_FILE_PATH, PREPROCESSED_DATA_FILE_PATH)
+
+
+def scrape():
+    scrape_()
 
 
 def postprocess():

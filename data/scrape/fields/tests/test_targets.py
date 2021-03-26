@@ -1,11 +1,11 @@
 import unittest
 
-from ..targets import TARGETS, GUIDELINES
+from data.scrape.fields.targets import TARGETS, GUIDELINE_TARGETS
 
 
 class TestGuidelineTargets(unittest.TestCase):
     def test_guidelines_and_targets_load(self):
-        guidelines = [gl for gl in GUIDELINES]
+        guidelines = [gl for gl in GUIDELINE_TARGETS]
         self.assertTrue(guidelines)
         self.assertTrue(TARGETS)
         self.assertTrue(len(TARGETS) > len(guidelines))

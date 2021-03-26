@@ -11,9 +11,6 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 class GuidelineTarget(Target):
     pass
 
-class NonGuidelineTarget(Target):
-    pass
-
 
 class TargetCollection:
     def __init__(self, module_dir, target_class):
@@ -72,5 +69,4 @@ class TargetCollection:
         return (getattr(self, x) for x in dir(self) if not x.startswith("_"))
 
 
-GUIDELINE_TARGETS = TargetCollection('guideline_targets', GuidelineTarget)
-NON_GUIDELINE_TARGETS = TargetCollection('non_guideline_targets', NonGuidelineTarget)
+GUIDELINE_TARGETS = TargetCollection("guideline_targets", GuidelineTarget)

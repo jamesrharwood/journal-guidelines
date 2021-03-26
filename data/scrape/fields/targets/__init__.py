@@ -19,5 +19,14 @@ class Target(metaclass=TargetMeta):
         self.fields = [pattern.make_field() for pattern in self.patterns]
 
 
+class GenericTarget(Target):
+    pass
+
+
 from .guidelines import GUIDELINE_TARGETS
 from .equator import EQUATOR_TARGET
+from .icmje import TARGET
+from .section import TARGET
+from .manuscript import TARGET
+from .table import TARGET
+from .words import TARGET

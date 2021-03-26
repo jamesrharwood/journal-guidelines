@@ -34,7 +34,7 @@ class JournalSpider(Spider):
             response = response.replace(body=body, cls=TextResponse)
         page_data_loader = PageDataLoader.create(item=PageData(), response=response)
         yield page_data_loader.load_item()
-        links = extract_links(response.url)
+        links = extract_links(response)
         for link in links:
             if link.url not in response.meta["visited_urls"]:
                 response.meta["visited_urls"].append(link.url)

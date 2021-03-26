@@ -1,6 +1,5 @@
 import os
 
-from .generate import get_sample_ids_filepath
 from .utils import load_json_from_file, write_json_to_file, get_sample_dir_path
 from data.constants import PREPROCESSED_DATA_FILE_PATH
 from data.preprocess.transform.transform import load_csv_to_df
@@ -28,6 +27,11 @@ def load_ids_for_sample_name(sample_name):
     ids_path = get_sample_ids_filepath(sample_name)
     ids = load_json_from_file(ids_path)
     return ids
+
+
+def get_sample_ids_filepath(sample_name):
+    dirpath = get_sample_dir_path(sample_name)
+    return os.path.join(dirpath, "ids.json")
 
 
 def load_reference_data_for_sample_name(sample_name):

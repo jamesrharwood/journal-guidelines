@@ -6,6 +6,10 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+from data.constants import SCRAPED_DATA_FILE_PATH
+from data.scrape.fields import FIELDS
+
+
 LOG_LEVEL = "INFO"
 LOG_FILE = "scraper_log.txt"
 BOT_NAME = "journal_author_guidelines"
@@ -85,16 +89,14 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # AUTOTHROTTLE_DEBUG = False
 
 # Enable and configure HTTP caching (disabled by default)
-# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
+# See
+# https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
 HTTPCACHE_ENABLED = True
 HTTPCACHE_EXPIRATION_SECS = 0
 HTTPCACHE_DIR = "httpcache"
 HTTPCACHE_IGNORE_HTTP_CODES = []
 HTTPCACHE_STORAGE = "scrapy.extensions.httpcache.FilesystemCacheStorage"
 HTTPCACHE_GZIP = True
-
-from data.constants import SCRAPED_DATA_FILE_PATH
-from data.scrape.fields import FIELDS
 
 FEEDS = {
     SCRAPED_DATA_FILE_PATH: {

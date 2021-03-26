@@ -58,7 +58,7 @@ def create_restricted_link_url_extractor(current_url):
     extractor = LinkExtractor(
         allow=ALLOWED_LINKS,
         deny=NOT_ALLOWED_LINKS,
-        allow_domains=get_allowed_urls(current_url),
+        allow_domains=get_allowed_domains(current_url),
         process_value=clean_url,
         unique=True,
     )

@@ -4,14 +4,21 @@ from scrapy.linkextractors import LinkExtractor
 from data.scrape.utils import clean_url
 
 
-def get_domain_from_url(url):
-    return urlparse(url).netloc
+def extract_links(response):
+    url_links = link_url_extractor.extract_links(response)
+    text_links = link_text_extractor.extract_links(response)
+    links = set(url_links + text_links)
+    return links
 
 
 def join_link_regexps(*strings):
-    string = "|".join(strings)
+    string = join_with_or(*strings)
     string = r"[^/]/[^\?]*" + f"({string})"
     return string
+
+
+def join_with_or(*strings):
+    return "|".join(strings)
 
 
 ALLOWED_LINKS = join_link_regexps(
@@ -34,10 +41,31 @@ NOT_ALLOWED_LINKS = join_link_regexps(
     "/librar",
 )
 
+
 ALLOWED_EXTENSIONS = [".pdf", ".doc", ".docx", ""]
 
+ALLOWED_TEXT = join_with_or(ALLOWED_LINKS)
 
-def create_link_extractor(current_url):
+
+link_url_extractor = LinkExtractor(
+    allow=ALLOWED_LINKS,
+    deny=NOT_ALLOWED_LINKS,
+    process_value=clean_url,
+    unique=True,
+)
+
+link_text_extractor = LinkExtractor(
+    restrict_text=ALLOWED_TEXT,
+    process_value=clean_url,
+    unique=True,
+)
+
+
+def get_domain_from_url(url):
+    return urlparse(url).netloc
+
+
+def create_restricted_link_extractor(current_url):
     extractor = LinkExtractor(
         allow=ALLOWED_LINKS,
         deny=NOT_ALLOWED_LINKS,

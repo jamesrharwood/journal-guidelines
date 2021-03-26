@@ -5,8 +5,8 @@ from data.scrape.utils import clean_url
 
 
 def extract_links(response):
-    link_url_extractor = create_restricted_link_url_extractor(request.url)
-    link_text_extractor = create_restricted_link_text_extractor(request.url)
+    link_url_extractor = create_restricted_link_url_extractor(response.url)
+    link_text_extractor = create_restricted_link_text_extractor(response.url)
     url_links = link_url_extractor.extract_links(response)
     text_links = link_text_extractor.extract_links(response)
     links = set(url_links + text_links)

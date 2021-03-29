@@ -1,6 +1,6 @@
 import unittest
 
-from data.scrape.scraper.items import PageData
+from data.scrape.items import PageData
 
 attr = "EQUATOR_matches"
 

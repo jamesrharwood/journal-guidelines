@@ -16,6 +16,7 @@ class PageData(Item):
     id = Field()
     url = Field()
     status = Field()
+    link_text = Field()
 
 
 for field in FIELDS:

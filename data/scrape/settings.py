@@ -14,8 +14,8 @@ LOG_LEVEL = "INFO"
 LOG_FILE = "scraper_log.txt"
 BOT_NAME = "journal_author_guidelines"
 
-SPIDER_MODULES = ["data.scrape.scraper.spiders"]
-NEWSPIDER_MODULE = "data.scrape.scraper.spiders"
+SPIDER_MODULES = ["data.scrape.spiders"]
+NEWSPIDER_MODULE = "data.scrape.spiders"
 
 # Allow duplifications of URLs so that we catch journals that link to shared guideline page
 DUPEFILTER_CLASS = "scrapy.dupefilters.BaseDupeFilter"
@@ -34,7 +34,8 @@ CONCURRENT_REQUESTS = 30
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
 DOWNLOAD_DELAY = 8
-DEPTH_LIMIT = 10
+DEPTH_LIMIT = 4
+DEPTH_PRIORITY = 1
 # The download delay setting will honor only one of:
 CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # CONCURRENT_REQUESTS_PER_IP = 16

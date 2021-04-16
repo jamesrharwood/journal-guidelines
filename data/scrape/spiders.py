@@ -7,7 +7,7 @@ from scrapy.http import TextResponse
 from data.scrape.utils import get_bytes_from_pdf
 from data.constants import PREPROCESSED_DATA_FILE_PATH
 from .load_urls import load_journal_urls_df_from_csv
-from .link_extractors import extract_links
+from .link_extractors import extract_links, clean_url
 from .items import PageDataLoader, PageData
 from data.constants import INDEX_COL as IDX, PIVOT_TO_COL as URL
 
@@ -21,7 +21,7 @@ class JournalSpider(Spider):
             Request(
                 row[URL],
                 callback=self.parse,
-                meta={IDX: row[IDX], "visited_urls": []},
+                meta={IDX: row[IDX], "visited_urls": [], "link_text": None},
             )
             for idx, row in self.journal_urls_df.iterrows()
         ]
@@ -46,8 +46,9 @@ class JournalSpider(Spider):
 
         links = extract_links(response)
         for link in links:
-            if link.url not in response.meta["visited_urls"]:
-                response.meta["visited_urls"].append(link.url)
-                meta = {k: v for k, v in response.meta.items()}
-                meta.update({"link_text": link.text})
+            clean_link = clean_url(link.url)
+            if clean_link not in response.meta["visited_urls"]:
+                response.meta["visited_urls"].append(clean_link)
+                response.meta["link_text"] = link.text.strip()
+                print("LINK TEXT: ", response.meta["link_text"])
                 yield Request(link.url, callback=self.parse, meta=response.meta)

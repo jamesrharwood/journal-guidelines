@@ -1,4 +1,4 @@
-from data.fields.abstract import AbstractListField
+from data.fields.abstract import AbstractListField, AbstractField
 
 
 class ScrapedTextField(AbstractListField):
@@ -25,3 +25,8 @@ class ScrapedLinkField(ScrapedTextField):
 
     def add_to_item_loader(self, loader):
         loader.add_xpath(self.name, self._xpath_selector)
+
+
+class ScrapedMetaField(AbstractField):
+    def add_to_item_loader(self, loader):
+        return loader.add_value(self.name, loader.response)

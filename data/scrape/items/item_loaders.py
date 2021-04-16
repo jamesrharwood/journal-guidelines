@@ -11,7 +11,7 @@ class PageDataLoader(ItemLoader):
         loader.add_value("id", response.meta["id"])
         loader.add_value("url", response.url)
         loader.add_value("status", response.status)
-        loader.add_value("link_text", response.meta.get("link_text", None))
+        loader.add_value("link_text", response.meta["link_text"])
         loader.context["text"] = get_text_from_response(response)
         for field in FIELDS:
             field.add_to_item_loader(loader)

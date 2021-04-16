@@ -39,7 +39,7 @@ def make_spider(sample_name):
 
 
 def get_feeds_filepath(sample_name):
-    feed_name = "feed_%(time)s.json"
+    feed_name = "%(time)s.json"
     return get_filepath_for_sample_and_feed(sample_name, feed_name)
 
 

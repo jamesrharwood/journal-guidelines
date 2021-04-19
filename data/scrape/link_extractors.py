@@ -88,7 +88,7 @@ ALLOWED_LINKS = join_link_regexps(*ALLOWED_LINKS_RAW)
 NOT_ALLOWED_LINKS = join_link_regexps(
     r"\bsearch",
     "crawl",
-    "/doi/",
+    "doi",
     "/privacy/",
     "/terms",
     "template",
@@ -99,6 +99,7 @@ NOT_ALLOWED_LINKS = join_link_regexps(
     r"peer\W*review",
     "copyright",
     "figure",
+    "/full",
 )
 
 
@@ -159,7 +160,10 @@ def get_domain_from_url(url):
     return parts.registered_domain
 
 
-EQUIVALENT_URLS = {"sciencedirect.com": "elsevier.com"}
+EQUIVALENT_URLS = {
+    "www.elsevier.com": "www.sciencedirect.com",
+    "link.springer.com": "www.springer.com",
+}
 
 
 def urls_from_same_subdomain(url1, url2):
@@ -168,6 +172,8 @@ def urls_from_same_subdomain(url1, url2):
     if url1 == url2:
         return True
     if EQUIVALENT_URLS.get(url1, None) == url2:
+        return True
+    if EQUIVALENT_URLS.get(url2, None) == url1:
         return True
 
 

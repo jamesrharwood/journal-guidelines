@@ -1,5 +1,4 @@
 import logging
-import tldextract
 
 from scrapy import Request, Spider
 from scrapy.http import TextResponse
@@ -45,10 +44,14 @@ class JournalSpider(Spider):
         yield page_data_loader.load_item()
 
         links = extract_links(response)
+        links = [
+            link
+            for link in links
+            if clean_url(link.url) not in response.meta["vistied_urls"]
+        ]
+        response.meta["visited_urls"].extend([clean_url(link.url) for link in links])
+
         for link in links:
-            clean_link = clean_url(link.url)
-            if clean_link not in response.meta["visited_urls"]:
-                response.meta["visited_urls"].append(clean_link)
-                response.meta["link_text"] = link.text.strip()
-                print("LINK TEXT: ", response.meta["link_text"])
-                yield Request(link.url, callback=self.parse, meta=response.meta)
+            meta = {k: v for k, v in response.meta.items()}
+            meta.update({"link_text": link.text.strip()})
+            yield Request(link.url, callback=self.parse, meta=meta)

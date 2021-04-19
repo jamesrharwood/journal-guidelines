@@ -10,7 +10,7 @@ from data.constants import SCRAPED_DATA_FILE_PATH
 from data.scrape.fields import FIELDS
 
 
-LOG_LEVEL = "INFO"
+LOG_LEVEL = "DEBUG"
 LOG_FILE = "scraper_log.txt"
 BOT_NAME = None
 
@@ -34,7 +34,7 @@ CONCURRENT_REQUESTS = 30
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
 DOWNLOAD_DELAY = 8
-DEPTH_LIMIT = 5
+DEPTH_LIMIT = 4
 DEPTH_PRIORITY = 1
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 1
@@ -96,7 +96,7 @@ HTTPCACHE_ENABLED = True
 HTTPCACHE_ALWAYS_STORE = True
 HTTPCACHE_EXPIRATION_SECS = 0
 HTTPCACHE_DIR = "httpcache"
-HTTPCACHE_IGNORE_HTTP_CODES = []
+HTTPCACHE_IGNORE_HTTP_CODES = [400, 404, 301, 302, 500, 503, 502, 504, 408]
 HTTPCACHE_STORAGE = "scrapy.extensions.httpcache.FilesystemCacheStorage"
 HTTPCACHE_GZIP = True
 HTTPCACHE_IGNORE_RESPONSE_CACHE_CONTROLS = ["no-cache", "no-store"]
@@ -105,6 +105,7 @@ HTTPCACHE_IGNORE_RESPONSE_CACHE_CONTROLS = ["no-cache", "no-store"]
 FEEDS = {
     SCRAPED_DATA_FILE_PATH: {
         "format": "csv",
-        "fields": ["url", "id", "status", "link_text"] + [f.name for f in FIELDS],
+        "fields": ["url", "id", "status", "link_text", "char_count", "word_count"]
+        + [f.name for f in FIELDS],
     }
 }

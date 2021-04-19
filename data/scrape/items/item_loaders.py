@@ -12,7 +12,10 @@ class PageDataLoader(ItemLoader):
         loader.add_value("url", response.url)
         loader.add_value("status", response.status)
         loader.add_value("link_text", response.meta["link_text"])
-        loader.context["text"] = get_text_from_response(response)
+        text = get_text_from_response(response)
+        loader.context["text"] = text
+        loader.add_value("char_count", len(text))
+        loader.add_value("word_count", len(text.split()))
         for field in FIELDS:
             field.add_to_item_loader(loader)
         return loader

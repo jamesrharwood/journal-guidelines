@@ -1,3 +1,3 @@
-pattern = "consort-statement\.org"
+pattern = r"consort-statement\.org"
 matches = [("http://www.consort-statement.org/", 1)]
 non_matches = []

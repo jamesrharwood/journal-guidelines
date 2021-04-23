@@ -33,7 +33,7 @@ CONCURRENT_REQUESTS = 30
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 8
+DOWNLOAD_DELAY = 4
 DEPTH_LIMIT = 4
 DEPTH_PRIORITY = 1
 # The download delay setting will honor only one of:

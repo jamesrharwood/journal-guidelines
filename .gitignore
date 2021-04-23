@@ -8,3 +8,5 @@
 */medline_journals.xml
 **/.scrapy
 scraper_log.txt
+testing.py
+data/sample/data

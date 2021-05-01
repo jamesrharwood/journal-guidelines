@@ -16,7 +16,7 @@ class TestLinkExtractors(TestCase):
             ("https://subdomain.domain.co.uk/path/to/page", "domain.co.uk"),
         ]
         for url, target in data:
-            self.assertEqual(le.get_domain_from_url(url), target)
+            self.assertEqual(le.utils.get_domain_from_url(url), target)
 
     def test_link_extractor_follows(self):
         urls = [
@@ -39,8 +39,11 @@ class TestLinkExtractors(TestCase):
             "https://www.sciencedirect.com" + path,
         ]
         url = "http://www.sciencedirect.com/science/journal/15681637"
-        extractor = le.create_restricted_link_url_extractor(url)
-        self.assertEqual(len(extractor.allow_domains), 3)
+        extractor = le.extractors.create_restricted_link_url_extractor(url)
+        allowed = extractor.allow_domains
+        self.assertEqual(len(allowed), 2)
+        self.assertTrue("www.elsevier.com" in allowed, allowed)
+        self.assertTrue("www.sciencedirect.com" in allowed, allowed)
         self.check_urls_from_url(urls, url)
 
     def test_urls_with_search_in_not_followed(self):
@@ -59,7 +62,7 @@ class TestLinkExtractors(TestCase):
         start_url = "https://www.start.com"
         url = "https://www.test.com"
         urls = ["https://www.test.com/author-guidelines"]
-        self.assertFalse(le.urls_from_same_subdomain(start_url, url))
+        self.assertFalse(le.utils.urls_from_same_subdomain(start_url, url))
         self.check_urls_from_url(urls, url, target=0, start_url=start_url)
 
     def check_urls_from_url(self, urls, url, target=None, start_url=None):

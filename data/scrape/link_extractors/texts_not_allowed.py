@@ -3,7 +3,7 @@ import re
 text_list = [
     "service",
     "editor",
-    "library",
+    "librar",
     "issue",
     "society",
     "transfer",

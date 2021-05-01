@@ -27,8 +27,8 @@ def get_domain_from_url(url):
 
 
 def create_allowed_domains_including_current_url(url):
-    domain = get_domain_from_url(url)
-    domains = [domain]
+    url = get_root_from_url(url)
+    domains = [url]
     root = get_root_from_url(url)
     equivalent = EQUIVALENT_URLS.get(root, None)
     if equivalent:

@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from data.scrape.link_extractors import urls_from_same_subdomain as fn
+from data.scrape.link_extractors.utils import urls_from_same_subdomain as fn
 
 
 class TestUrlsSubdomains(TestCase):

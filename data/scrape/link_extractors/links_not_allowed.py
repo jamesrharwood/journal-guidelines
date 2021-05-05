@@ -1,5 +1,7 @@
 from .links_allowed import create_link_matcher_string
 
+from .domains_not_allowed import DENIED_DOMAINS
+
 text_list = [
     r"\bsearch",
     "crawl",
@@ -21,3 +23,4 @@ text_list = [
 ]
 
 string = create_link_matcher_string(text_list)
+string = f'({string}|{"|".join(DENIED_DOMAINS)})'

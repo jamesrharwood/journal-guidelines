@@ -82,6 +82,7 @@ class TestLinkExtractors(Base):
             "information-for-reviewers",
             "login",
             "log-in",
+            "crawlprevention/governor?content=%2fjournals%2fpages%2fopen_access%2flicences",
         ]
         urls = [base.format(word) for word in bad_words]
         self.check_urls_from_url(urls, URL, target=0)
@@ -132,3 +133,8 @@ class TestLinkExtractors(Base):
         self.check_urls_from_url([url], URL, target=0)
         url = f"https://www.{bad_word}.com/"
         self.check_urls_from_url([url + TARGET], url)
+
+    def test_acs(self):
+        url = "https://pubs.acs.org/page/aidcbc/submission/authors.html"
+        start = "http://pubs.acs.org/journal/aidcbc"
+        self.check_urls_from_url([url], start)

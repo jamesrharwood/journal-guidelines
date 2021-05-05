@@ -11,6 +11,7 @@ def evaluate(sample_name, feed_name):
     reference_df = get_reference_df(sample_name)
     reference_df["url_cleaned"] = reference_df["url"].apply(clean_url)
     scraped_df = get_feeds_df(sample_name, feed_name)
+    scraped_df = scraped_df.dropna(subset=["link_text"])
     scraped_df["url_cleaned"] = scraped_df["url"].apply(clean_url)
     scraped_df["was_target"] = scraped_df["url_cleaned"].apply(
         lambda x: x in reference_df["url_cleaned"].to_list()

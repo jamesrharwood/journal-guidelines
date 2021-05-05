@@ -20,7 +20,7 @@ def scrape(sample_name):
     process = CrawlerProcess(settings=settings)
     process.crawl(Spider)
     process.start()
-    return Spider.custom_settings["FEEDS"].keys()[0]
+    return list(Spider.custom_settings["FEEDS"].keys())[0]
 
 
 def make_spider(sample_name):

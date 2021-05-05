@@ -1,20 +1,7 @@
 # %%
-import pandas as pd
-
 from .fields import FIELDS as TRANSFORMED_FIELDS
 from data.fields import FIELDS
-
-# from data.constants import INDEX_COL
-
-
-def load_csv_to_df(in_file_path, index_cols=[]):
-    assert FIELDS.id
-    df = pd.read_csv(
-        in_file_path,
-        index_col=index_cols,
-        converters={f.name: f.deserializer for f in FIELDS},
-    )
-    return df
+from data.data.load import load_csv_to_df
 
 
 def transform(IN_FILE_PATH):

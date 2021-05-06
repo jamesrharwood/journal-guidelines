@@ -1,0 +1,2636 @@
+<!DOCTYPE html>
+<html lang="en" class="grade-c">
+<head>
+    <title>European Journal of Human Genetics</title>
+    
+    
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes">
+<script data-test="dataLayer">
+    dataLayer = [{"content":{"category":{"contentType":null,"legacy":null},"article":null,"attributes":{"cms":null,"deliveryPlatform":null,"copyright":null},"contentInfo":null,"journal":{"pcode":"ejhg","title":"European Journal of Human Genetics","volume":null,"issue":null},"authorization":{"status":true},"features":[],"collection":null},"page":{"category":{"pageType":"journal"},"attributes":{"template":"mosaic","featureFlags":[{"name":"ab_test_highlight_supp_info","active":false},{"name":"nature-oa-paywall","active":false}]},"search":null},"privacy":{},"version":"1.0.0","product":null,"session":null,"user":null,"backHalfContent":false,"country":"GB","hasBody":false,"uneditedManuscript":false}];
+</script>
+<script>
+    (function(w, d) {
+        w.config = w.config || {};
+        w.config.mustardcut = false;
+
+        
+        if (w.matchMedia && w.matchMedia('only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)').matches) {
+            w.config.mustardcut = true;
+            d.classList.add('js');
+            d.classList.remove('grade-c');
+        }
+    })(window, document.documentElement);
+</script>
+ 
+
+
+
+    
+        <link href="/static/css/grade-c-150.fbc59ebcce.css" rel="stylesheet"/>
+        
+            
+                <link data-test="homepage-150-css" href="/static/css/homepage/homepage-150.dfa12f9730.css" rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+            
+        
+    
+
+
+<link rel="apple-touch-icon" sizes="180x180" href=/static/images/favicons/nature/apple-touch-icon.f39cb19454.png>
+<link rel="icon" type="image/png" sizes="32x32" href=/static/images/favicons/nature/favicon-32x32.3fe59ece92.png>
+<link rel="icon" type="image/png" sizes="16x16" href=/static/images/favicons/nature/favicon-16x16.951651ab72.png>
+<link rel="manifest" href=/static/manifest.1a481c42b1.json crossorigin="use-credentials">
+<link rel="mask-icon" href=/static/images/favicons/nature/safari-pinned-tab.69bff48fe6.svg color="#000000">
+<link rel="shortcut icon" href=/static/images/favicons/nature/favicon.62367f778b.ico>
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-config" content=/static/browserconfig.e35b3b052c.xml>
+<meta name="theme-color" content="#000000">
+<meta name="application-name" content="Nature">
+
+
+<script>
+    (function () {
+        if ( typeof window.CustomEvent === "function" ) return false;
+        function CustomEvent ( event, params ) {
+            params = params || { bubbles: false, cancelable: false, detail: null };
+            var evt = document.createEvent( 'CustomEvent' );
+            evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+            return evt;
+        }
+
+        CustomEvent.prototype = window.Event.prototype;
+
+        window.CustomEvent = CustomEvent;
+    })();
+</script>
+
+<script>
+    (function(w,d,t) {
+        function cc() {
+            var h = w.location.hostname;
+            if (h.indexOf('preview-www.nature.com') > -1) return;
+
+            var e = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+
+            if (h.indexOf('nature.com') > -1) {
+                e.src = 'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js';
+                e.setAttribute('data-domain-script', '83f2c78a-6cbc-4d1a-9088-3f8e8c4c7460');
+            } else {
+                e.src = '/static/js/cookie-consent-bundle.a9b473c296.js';
+                e.setAttribute('data-consent', h);
+            }
+            s.parentNode.insertBefore(e, s);
+        }
+
+        !!w.google_tag_manager ? cc() : window.addEventListener('gtm_loaded', function() {cc()});
+    })(window,document,'script');
+</script>
+<script>
+    function OptanonWrapper() {
+        window.dataLayer.push({event:'OneTrustGroupsUpdated'});
+        document.activeElement.blur();
+    }
+</script>
+
+<script id="js-position0">
+    (function(w, d) {
+        w.idpVerifyPrefix = 'https://verify.nature.com';
+        w.ra21Host = 'https://wayf.springernature.com';
+
+        w.onerror = function(message, url, line, column, error) {
+            if (w.Raven) {
+                w.Raven.captureException(error);
+            } else {
+                var s = d.createElement('script');
+                s.src = 'https://cdn.ravenjs.com/3.27.0/raven.min.js';
+                s.crossorigin = 'anonymous';
+                s.defer = 'defer';
+                s.onload = function() {
+                    w.Raven.config('https://f81201b2ef1d4895848163b43aeaecb4@o173313.ingest.sentry.io/5540208', {
+                        whitelistUrls: [
+                            'www.nature.com/'
+                        ]
+                    }).install();
+                    w.Raven.captureException(error);
+                };
+                d.body.appendChild(s);
+            }
+        };
+
+        var moduleSupport = (function() {
+            return 'noModule' in d.createElement('script');
+        })();
+
+        if (w.config.mustardcut === true) {
+            w.loader = {
+                index: 0,
+                registered: [],
+                scripts: [
+                    
+                        {src: '/static/js/polyfills-bundle.99f229c73c.js', test: 'polyfills-js', noinit: true, nomodule: true},
+                    
+                     
+                        {src: '/static/js/nature-150-bundle.a2a9204ff8.js', test: 'nature-150-js'}
+                    
+                ].filter(function (s) {
+                    return !((moduleSupport && s.nomodule) || (!moduleSupport && s.module));
+                }),
+
+                register: function (value) {
+                    this.registered.push(value);
+                },
+
+                ready: function () {
+                    if (this.registered.length === this.scripts.length) {
+                        this.registered.forEach(function (fn) {
+                            if (typeof fn === 'function') {
+                                setTimeout(fn, 0); 
+                            }
+                        });
+                        this.ready = function () {};
+                    }
+                },
+
+                insert: function (s) {
+                    d.getElementById('js-position' + this.index).insertAdjacentElement('afterend', s);
+                    ++this.index;
+                },
+
+                createScript: function (script, beforeLoad) {
+                    var s = d.createElement('script');
+                    s.id = 'js-position' + (this.index + 1);
+                    s.setAttribute('data-test', script.test);
+                    if (beforeLoad) {
+                        s.defer = 'defer';
+                        s.onload = function () {
+                            if (script.noinit) {
+                                loader.register(true);
+                            }
+                            if (d.readyState === 'interactive' || d.readyState === 'complete') {
+                                loader.ready();
+                            }
+                        };
+                    } else {
+                        s.async = 'async';
+                    }
+                    s.src = script.src;
+                    return s;
+                },
+
+                init: function () {
+                    this.scripts.forEach(function (s) {
+                        loader.insert(loader.createScript(s, true));
+                    });
+
+                    d.addEventListener('DOMContentLoaded', function () {
+                        loader.ready();
+                        
+                    }, false);
+                }
+            };
+            loader.init();
+        }
+    })(window, document);
+</script>
+
+
+
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;
+
+    
+    j.addEventListener('load', function() {
+    var _ge = new CustomEvent('gtm_loaded', { bubbles: true });
+    d.dispatchEvent(_ge);
+    });
+
+    f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NWDMT9Q');</script>
+
+
+
+
+    
+        <meta name="description" content="The European Journal of Human Genetics is the official Journal of the European Society of Human Genetics, publishing original research papers, News and Commentary articles and reviews in the expanding field of human genetics and genomics."/>
+    
+
+<meta name="robots" content="noarchive">
+<meta name="access" content="Yes">
+<meta name="WT.cg_s" content="Home"/>
+<meta name="WT.z_bandiera_abtest" content="a"/>
+<meta name="WT.page_categorisation" content="Home"/>
+
+    <meta name="WT.template" content="oscar"/>
+    <meta name="WT.z_cg_type" content="Nature Research Journals"/>
+    <meta name="WT.cg_n" content="European Journal of Human Genetics"/>
+    <meta name="dc.rights" content="©2021 Macmillan Publishers Limited. All Rights Reserved."/>
+    <meta name="prism.issn" content="1476-5438"/>
+
+
+<link rel="search" href="http://www.nature.com/search">
+<link rel="search" href="http://www.nature.com/opensearch/opensearch.xml" type="application/opensearchdescription+xml" title="nature.com">
+<link rel="search" href="http://www.nature.com/opensearch/request" type="application/sru+xml" title="nature.com">
+
+<link rel="canonical" href="https://www.nature.com/ejhg/"/>
+
+
+
+
+    
+        
+            <style>
+body.on-nature-150-page .c-header {
+    margin-bottom: 0;
+}
+</style>
+
+        
+    
+    
+    
+        <meta property="og:url" content="https://www.nature.com/ejhg/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:site_name" content="European Journal of Human Genetics"/>
+        <meta property="og:title" content="European Journal of Human Genetics"/>
+        <meta property="og:description" content="The European Journal of Human Genetics is the official journal of the European Society of Human Genetics, publishing high-quality, original research papers, ..."/>
+        <meta property="og:image" content="http://media.springernature.com/lw630/nature-cms/uploads/cms/pages/7291/top_item_image/EJHG_Hero_v2-5b75b6605cfc40b25388bcfba9877f3c.jpg"/>
+    
+    <meta name="pocket-site-verification" content="b8135c5da1171af18a4aa6a264d0a2" />
+</head>
+<!--[if IE 9]><body class="ie9 home-page"><![endif]-->
+<!--[if gt IE 9]><!--><body class="home-page"><!--<![endif]-->
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWDMT9Q"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+
+
+<div class="position-relative cleared z-index-50 background-white" data-test="top-containers">
+    <a class="c-skip-link u-hide-print" href="#content">Skip to main content</a>
+
+
+
+<div class="c-grade-c-banner u-hide">
+    <div class="c-grade-c-banner__container">
+        
+        <p>Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+            the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+            Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+            and JavaScript.</p>
+
+    </div>
+</div>
+
+    
+
+    
+    
+        <div class="u-hide u-show-following-ad"></div>
+
+        <aside class="c-ad c-ad--728x90">
+            <div class="c-ad__inner" data-container-type="banner-advert">
+                <p class="c-ad__label">Advertisement</p>
+                
+        
+            
+    <div id="div-gpt-ad-top-1"
+         class="div-gpt-ad advert leaderboard js-ad text-center hide-print grade-c-hide"
+         data-ad-type="leaderboard"
+         data-gpt-unitpath="/285/ejhg.nature.com/homepage"
+         data-gpt-sizes="728x90"
+         data-gpt-targeting="pos&#x3D;top;type&#x3D;homepage;path&#x3D;/ejhg/">
+
+        <noscript>
+            <a href="//pubads.g.doubleclick.net/gampad/jump?iu=/285/ejhg.nature.com/homepage&amp;sz=728x90&amp;pos&#x3D;top;type&#x3D;homepage;path&#x3D;/ejhg/">
+                <img data-test="gpt-advert-fallback-img"
+                     src="//pubads.g.doubleclick.net/gampad/ad?iu=/285/ejhg.nature.com/homepage&amp;sz=728x90&amp;pos&#x3D;top;type&#x3D;homepage;path&#x3D;/ejhg/"
+                     alt="Advertisement"
+                     width="728"
+                     height="90"/>
+            </a>
+        </noscript>
+    </div>
+
+        
+    
+            </div>
+        </aside>
+    <header class="c-header" id="header" data-header data-track-component="nature-150-split-header" style="border-color:#4479b0">
+        <div class="c-header__row c-header__row--flush">
+            <div class="c-header__container">
+                <div class="c-header__split">
+                    
+                    
+                    <h1 class="c-header__logo-container u-mb-0">
+                        
+                        <a href="/ejhg"
+                           data-track="click" data-track-action="home" data-track-label="image">
+                            <picture class="c-header__logo">
+                                <source srcset="//media.springernature.com/full/nature-cms/uploads/product/ejhg/header-d8ba0ed98c6cf5de4fa2ee89c28067ff.svg" media="(min-width: 875px)">
+                                <img src="//media.springernature.com/full/nature-cms/uploads/product/ejhg/header-d8ba0ed98c6cf5de4fa2ee89c28067ff.svg" alt="European Journal of Human Genetics">
+                            </picture>
+                        </a>
+                    
+                    </h1>
+                    
+                    <ul class="c-header__menu c-header__menu--global">
+                        <li class="c-header__item c-header__item--nature-research">
+                            <a class="c-header__link" href="https://www.nature.com/siteindex" data-test="siteindex-link"
+                               data-track="click" data-track-action="open nature research index" data-track-label="link">
+                                <span>View all journals</span>
+                            </a>
+                        </li>
+                        <li class="c-header__item c-header__item--pipe">
+                            <a class="c-header__link"
+                               href="#search-menu"
+                               data-header-expander
+                               data-test="search-link" data-track="click" data-track-action="open search tray" data-track-label="button">
+                                <span>Search</span><svg role="img" aria-hidden="true" focusable="false" height="22" width="22" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M16.48 15.455c.283.282.29.749.007 1.032a.738.738 0 01-1.032-.007l-3.045-3.044a7 7 0 111.026-1.026zM8 14A6 6 0 108 2a6 6 0 000 12z"/></svg>
+                            </a>
+                        </li>
+                        <li class="c-header__item">
+                            <a href="/nams/svc/myaccount"
+    id="my-account"
+    class="c-header__link placeholder"
+    data-test="login-link" data-track="click" data-track-action="my account" data-track-category="nature-150-split-header" data-track-label="link">
+    <span>My Account</span><svg role="img" aria-hidden="true" focusable="false" height="22" width="22" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M10.238 16.905a7.96 7.96 0 003.53-1.48c-.874-2.514-2.065-3.936-3.768-4.319V9.83a3.001 3.001 0 10-2 0v1.277c-1.703.383-2.894 1.805-3.767 4.319A7.96 7.96 0 009 17c.419 0 .832-.032 1.238-.095zm4.342-2.172a8 8 0 10-11.16 0c.757-2.017 1.84-3.608 3.49-4.322a4 4 0 114.182 0c1.649.714 2.731 2.305 3.488 4.322zM9 18A9 9 0 119 0a9 9 0 010 18z" fill="#333" fill-rule="evenodd"/></svg>
+</a>
+<a href="https://idp.nature.com/authorize/natureuser?client_id&#x3D;grover&amp;redirect_uri&#x3D;https%3A%2F%2Fwww.nature.com%2Fejhg%2F"
+    id="login-button"
+    style="display: none;"
+    class="c-header__link placeholder"
+    data-test="login-link" data-track="click" data-track-action="login" data-track-category="nature-150-split-header" data-track-label="link">
+    <span>Login</span><svg role="img" aria-hidden="true" focusable="false" height="22" width="22" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M10.238 16.905a7.96 7.96 0 003.53-1.48c-.874-2.514-2.065-3.936-3.768-4.319V9.83a3.001 3.001 0 10-2 0v1.277c-1.703.383-2.894 1.805-3.767 4.319A7.96 7.96 0 009 17c.419 0 .832-.032 1.238-.095zm4.342-2.172a8 8 0 10-11.16 0c.757-2.017 1.84-3.608 3.49-4.322a4 4 0 114.182 0c1.649.714 2.731 2.305 3.488 4.322zM9 18A9 9 0 119 0a9 9 0 010 18z" fill="#333" fill-rule="evenodd"/></svg>
+</a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+            <div class="c-header__row">
+                <div class="c-header__container" data-test="c-header__container">
+                    <div class="c-header__split">
+                        <div class="c-header__split">
+                            <ul class="c-header__menu c-header__menu--journal">
+                                
+                                    <li class="c-header__item c-header__item--dropdown-menu" data-test="explore-content-button">
+                                        <a href="#explore"
+                                           class="c-header__link c-header__link--chevron"
+                                           data-header-expander
+                                           data-test="menu-button--explore"
+                                           data-track="click" data-track-action="open explore expander" data-track-label="button">
+                                            <span><span class="c-header__show-text">Explore</span> content</span><svg role="img" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m5.58578644 3-3.29289322-3.29289322c-.39052429-.39052429-.39052429-1.02368927 0-1.41421356s1.02368927-.39052429 1.41421356 0l4 4c.39052429.39052429.39052429 1.02368927 0 1.41421356l-4 4c-.39052429.39052429-1.02368927.39052429-1.41421356 0s-.39052429-1.02368927 0-1.41421356z" transform="matrix(0 1 -1 0 11 3)"/></svg>
+                                        </a>
+                                    </li>
+                                
+                                <li class="c-header__item c-header__item--dropdown-menu">
+                                    <a href="#journal-info"
+                                       class="c-header__link c-header__link--chevron"
+                                       data-header-expander
+                                       data-test="menu-button--journal-info"
+                                       data-track="click" data-track-action="open journal information expander" data-track-label="button">
+                                        <span>Journal info<span class="c-header__show-text">rmation</span></span><svg role="img" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m5.58578644 3-3.29289322-3.29289322c-.39052429-.39052429-.39052429-1.02368927 0-1.41421356s1.02368927-.39052429 1.41421356 0l4 4c.39052429.39052429.39052429 1.02368927 0 1.41421356l-4 4c-.39052429.39052429-1.02368927.39052429-1.41421356 0s-.39052429-1.02368927 0-1.41421356z" transform="matrix(0 1 -1 0 11 3)"/></svg>
+                                    </a>
+                                </li>
+                                
+                                    <li class="c-header__item c-header__item--dropdown-menu u-mr-2" data-test="publish-with-us-button">
+                                        <a href="#publish-with-us"
+                                           class="c-header__link c-header__link--chevron c-header__link--dropdown-menu"
+                                           data-header-expander
+                                           data-test="menu-button--publish"
+                                           data-track="click" data-track-action="open publish with us expander" data-track-label="button">
+                                            <span>Publish <span class="c-header__show-text">with us</span></span><svg role="img" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m5.58578644 3-3.29289322-3.29289322c-.39052429-.39052429-.39052429-1.02368927 0-1.41421356s1.02368927-.39052429 1.41421356 0l4 4c.39052429.39052429.39052429 1.02368927 0 1.41421356l-4 4c-.39052429.39052429-1.02368927.39052429-1.41421356 0s-.39052429-1.02368927 0-1.41421356z" transform="matrix(0 1 -1 0 11 3)"/></svg>
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+
+                            
+                        </div>
+
+                        <ul class="c-header__menu c-header__menu--tools">
+                            
+                                <li class="c-header__item">
+                                    <a class="c-header__link"
+                                       href="https://www.nature.com/my-account/alerts/subscribe-journal?list-id&#x3D;35"
+                                       rel="nofollow"
+                                       data-track="click"
+                                       data-track-action="Sign up for alerts"
+                                       data-track-label="link (desktop site header)"
+                                       data-track-external>
+                                        <span>Sign up for alerts</span><svg role="img" aria-hidden="true" focusable="false" height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m4 10h2.5c.27614237 0 .5.2238576.5.5s-.22385763.5-.5.5h-3.08578644l-1.12132034 1.1213203c-.18753638.1875364-.29289322.4418903-.29289322.7071068v.1715729h14v-.1715729c0-.2652165-.1053568-.5195704-.2928932-.7071068l-1.7071068-1.7071067v-3.4142136c0-2.76142375-2.2385763-5-5-5-2.76142375 0-5 2.23857625-5 5zm3 4c0 1.1045695.8954305 2 2 2s2-.8954305 2-2zm-5 0c-.55228475 0-1-.4477153-1-1v-.1715729c0-.530433.21071368-1.0391408.58578644-1.4142135l1.41421356-1.4142136v-3c0-3.3137085 2.6862915-6 6-6s6 2.6862915 6 6v3l1.4142136 1.4142136c.3750727.3750727.5857864.8837805.5857864 1.4142135v.1715729c0 .5522847-.4477153 1-1 1h-4c0 1.6568542-1.3431458 3-3 3-1.65685425 0-3-1.3431458-3-3z" fill="#222"/></svg>
+                                    </a>
+                                </li>
+                            
+                            
+                                <li class="c-header__item c-header__item--pipe">
+                                    <a class="c-header__link"
+                                       href="http://feeds.nature.com/ejhg/rss/current"
+                                       data-track="click"
+                                       data-track-action="rss feed"
+                                       data-track-label="link">
+                                        <span>RSS feed</span>
+                                    </a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+    </header>
+
+
+    
+    
+        <nav class="u-mb-16" aria-label="breadcrumbs">
+            <div class="u-container">
+                <ol class="c-breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                    <li class="c-breadcrumbs__item" id="breadcrumb0" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a class="c-breadcrumbs__link"
+                               href="/" itemprop="item"
+                               data-track="click" data-track-action="breadcrumb" data-track-category="header" data-track-label="link:nature"><span itemprop="name">nature</span></a>
+                                    <svg class="u-icon c-breadcrumbs__chevron" role="img" aria-hidden="true" focusable="false" height="10" viewBox="0 0 10 10" width="10"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="m5.96738168 4.70639573 2.39518594-2.41447274c.37913917-.38219212.98637524-.38972225 1.35419292-.01894278.37750606.38054586.37784436.99719163-.00013556 1.37821513l-4.03074001 4.06319683c-.37758093.38062133-.98937525.38100976-1.367372-.00003075l-4.03091981-4.06337806c-.37759778-.38063832-.38381821-.99150444-.01600053-1.3622839.37750607-.38054587.98772445-.38240057 1.37006824.00302197l2.39538588 2.4146743.96295325.98624457z"
+                                              fill="#666" fill-rule="evenodd" transform="matrix(0 -1 1 0 0 10)"/>
+                                    </svg>
+                                </li><li class="c-breadcrumbs__item" id="breadcrumb1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                    <span itemprop="item name">european journal of human genetics</span></li>
+                </ol>
+            </div>
+        </nav>
+    
+
+
+
+    
+
+</div>
+
+
+<div role="main" id="content" class="position-relative z-index-1">
+    
+        
+    <article>
+        <div class="u-container" data-track-component="hero">
+            <div class="c-hero c-hero--flush-md-max u-mb-48 u-position-relative">
+                <div class="c-hero__image">
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                //media.springernature.com/w450h245/nature-cms/uploads/cms/pages/7291/top_item_image/EJHG_Hero_v2-5b75b6605cfc40b25388bcfba9877f3c.jpg?as=webp 450w,
+                                //media.springernature.com/w735h400/nature-cms/uploads/cms/pages/7291/top_item_image/EJHG_Hero_v2-5b75b6605cfc40b25388bcfba9877f3c.jpg?as=webp 735w"
+                            sizes="
+                            (max-width: 1024px) 450px,
+                            (max-width: 100vw) 735px
+                            735px">
+                        <img src="//media.springernature.com/w735h400/nature-cms/uploads/cms/pages/7291/top_item_image/EJHG_Hero_v2-5b75b6605cfc40b25388bcfba9877f3c.jpg"
+                             alt=""
+                             onload="if (window.performance && performance.mark) {performance.clearMarks('featured image displayed');performance.mark('featured image displayed');}">
+                    </picture>
+                </div>
+                <div class="c-hero__copy">
+                    <h2 class="c-hero__title">
+                        <a class="c-hero__link u-link-faux-block"
+                           href="https://www.nature.com/ejhg/about"
+                           data-track="click"
+                           data-track-action="view announcement"
+                           data-track-label="link">Welcome to <i>European Journal of Human Genetics</i></a>
+                    </h2>
+                    
+                        <p class="c-hero__summary">Providing insights into human genetics, genomics, molecular, clinical and cytogenetics research   
+</p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+    
+    
+        
+    
+<section id="featured-content" class="u-mb-48 u-mt-48" data-track-component="featured content grid">
+    <div class="u-container">
+        
+            <div class="c-slice-heading" data-test="title">
+                <h2>
+                    
+                        Featured
+                    
+                </h2>
+            </div>
+        
+        
+            <ul class="app-article-list-row">
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+                    <div class="c-card__image">
+                        <picture>
+                            <source
+                                type="image/webp"
+                                srcset="
+                                    //media.springernature.com/w165h90/springer-static/image/art%3A10.1038%2Fs41431-020-00766-w/MediaObjects/41431_2020_766_Fig1_HTML.png?as=webp 160w,
+                                    //media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-020-00766-w/MediaObjects/41431_2020_766_Fig1_HTML.png?as=webp 290w"
+                                sizes="
+                                    (max-width: 640px) 160px,
+                                    (max-width: 1200px) 290px,
+                                    290px">
+                            <img src="//media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-020-00766-w/MediaObjects/41431_2020_766_Fig1_HTML.png"
+                                 alt=""
+                                 itemprop="image">
+                        </picture>
+                    </div>
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-020-00766-w"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Pathogenic variants causing <i>ABL1</i> malformation syndrome cluster in a myristoyl-binding pocket and increase tyrosine kinase activity</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Alexander J. M. Blakes</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Emily Gaul</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Andrew G. L. Douglas</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                        <span class="c-meta__item c-meta__item--block-at-xl" itemprop="openAccess"
+                            data-test="open-access">
+                            <span class="u-color-open-access">Open Access</span></span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2020-11-22" itemprop="datePublished">22 Nov 2020</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div>
+                    </li>
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+                    <div class="c-card__image">
+                        <picture>
+                            <source
+                                type="image/webp"
+                                srcset="
+                                    //media.springernature.com/w165h90/springer-static/image/art%3A10.1038%2Fs41431-020-00773-x/MediaObjects/41431_2020_773_Fig1_HTML.png?as=webp 160w,
+                                    //media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-020-00773-x/MediaObjects/41431_2020_773_Fig1_HTML.png?as=webp 290w"
+                                sizes="
+                                    (max-width: 640px) 160px,
+                                    (max-width: 1200px) 290px,
+                                    290px">
+                            <img src="//media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-020-00773-x/MediaObjects/41431_2020_773_Fig1_HTML.png"
+                                 alt=""
+                                 itemprop="image">
+                        </picture>
+                    </div>
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-020-00773-x"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">A human case of GIMAP6 deficiency: a novel primary immune deficiency</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Bella Shadur</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Nathalie Asherie</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Polina Stepensky</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2020-12-16" itemprop="datePublished">16 Dec 2020</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div>
+                    </li>
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+                    <div class="c-card__image">
+                        <picture>
+                            <source
+                                type="image/webp"
+                                srcset="
+                                    //media.springernature.com/w165h90/springer-static/image/art%3A10.1038%2Fs41431-020-00782-w/MediaObjects/41431_2020_782_Fig1_HTML.png?as=webp 160w,
+                                    //media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-020-00782-w/MediaObjects/41431_2020_782_Fig1_HTML.png?as=webp 290w"
+                                sizes="
+                                    (max-width: 640px) 160px,
+                                    (max-width: 1200px) 290px,
+                                    290px">
+                            <img src="//media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-020-00782-w/MediaObjects/41431_2020_782_Fig1_HTML.png"
+                                 alt=""
+                                 itemprop="image">
+                        </picture>
+                    </div>
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-020-00782-w"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">‘CTRL’: an online, Dynamic Consent and participant engagement platform working towards solving the complexities of consent in genomic research</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Matilda A. Haas</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Harriet Teare</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Tiffany Boughtwood</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                        <span class="c-meta__item c-meta__item--block-at-xl" itemprop="openAccess"
+                            data-test="open-access">
+                            <span class="u-color-open-access">Open Access</span></span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2021-01-06" itemprop="datePublished">06 Jan 2021</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div>
+                    </li>
+                
+            </ul>
+        
+
+    </div>
+</section>
+
+
+
+    
+        
+    <section id="latest-issue"
+         data-track-component="latest-issue grid">
+    <div class="u-container u-mb-48">
+        
+    <div class="c-slice-heading">
+        <h2>
+            
+                <a href="/ejhg/current-issue"
+                   class="u-link-inherit u-display-inline-flex u-align-items-center"
+                   data-track="click"
+                   data-track-action="view all"
+                   data-track-label="button">
+                    Current issue
+                    <svg class="u-icon u-mt-4 u-ml-4" aria-hidden="true" focusable="false" height="20"
+                         width="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m4.08573416 5.70052374 2.48162731-2.4816273c.39282216-.39282216 1.02197315-.40056173 1.40306523-.01946965.39113012.39113012.3914806 1.02492687-.00014045 1.41654791l-4.17620791 4.17620792c-.39120769.39120768-1.02508144.39160691-1.41671995-.0000316l-4.17639421-4.1763942c-.39122513-.39122514-.39767006-1.01908149-.01657797-1.40017357.39113012-.39113012 1.02337105-.3930364 1.41951348.00310603l2.48183447 2.48183446.99770587 1.01367533z"
+                              transform="matrix(0 -1 1 0 2.081146 11.085734)"/>
+                    </svg>
+                </a>
+            
+        </h2>
+    </div>
+
+        <div class="app-latest-issue-row">
+            <div class="app-latest-issue-row__main u-display-flex u-flex-direction-column u-flex-shrink">
+                <ul class="app-latest-issue-row__article-list">
+                    
+                        <li class="app-latest-issue-row__item"><div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-021-00841-w"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">What’s new in EJHG in April</a>
+            </h3>
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Alisdair McNeill</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item" data-test="article.type">
+                        <span class="c-meta__type">Editorial</span>
+                    </span>
+                    
+                    
+                        <time class="c-meta__item" datetime="2021-04-09" itemprop="datePublished">09 Apr 2021</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div></li>
+                    
+                        <li class="app-latest-issue-row__item"><div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-020-00780-y"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Chromosomes in the genomic age. Preserving cytogenomic competence of diagnostic genome laboratories</a>
+            </h3>
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Ron Hochstenbach</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Thomas Liehr</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Rosalind J. Hastings</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item" data-test="article.type">
+                        <span class="c-meta__type">Review Article</span>
+                    </span>
+                    
+                        <span class="c-meta__item" itemprop="openAccess"
+                            data-test="open-access">
+                            <span class="u-color-open-access">Open Access</span></span>
+                    
+                    
+                        <time class="c-meta__item" datetime="2020-12-11" itemprop="datePublished">11 Dec 2020</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div></li>
+                    
+                        <li class="app-latest-issue-row__item"><div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-020-00727-3"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Pleiotropic genomic variants at 17q21.31 associated with bone mineral density and body fat mass: a bivariate genome-wide association analysis</a>
+            </h3>
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Xin-Tong Wei</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Gui-Juan Feng</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Yu-Fang Pei</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                    
+                        <time class="c-meta__item" datetime="2020-09-22" itemprop="datePublished">22 Sept 2020</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div></li>
+                    
+                        <li class="app-latest-issue-row__item"><div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-020-00761-1"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Speech and language phenotype in Phelan-McDermid (22q13.3) syndrome</a>
+            </h3>
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Amanda Brignell</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Conway Gu</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Angela T. Morgan</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                    
+                        <time class="c-meta__item" datetime="2020-12-08" itemprop="datePublished">08 Dec 2020</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div></li>
+                    
+                        <li class="app-latest-issue-row__item"><div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-020-00762-0"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Biallelic <i>PADI6</i> variants cause multilocus imprinting disturbances and miscarriages in the same family</a>
+            </h3>
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Thomas Eggermann</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Gundula Kadgien</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Miriam Elbracht</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                    
+                        <time class="c-meta__item" datetime="2020-11-21" itemprop="datePublished">21 Nov 2020</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div></li>
+                    
+                        <li class="app-latest-issue-row__item"><div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-020-00765-x"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Autosomal genetics and Y-chromosome haplogroup L1b-M317 reveal Mount Lebanon Maronites as a persistently non-emigrating population</a>
+            </h3>
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Daniel E. Platt</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Hovig Artinian</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Pierre Zalloua</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                    
+                        <time class="c-meta__item" datetime="2020-12-04" itemprop="datePublished">04 Dec 2020</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div></li>
+                    
+                </ul>
+            </div>
+            <div class="app-latest-issue-row__side">
+                
+                    <div class="app-latest-issue-row__image">
+                        <picture>
+                            <source type="image/webp"
+                                    srcset="//media.springernature.com/w440/springer-static/cover-hires/journal/41431/29/4?as=webp&q=95">
+                            <img src="//media.springernature.com/w440/springer-static/cover-hires/journal/41431/29/4?q=95"
+                                 alt="Volume 29 Issue 4"
+                                 itemprop="image">
+                        </picture>
+                    </div>
+                
+                <div class="app-latest-issue-row__buttons app-latest-issue-row--by-3">
+                    <div class="app-latest-issue-row__button">
+                        <a href="/ejhg/current-issue"
+                           class="u-button u-button--full-width"
+                           data-track="click"
+                           data-track-action="view current issue"
+                           data-track-label="button">Contents</a>
+                    </div>
+                    <div class="app-latest-issue-row__button">
+                        <a href="/ejhg/volumes/29"
+                           class="u-button u-button--full-width"
+                           data-track="click"
+                           data-track-action="click view all issues">View all issues</a>
+                    </div>
+                    
+                        <div class="app-latest-issue-row__button"><a
+                                href="https://www.nature.com/ejhg/subscribe"
+                                class="u-button u-button--primary u-button--full-width" data-track="click"
+                                data-track-action="subscribe"
+                                
+                                data-track-label="button">Subscribe</a></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+        
+    
+<section id="announcement-content" class="u-mb-48 u-mt-48" data-track-component="announcement content grid">
+    <div class="u-container">
+        
+            <div class="c-slice-heading" data-test="title">
+                <h2>
+                    
+                        Announcements
+                    
+                </h2>
+            </div>
+        
+        
+            <ul class="app-announcement-list-row">
+                
+                    <li class="app-announcement-list-row__item">
+                        <article class="c-card c-card--flush u-pl-0 u-justify-content-space-between">
+    
+    <div class="c-card__body u-display-flex u-flex-direction-column">
+        <h3 class="c-card__title" itemprop="name headline" data-test="announcement-title-0">
+            
+                <a href="https://www.nature.com/articles/s41431-020-00780-y"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="click on homepage featured announcement"
+                   data-track-label="announcement 0">
+                    Editor's Choice: April 2021
+                </a>
+            
+        </h3>
+        
+            <div class="c-card__summary u-mb-16 u-hide-sm-max"
+                 itemprop="description" data-test="description-0">
+                <p>Chromosomes in the genomic age. Preserving cytogenomic competence of diagnostic genome laboratories</p>
+            </div>
+        
+        
+            
+        
+    </div>
+</article>
+
+                    </li>
+                
+                    <li class="app-announcement-list-row__item">
+                        <article class="c-card c-card--flush u-pl-0 u-justify-content-space-between">
+    
+        
+            
+                <div class="c-card__image">
+                    <picture>
+                        <source
+                                type="image/webp"
+                                srcset="
+                                    //media.springernature.com/w165h90/nature-cms/uploads/mosaic_featured_form_item/7291/announcement-image-f95e60c62601046cffb945f9ad1ca3f1.jpg?as=webp 160w,
+                                    //media.springernature.com/w290h158/nature-cms/uploads/mosaic_featured_form_item/7291/announcement-image-f95e60c62601046cffb945f9ad1ca3f1.jpg?as=webp 290w"
+                                sizes="
+                                    (max-width: 640px) 160px,
+                                    (max-width: 1200px) 290px,
+                                    290px">
+                        <img data-test="image-1" src="//media.springernature.com/w290h158/nature-cms/uploads/mosaic_featured_form_item/7291/announcement-image-f95e60c62601046cffb945f9ad1ca3f1.jpg"
+                             alt="open journals piled one on top of the other"
+                             itemprop="image">
+                    </picture>
+                </div>
+            
+        
+    
+    <div class="c-card__body u-display-flex u-flex-direction-column">
+        <h3 class="c-card__title" itemprop="name headline" data-test="announcement-title-1">
+            
+                <a href="https://www.nature.com/collections/edicabgegg"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="click on homepage featured announcement"
+                   data-track-label="announcement 1">
+                    Reader's Choice 2020
+                </a>
+            
+        </h3>
+        
+            <div class="c-card__summary u-mb-16 u-hide-sm-max"
+                 itemprop="description" data-test="description-1">
+                <p>Read the journal's latest collection highlighting the papers most read, cited and shared by readers. All papers are free to read for 6 weeks.</p>
+            </div>
+        
+        
+            
+        
+    </div>
+</article>
+
+                    </li>
+                
+                    <li class="app-announcement-list-row__item">
+                        <article class="c-card c-card--flush u-pl-0 u-justify-content-space-between">
+    
+    <div class="c-card__body u-display-flex u-flex-direction-column">
+        <h3 class="c-card__title" itemprop="name headline" data-test="announcement-title-2">
+            
+                <a href="https://twitter.com/ejhg_journal"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="click on homepage featured announcement"
+                   data-track-label="announcement 2">
+                    Follow <i>EJHG</i> on Twitter!
+                </a>
+            
+        </h3>
+        
+            <div class="c-card__summary u-mb-16 u-hide-sm-max"
+                 itemprop="description" data-test="description-2">
+                <p>Interact with the European Journal of Human Genetics like never before, and get the latest news and research delivered straight to your feed. Follow us on Twitter <a href="https://twitter.com/ejhg_journal">@ejhg_journal</a></p>
+            </div>
+        
+        
+            
+        
+    </div>
+</article>
+
+                    </li>
+                
+            </ul>
+        
+
+    </div>
+</section>
+
+
+
+    
+        <span id="native_ad"></span>
+    
+        
+    <div class="u-container u-mb-48">
+        <div data-test="transformative-journal-announcement" class="c-status-message c-status-message--info u-mb-24 c-status-message--boxed">
+    <svg class="u-icon c-status-message__icon c-status-message__icon--top" width="24" height="24" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="#icon-info"></use>
+    </svg>
+    
+            <div class="u-flex-shrink" data-track-component="tj-announcement">
+                <p class="u-mb-0"><i>European Journal of Human Genetics</i> is a <a data-track="click" data-track-action="click transformative journals link" href="https://www.springernature.com/gp/open-research/transformative-journals">Transformative Journal</a>; authors can publish using the traditional publishing route OR via immediate gold Open Access.</p>
+                <p>Our Open Access option complies with <a data-track="click" data-track-action="click funding link" href="https://www.springernature.com/gp/open-research/funding">funder and institutional requirements</a>.</p>
+            </div>
+        
+</div>
+
+    </div>
+
+    
+        
+    <div class="u-container u-mb-48">
+        <div class="c-search c-search--background">
+            <form action="/search/submit" method="post" role="search" autocomplete="off" data-track="submit" data-track-action="search" data-track-label="form" data-track-category="inline search 150">
+                <input type="hidden" value="ejhg" name="journal">
+                <label class="c-search__input-label" for="keywords-1">Search European Journal of Human Genetics</label>
+                <div class="c-search__field">
+                    <div class="c-search__input-container">
+                        <input class="c-search__input" type="search" id="keywords-1" name="q" value="">
+                    </div>
+                    <div class="c-search__select-container">
+                        <label for="subject" class="u-visually-hidden">Subject</label>
+                        <select class="c-search__select" data-track="change" data-track-action="search" data-track-label="subject" data-track-category="inline search 150" name="subject" id="subject">All Subjects
+                            <option value="">All Subjects</option>
+                            
+                            <optgroup data-test="biological-sciences" label="Biological sciences">
+                                
+                                    <option value="biological-techniques">Biological techniques</option>
+                                
+                                    <option value="biotechnology">Biotechnology</option>
+                                
+                                    <option value="cancer">Cancer</option>
+                                
+                                    <option value="chemical-biology">Chemical biology</option>
+                                
+                                    <option value="computational-biology-and-bioinformatics">Computational biology and bioinformatics</option>
+                                
+                                    <option value="developmental-biology">Developmental biology</option>
+                                
+                                    <option value="drug-discovery">Drug discovery</option>
+                                
+                                    <option value="genetics">Genetics</option>
+                                
+                                    <option value="immunology">Immunology</option>
+                                
+                                    <option value="molecular-biology">Molecular biology</option>
+                                
+                                    <option value="neuroscience">Neuroscience</option>
+                                
+                                    <option value="physiology">Physiology</option>
+                                
+                                    <option value="psychology">Psychology</option>
+                                
+                                    <option value="stem-cells">Stem cells</option>
+                                
+                                    <option value="systems-biology">Systems biology</option>
+                                
+                            
+                            <optgroup data-test="health-sciences" label="Health sciences">
+                                
+                                    <option value="anatomy">Anatomy</option>
+                                
+                                    <option value="biomarkers">Biomarkers</option>
+                                
+                                    <option value="diseases">Diseases</option>
+                                
+                                    <option value="endocrinology">Endocrinology</option>
+                                
+                                    <option value="health-care">Health care</option>
+                                
+                                    <option value="medical-research">Medical research</option>
+                                
+                                    <option value="pathogenesis">Pathogenesis</option>
+                                
+                                    <option value="risk-factors">Risk factors</option>
+                                
+                            
+                            <optgroup data-test="scientific-community-and-society" label="Scientific community and society">
+                                
+                                    <option value="social-sciences">Social sciences</option>
+                                
+                            
+                        </optgroup>
+                        </select>
+                    </div>
+                    <div class="c-search__button-container">
+                        <button type="submit" class="c-search__button">
+                            <span class="c-search__button-text">Search</span>
+                            <svg class="u-flex-static" role="img" aria-hidden="true" focusable="false" height="16" width="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M16.48 15.455c.283.282.29.749.007 1.032a.738.738 0 01-1.032-.007l-3.045-3.044a7 7 0 111.026-1.026zM8 14A6 6 0 108 2a6 6 0 000 12z"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+        
+    <section class="u-container u-mb-48">
+        <ul class="app-sponsor-row">
+            
+                <li class="app-sponsor-row__item">
+                <a class="c-meta" href="https://www.springernature.com/gp/authors/research-data">
+                    <p class="u-mb-8 u-text-center">Research Data</p>
+                    <img src="//media.springernature.com/lw300/nature-cms/uploads/cms/pages/7291/sponsor_logo_1/Research_Data-4d774b4f2975f521ff7409ff6e64ea59.jpg" alt="">
+                </a>
+                </li>
+            
+                <li class="app-sponsor-row__item">
+                <a class="c-meta" href="https://www.eshg.org/home.0.html">
+                    <p class="u-mb-8 u-text-center">ESHG</p>
+                    <img src="//media.springernature.com/lw300/nature-cms/uploads/cms/pages/7291/sponsor_logo_2/ESHG-2fd44cf09bbed39b4113adc92c016e6b.png" alt="">
+                </a>
+                </li>
+            
+                <li class="app-sponsor-row__item">
+                <a class="c-meta" href="https://www.nature.com/documents/ejhg-gta.pdf">
+                    <p class="u-mb-8 u-text-center">Guide to Authors</p>
+                    <img src="//media.springernature.com/lw300/nature-cms/uploads/cms/pages/7291/sponsor_logo_3/Guidetoauthors-03c1843712d037a1293c90cffa547a2d.png" alt="">
+                </a>
+                </li>
+            
+                <li class="app-sponsor-row__item">
+                <a class="c-meta" href="http://www.springernature.com/gp/researchers/sharedit">
+                    <p class="u-mb-8 u-text-center">SharedIt</p>
+                    <img src="//media.springernature.com/lw300/nature-cms/uploads/cms/pages/7291/sponsor_logo_4/Sharedit-5098554e7d53e966ebcdf7deaccb3059.png" alt="">
+                </a>
+                </li>
+            
+        </ul>
+    </section>
+
+    
+        
+    <section class="u-mb-48 u-container u-text-center u-hide u-js-show">
+        <h2 class="u-visually-hidden">Advertisement</h2>
+        
+<div id="div-gpt-ad-billboard-2"
+     class="div-gpt-ad billboard c-ad c-ad--970x250 u-overflow-hidden advert js-ad hide-print grade-c-hide"
+     data-gpt-unitpath="/285/ejhg.nature.com/homepage"
+     data-gpt-sizes="970x250"
+     data-gpt-targeting="pos=billboard;artid=/ejhg;path=/ejhg"
+     data-ad-type="billboard"
+     >
+    <noscript>
+        <a href="//pubads.g.doubleclick.net/gampad/jump?iu=/285/ejhg.nature.com/homepage&amp;sz=970x250&amp;c=-583137050&amp;t=pos%3Dbillboard%26artid%3D/ejhg">
+            <img data-test="gpt-advert-fallback-img"
+                 src="//pubads.g.doubleclick.net/gampad/ad?iu=/285/ejhg.nature.com/homepage&amp;sz=970x250&amp;c=-583137050&amp;t=pos%3Dbillboard%26artid%3D/ejhg"
+                 alt="Advertisement"
+                 width="970"
+                 height="250"/>
+        </a>
+    </noscript>
+</div>
+
+    </section>
+
+    
+        
+    
+<section id="browse-articles" class="u-mb-48 u-mt-48" data-track-component="browse articles grid">
+    <div class="u-container">
+        
+            <div class="c-slice-heading" data-test="title">
+                <h2>
+                    
+                        <a href="/ejhg/articles"
+                           class="u-link-inherit u-display-inline-flex u-align-items-center"
+                           data-track="click"
+                           data-track-action="view all"
+                           data-track-label="button">
+                            Browse articles
+                            <svg class="u-icon u-mt-4 u-ml-4" aria-hidden="true" focusable="false" height="20" width="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.08573416 5.70052374 2.48162731-2.4816273c.39282216-.39282216 1.02197315-.40056173 1.40306523-.01946965.39113012.39113012.3914806 1.02492687-.00014045 1.41654791l-4.17620791 4.17620792c-.39120769.39120768-1.02508144.39160691-1.41671995-.0000316l-4.17639421-4.1763942c-.39122513-.39122514-.39767006-1.01908149-.01657797-1.40017357.39113012-.39113012 1.02337105-.3930364 1.41951348.00310603l2.48183447 2.48183446.99770587 1.01367533z" transform="matrix(0 -1 1 0 2.081146 11.085734)"/></svg>
+                        </a>
+                    
+                </h2>
+            </div>
+        
+        
+            <ul class="app-article-list-row">
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-021-00896-9"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Out now in May’s EJHG</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Alisdair McNeill</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Editorial</span>
+                    </span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2021-05-02" itemprop="datePublished">02 May 2021</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div>
+                    </li>
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-021-00884-z"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">How do non-geneticist physicians deal with genetic tests? A qualitative analysis</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Laurent Pasquier</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Guy Minguet</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Grégoire Moutel</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                        <span class="c-meta__item c-meta__item--block-at-xl" itemprop="openAccess"
+                            data-test="open-access">
+                            <span class="u-color-open-access">Open Access</span></span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2021-04-28" itemprop="datePublished">28 Apr 2021</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div>
+                    </li>
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+                    <div class="c-card__image">
+                        <picture>
+                            <source
+                                type="image/webp"
+                                srcset="
+                                    //media.springernature.com/w165h90/springer-static/image/art%3A10.1038%2Fs41431-021-00885-y/MediaObjects/41431_2021_885_Fig1_HTML.png?as=webp 160w,
+                                    //media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-021-00885-y/MediaObjects/41431_2021_885_Fig1_HTML.png?as=webp 290w"
+                                sizes="
+                                    (max-width: 640px) 160px,
+                                    (max-width: 1200px) 290px,
+                                    290px">
+                            <img src="//media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-021-00885-y/MediaObjects/41431_2021_885_Fig1_HTML.png"
+                                 alt=""
+                                 itemprop="image">
+                        </picture>
+                    </div>
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-021-00885-y"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Polygenic risk score analysis for amyotrophic lateral sclerosis leveraging cognitive performance, educational attainment and schizophrenia</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Restuadi Restuadi</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Fleur C. Garton</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Allan F. McRae</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2021-04-27" itemprop="datePublished">27 Apr 2021</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div>
+                    </li>
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+                    <div class="c-card__image">
+                        <picture>
+                            <source
+                                type="image/webp"
+                                srcset="
+                                    //media.springernature.com/w165h90/springer-static/image/art%3A10.1038%2Fs41431-021-00894-x/MediaObjects/41431_2021_894_Fig1_HTML.png?as=webp 160w,
+                                    //media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-021-00894-x/MediaObjects/41431_2021_894_Fig1_HTML.png?as=webp 290w"
+                                sizes="
+                                    (max-width: 640px) 160px,
+                                    (max-width: 1200px) 290px,
+                                    290px">
+                            <img src="//media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-021-00894-x/MediaObjects/41431_2021_894_Fig1_HTML.png"
+                                 alt=""
+                                 itemprop="image">
+                        </picture>
+                    </div>
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-021-00894-x"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Speech and language deficits are central to <i>SETBP1</i> haploinsufficiency disorder</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Angela Morgan</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Ruth Braden</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Bregje W. van Bon</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2021-04-27" itemprop="datePublished">27 Apr 2021</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div>
+                    </li>
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+                    <div class="c-card__image">
+                        <picture>
+                            <source
+                                type="image/webp"
+                                srcset="
+                                    //media.springernature.com/w165h90/springer-static/image/art%3A10.1038%2Fs41431-021-00892-z/MediaObjects/41431_2021_892_Fig1_HTML.png?as=webp 160w,
+                                    //media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-021-00892-z/MediaObjects/41431_2021_892_Fig1_HTML.png?as=webp 290w"
+                                sizes="
+                                    (max-width: 640px) 160px,
+                                    (max-width: 1200px) 290px,
+                                    290px">
+                            <img src="//media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-021-00892-z/MediaObjects/41431_2021_892_Fig1_HTML.png"
+                                 alt=""
+                                 itemprop="image">
+                        </picture>
+                    </div>
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-021-00892-z"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Identifying challenges in neurofibromatosis: a modified Delphi procedure</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Britt A. E. Dhaenens</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Rosalie E. Ferner</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Rianne Oostenbrink</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                        <span class="c-meta__item c-meta__item--block-at-xl" itemprop="openAccess"
+                            data-test="open-access">
+                            <span class="u-color-open-access">Open Access</span></span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2021-04-26" itemprop="datePublished">26 Apr 2021</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div>
+                    </li>
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-021-00882-1"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Toward the diagnosis of rare childhood genetic diseases: what do parents value most?</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Samantha Pollard</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Deirdre Weymann</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Dean A. Regier</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                        <span class="c-meta__item c-meta__item--block-at-xl" itemprop="openAccess"
+                            data-test="open-access">
+                            <span class="u-color-open-access">Open Access</span></span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2021-04-26" itemprop="datePublished">26 Apr 2021</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div>
+                    </li>
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-021-00890-1"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Patient-reported anticipated barriers and benefits to sharing cancer genetic risk information with family members</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Kelsey Stuttgen Finn</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Joel Pacyna</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Richard Sharp</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2021-04-19" itemprop="datePublished">19 Apr 2021</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div>
+                    </li>
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="false">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+                    <div class="c-card__image">
+                        <picture>
+                            <source
+                                type="image/webp"
+                                srcset="
+                                    //media.springernature.com/w165h90/springer-static/image/art%3A10.1038%2Fs41431-021-00888-9/MediaObjects/41431_2021_888_Fig1_HTML.png?as=webp 160w,
+                                    //media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-021-00888-9/MediaObjects/41431_2021_888_Fig1_HTML.png?as=webp 290w"
+                                sizes="
+                                    (max-width: 640px) 160px,
+                                    (max-width: 1200px) 290px,
+                                    290px">
+                            <img src="//media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-021-00888-9/MediaObjects/41431_2021_888_Fig1_HTML.png"
+                                 alt=""
+                                 itemprop="image">
+                        </picture>
+                    </div>
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-021-00888-9"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Clinical delineation of SETBP1 haploinsufficiency disorder</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Nadieh A. Jansen</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Ruth O. Braden</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Bregje W. van Bon</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Article</span>
+                    </span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2021-04-19" itemprop="datePublished">19 Apr 2021</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+</div>
+                    </li>
+                
+                    <li class="app-article-list-row__item">
+                        <div class="u-full-height" data-native-ad-placement="true">
+    
+    <article class="u-full-height c-card c-card--flush" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        
+            
+                
+                    <div class="c-card__image">
+                        <picture>
+                            <source
+                                type="image/webp"
+                                srcset="
+                                    //media.springernature.com/w165h90/springer-static/image/art%3A10.1038%2Fs41431-021-00886-x/MediaObjects/41431_2021_886_Fig1_HTML.png?as=webp 160w,
+                                    //media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-021-00886-x/MediaObjects/41431_2021_886_Fig1_HTML.png?as=webp 290w"
+                                sizes="
+                                    (max-width: 640px) 160px,
+                                    (max-width: 1200px) 290px,
+                                    290px">
+                            <img src="//media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41431-021-00886-x/MediaObjects/41431_2021_886_Fig1_HTML.png"
+                                 alt=""
+                                 itemprop="image">
+                        </picture>
+                    </div>
+                
+            
+        
+        <div class="c-card__body u-display-flex u-flex-direction-column">
+            <h3 class="c-card__title" itemprop="name headline">
+                <a href="/articles/s41431-021-00886-x"
+                   class="c-card__link u-link-inherit"
+                   itemprop="url"
+                   data-track="click"
+                   data-track-action="view article"
+                   
+                   data-track-label="link">Germline variants in UNC13D and AP3B1 are enriched in COVID-19 patients experiencing severe cytokine storms</a>
+            </h3>
+            
+                
+            
+            <div class="u-mt-auto">
+                
+                    <ul data-test="author-list" class="c-author-list c-author-list--compact c-author-list--truncated u-mb-4">
+                        <li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Hui Luo</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Dan Liu</span></li><li itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Qian-fei Wang</span></li>
+                    </ul>
+                
+                <div class="c-card__section c-meta">
+                    <span class="c-meta__item c-meta__item--block-at-xl" data-test="article.type">
+                        <span class="c-meta__type">Brief Communication</span>
+                    </span>
+                    
+                        <span class="c-meta__item c-meta__item--block-at-xl" itemprop="openAccess"
+                            data-test="open-access">
+                            <span class="u-color-open-access">Open Access</span></span>
+                    
+                    
+                        <time class="c-meta__item c-meta__item--block-at-xl" datetime="2021-04-19" itemprop="datePublished">19 Apr 2021</time>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    
+        <div class="hide">
+            
+<div id="div-gpt-ad-native-1"
+     class="div-gpt-ad polar c-ad c-ad--2x2 u-overflow-hidden advert js-ad hide-print grade-c-hide"
+     data-gpt-unitpath="/285/ejhg.nature.com/homepage"
+     data-gpt-sizes="2x2"
+     data-gpt-targeting="pos=native;artid=/ejhg;path=/ejhg"
+     data-ad-type="native"
+     >
+    <noscript>
+        <a href="//pubads.g.doubleclick.net/gampad/jump?iu=/285/ejhg.nature.com/homepage&amp;sz=2x2&amp;c=1873681683&amp;t=pos%3Dnative%26artid%3D/ejhg">
+            <img data-test="gpt-advert-fallback-img"
+                 src="//pubads.g.doubleclick.net/gampad/ad?iu=/285/ejhg.nature.com/homepage&amp;sz=2x2&amp;c=1873681683&amp;t=pos%3Dnative%26artid%3D/ejhg"
+                 alt="Advertisement"
+                 width="2"
+                 height="2"/>
+        </a>
+    </noscript>
+</div>
+
+        </div>
+    
+</div>
+                    </li>
+                
+            </ul>
+        
+
+    </div>
+</section>
+
+
+
+    
+        
+    <section class="u-mb-48" data-container-type="collection" data-track-component="featured collection">
+        <div class="u-container">
+            <div class="c-slice-heading">
+                <h2>
+                    <a href="/ejhg/collections"
+                       class="u-link-inherit u-display-inline-flex u-align-items-center"
+                       data-track="click"
+                       data-track-action="view all"
+                       data-track-label="button">
+                        Collections
+                        <svg class="u-icon u-mt-4 u-ml-4" aria-hidden="true" focusable="false" height="20" width="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.08573416 5.70052374 2.48162731-2.4816273c.39282216-.39282216 1.02197315-.40056173 1.40306523-.01946965.39113012.39113012.3914806 1.02492687-.00014045 1.41654791l-4.17620791 4.17620792c-.39120769.39120768-1.02508144.39160691-1.41671995-.0000316l-4.17639421-4.1763942c-.39122513-.39122514-.39767006-1.01908149-.01657797-1.40017357.39113012-.39113012 1.02337105-.3930364 1.41951348.00310603l2.48183447 2.48183446.99770587 1.01367533z" transform="matrix(0 -1 1 0 2.081146 11.085734)"/></svg>
+                    </a>
+                </h2>
+            </div>
+
+            <div class="app-collections-row">
+                <div class="app-collections-row__item">
+                    <article class="c-card c-card--flush c-card--major">
+                        
+                            <div class="c-card__image">
+                                <img src="//media.springernature.com/lw630/nature-cms/uploads/collections/EJHG_Hero_v2-5b75b6605cfc40b25388bcfba9877f3c_new-0feafe7d11b6eca4f360795107223c9a.jpg" alt="ASHG 2019 Annual Meeting">
+                                
+                            </div>
+                            <div class="c-card__body u-display-flex u-flex-direction-column">
+                                <h3 class="c-card__title" itemprop="name headline">
+                                    <a href="/collections/jcgjhgehha"
+                                       data-track="click"
+                                       data-track-action="view collection"
+                                       data-track-label="link"
+                                       class="c-card__link u-link-inherit">ASHG 2019 Annual Meeting</a>
+                                </h3>
+
+                                
+                                    <div class="c-card__summary u-mb-16"
+                                         data-test="collection-description">
+                                        The American Society of Human Genetics annual meeting is upon us, 15th - 19th October 2019 and will focus on all aspects of human genetics, particularly topics that integrate multiple basic science and clinical aspects of human genetic disease. The Editor-in-Chief of EJHG in the spirit of this important event is pleased to showcase the work of many in this field as they align with the critical themes of this exciting congress. 
+                                    </div>
+                                
+
+                                <div class="u-mt-auto">
+                                    
+                                    <div class="c-card__section c-meta">
+                                        <span class="c-meta__item" data-test="article.type">
+                                            <span class="c-meta__type">Collection</span>
+                                        </span>
+                                        
+                                            <time class="c-meta__item" datetime="2019-09-23" itemprop="datePublished">23 Sept 2019</time>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </article>
+                </div>
+                <div class="u-flex-static">
+                    
+<div id="div-gpt-ad-right-2"
+     class="div-gpt-ad medium-rectangle c-ad c-ad--300x250 u-overflow-hidden advert js-ad hide-print grade-c-hide"
+     data-gpt-unitpath="/285/ejhg.nature.com/homepage"
+     data-gpt-sizes="300x250"
+     data-gpt-targeting="pos=right;artid=/ejhg;path=/ejhg"
+     data-ad-type="right"
+     >
+    <noscript>
+        <a href="//pubads.g.doubleclick.net/gampad/jump?iu=/285/ejhg.nature.com/homepage&amp;sz=300x250&amp;c=2028118507&amp;t=pos%3Dright%26artid%3D/ejhg">
+            <img data-test="gpt-advert-fallback-img"
+                 src="//pubads.g.doubleclick.net/gampad/ad?iu=/285/ejhg.nature.com/homepage&amp;sz=300x250&amp;c=2028118507&amp;t=pos%3Dright%26artid%3D/ejhg"
+                 alt="Advertisement"
+                 width="300"
+                 height="250"/>
+        </a>
+    </noscript>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+        
+    
+        <section class="u-mb-48" data-track-component="trending altmetric">
+            <div class="u-container">
+                <div class="c-slice-heading">
+                    <h2>Trending - Altmetric</h2>
+                </div>
+                <ul class="app-trending-row">
+                    
+                        <li class="app-trending-row__item">
+                            <article itemscope="" itemtype="http://schema.org/Article">
+                                <a href="http://dx.doi.org/10.1038/s41431-021-00882-1"
+                                   class="app-trending-row__link"
+                                   itemprop="url"
+                                   data-track="click" data-track-action="view article" data-track-label="link">
+                                    <img src="https://badges.altmetric.com/?size&#x3D;64&amp;score&#x3D;36&amp;types&#x3D;rttttttt"
+                                         alt="Score 36"
+                                         class="u-mb-8" width="55" height="55" itemprop="image">
+                                    <h3 class="u-ma-0 u-h4" itemprop="name headline">
+                                        Toward the diagnosis of rare childhood genetic diseases: what do parents value most?
+                                    </h3>
+                                </a>
+                            </article>
+                        </li>
+                    
+                        <li class="app-trending-row__item">
+                            <article itemscope="" itemtype="http://schema.org/Article">
+                                <a href="http://dx.doi.org/10.1038/ejhg.2016.74"
+                                   class="app-trending-row__link"
+                                   itemprop="url"
+                                   data-track="click" data-track-action="view article" data-track-label="link">
+                                    <img src="https://badges.altmetric.com/?size&#x3D;64&amp;score&#x3D;23&amp;types&#x3D;mmmbtttt"
+                                         alt="Score 23"
+                                         class="u-mb-8" width="55" height="55" itemprop="image">
+                                    <h3 class="u-ma-0 u-h4" itemprop="name headline">
+                                        A novel neurodevelopmental disorder associated with compound heterozygous variants in the huntingtin gene
+                                    </h3>
+                                </a>
+                            </article>
+                        </li>
+                    
+                        <li class="app-trending-row__item">
+                            <article itemscope="" itemtype="http://schema.org/Article">
+                                <a href="http://dx.doi.org/10.1038/s41431-021-00894-x"
+                                   class="app-trending-row__link"
+                                   itemprop="url"
+                                   data-track="click" data-track-action="view article" data-track-label="link">
+                                    <img src="https://badges.altmetric.com/?size&#x3D;64&amp;score&#x3D;21&amp;types&#x3D;tttttttt"
+                                         alt="Score 21"
+                                         class="u-mb-8" width="55" height="55" itemprop="image">
+                                    <h3 class="u-ma-0 u-h4" itemprop="name headline">
+                                        Speech and language deficits are central to SETBP1 haploinsufficiency disorder
+                                    </h3>
+                                </a>
+                            </article>
+                        </li>
+                    
+                        <li class="app-trending-row__item">
+                            <article itemscope="" itemtype="http://schema.org/Article">
+                                <a href="http://dx.doi.org/10.1038/s41431-021-00892-z"
+                                   class="app-trending-row__link"
+                                   itemprop="url"
+                                   data-track="click" data-track-action="view article" data-track-label="link">
+                                    <img src="https://badges.altmetric.com/?size&#x3D;64&amp;score&#x3D;8&amp;types&#x3D;tttttttt"
+                                         alt="Score 8"
+                                         class="u-mb-8" width="55" height="55" itemprop="image">
+                                    <h3 class="u-ma-0 u-h4" itemprop="name headline">
+                                        Identifying challenges in neurofibromatosis: a modified Delphi procedure
+                                    </h3>
+                                </a>
+                            </article>
+                        </li>
+                    
+                </ul>
+            </div>
+        </section>
+    
+
+    
+</div>
+
+
+
+
+
+
+    
+        <nav class="u-hide-print c-header-expander" aria-labelledby="Explore-content" data-test="Explore-content" id="explore" data-track-component="nature-150-split-header">
+            <div class="c-header-expander__container">
+                <h2 id="Explore-content" class="c-header-expander__heading u-js-hide">Explore content</h2>
+                <ul class="c-header-expander__list">
+                    
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/ejhg/research-articles"
+                                   data-track="click"
+                                   data-track-action="research articles"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Research articles
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/ejhg/reviews-and-analysis"
+                                   data-track="click"
+                                   data-track-action="reviews &amp; analysis"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Reviews &amp; Analysis
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/ejhg/news-and-comment"
+                                   data-track="click"
+                                   data-track-action="news &amp; comment"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    News &amp; Comment
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/ejhg/current-issue"
+                                   data-track="click"
+                                   data-track-action="current issue"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Current issue
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/ejhg/collections"
+                                   data-track="click"
+                                   data-track-action="collections"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Collections
+                                </a>
+                            </li>
+                        
+                    
+                    
+                    
+                        <li class="c-header-expander__item c-header-expander__item--keyline c-header-expander__item--keyline-first-item-only">
+                            <a class="c-header-expander__link"
+                               href="https://twitter.com/ejhg_journal"
+                               data-track="click"
+                               data-track-action="twitter"
+                               data-track-label="link">Follow us on Twitter
+                            </a>
+                        </li>
+                    
+                    
+                    
+                        <li class="c-header-expander__item c-header-expander__item--keyline c-header-expander__item--keyline-first-item-only u-hide-at-lg">
+                            <a class="c-header-expander__link"
+                               href="https://www.nature.com/my-account/alerts/subscribe-journal?list-id&#x3D;35"
+                               rel="nofollow"
+                               data-track="click"
+                               data-track-action="Sign up for alerts"
+                               data-track-external
+                               data-track-label="link (mobile dropdown)">Sign up for alerts<svg role="img" aria-hidden="true" focusable="false" height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m4 10h2.5c.27614237 0 .5.2238576.5.5s-.22385763.5-.5.5h-3.08578644l-1.12132034 1.1213203c-.18753638.1875364-.29289322.4418903-.29289322.7071068v.1715729h14v-.1715729c0-.2652165-.1053568-.5195704-.2928932-.7071068l-1.7071068-1.7071067v-3.4142136c0-2.76142375-2.2385763-5-5-5-2.76142375 0-5 2.23857625-5 5zm3 4c0 1.1045695.8954305 2 2 2s2-.8954305 2-2zm-5 0c-.55228475 0-1-.4477153-1-1v-.1715729c0-.530433.21071368-1.0391408.58578644-1.4142135l1.41421356-1.4142136v-3c0-3.3137085 2.6862915-6 6-6s6 2.6862915 6 6v3l1.4142136 1.4142136c.3750727.3750727.5857864.8837805.5857864 1.4142135v.1715729c0 .5522847-.4477153 1-1 1h-4c0 1.6568542-1.3431458 3-3 3-1.65685425 0-3-1.3431458-3-3z" fill="#fff"/></svg>
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="c-header-expander__item c-header-expander__item--keyline c-header-expander__item--keyline-first-item-only u-hide-at-lg">
+                            <a class="c-header-expander__link"
+                               href="http://feeds.nature.com/ejhg/rss/current"
+                               data-track="click"
+                               data-track-action="rss feed"
+                               data-track-label="link">
+                                <span>RSS feed</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    
+
+    
+        <nav class="u-hide-print c-header-expander" aria-labelledby="Journal-information" id="journal-info" data-track-component="nature-150-split-header">
+            <div class="c-header-expander__container">
+                <h2 id="Journal-information" class="c-header-expander__heading u-js-hide">Journal information</h2>
+                <ul class="c-header-expander__list">
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/ejhg/about"
+                               data-track="click"
+                               data-track-action="about the journal"
+                               data-track-label="link">
+                                About the Journal
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/ejhg/editors"
+                               data-track="click"
+                               data-track-action="about the editors"
+                               data-track-label="link">
+                                About the Editors
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/ejhg/partner"
+                               data-track="click"
+                               data-track-action="about the partner"
+                               data-track-label="link">
+                                About the Partner
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/ejhg/contact"
+                               data-track="click"
+                               data-track-action="contact"
+                               data-track-label="link">
+                                Contact
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/ejhg/advertising"
+                               data-track="click"
+                               data-track-action="for advertisers"
+                               data-track-label="link">
+                                For Advertisers
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/ejhg/subscribe"
+                               data-track="click"
+                               data-track-action="subscribe"
+                               data-track-label="link">
+                                Subscribe
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    
+
+    
+        <nav class="u-hide-print c-header-expander" aria-labelledby="Publish-with-us-label" id="publish-with-us" data-track-component="nature-150-split-header">
+            <div class="c-header-expander__container">
+                <h2 id="Publish-with-us-label" class="c-header-expander__heading u-js-hide">Publish with us</h2>
+                <ul class="c-header-expander__list">
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/ejhg/authors-and-referees"
+                               data-track="click"
+                               data-track-action="for authors &amp; referees"
+                               data-track-label="link">
+                                For Authors &amp; Referees
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="c-header-expander__item c-header-expander__item--keyline">
+                            <a class="c-header-expander__link"
+                               href="https://mts-ejhg.nature.com/cgi-bin/main.plex"
+                               data-track="click"
+                               data-track-action="Submit manuscript"
+                               data-track-label="link"
+                               data-track-external>Submit manuscript<svg role="img" aria-hidden="true" focusable="false" height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m15 0c1.1045695 0 2 .8954305 2 2v5.5c0 .27614237-.2238576.5-.5.5s-.5-.22385763-.5-.5v-5.5c0-.51283584-.3860402-.93550716-.8833789-.99327227l-.1166211-.00672773h-9v3c0 1.1045695-.8954305 2-2 2h-3v10c0 .5128358.38604019.9355072.88337887.9932723l.11662113.0067277h7.5c.27614237 0 .5.2238576.5.5s-.22385763.5-.5.5h-7.5c-1.1045695 0-2-.8954305-2-2v-10.17157288c0-.53043297.21071368-1.0391408.58578644-1.41421356l3.82842712-3.82842712c.37507276-.37507276.88378059-.58578644 1.41421356-.58578644zm-.5442863 8.18867991 3.3545404 3.35454039c.2508994.2508994.2538696.6596433.0035959.909917-.2429543.2429542-.6561449.2462671-.9065387-.0089489l-2.2609825-2.3045251.0010427 7.2231989c0 .3569916-.2898381.6371378-.6473715.6371378-.3470771 0-.6473715-.2852563-.6473715-.6371378l-.0010428-7.2231995-2.2611222 2.3046654c-.2531661.2580415-.6562868.2592444-.9065605.0089707-.24295423-.2429542-.24865597-.6576651.0036132-.9099343l3.3546673-3.35466731c.2509089-.25090888.6612706-.25227691.9135302-.00001728zm-.9557137-3.18867991c.2761424 0 .5.22385763.5.5s-.2238576.5-.5.5h-6c-.27614237 0-.5-.22385763-.5-.5s.22385763-.5.5-.5zm-8.5-3.587-3.587 3.587h2.587c.55228475 0 1-.44771525 1-1zm8.5 1.587c.2761424 0 .5.22385763.5.5s-.2238576.5-.5.5h-6c-.27614237 0-.5-.22385763-.5-.5s.22385763-.5.5-.5z" fill="#fff"/></svg>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    
+
+
+<div id="search-menu" class="c-header-expander c-header-expander--tray u-hide-print" data-track-component="nature-150-split-header">
+    <div class="c-header-expander__container">
+        <h2 class="u-visually-hidden">Search</h2>
+        <div data-test="inline-search">
+            <div class="c-search u-mb-16">
+                <form action="/search"
+                      method="get"
+                      role="search"
+                      class="c-header-expander__form"
+                      autocomplete="off"
+                      data-dynamic-track-label
+                      data-track="submit" data-track-action="search" data-track-label="form">
+                    <label class="c-header-expander__heading u-mb-8" for="keywords">Search articles by subject, keyword or author</label>
+                    <div class="c-search__field">
+                        <div class="c-search__input-container">
+                            <input type="text"
+                               required
+                               class="c-search__input"
+                               id="keywords"
+                               name="q"
+                               value=""
+                               data-test="search-keywords">
+                        </div>
+
+                        <div class="c-search__select-container">
+                            <label for="results-from" class="u-visually-hidden">Show results from</label>
+                            <select id="results-from" name="journal" class="c-search__select">
+                                
+                                    
+                                        <option value="" selected>All journals</option>
+                                        <option value="ejhg">This journal</option>
+                                    
+                                
+                            </select>
+                        </div>
+                        <div class="c-search__button-container">
+                            <button type="submit" class="u-button u-button--primary u-button--full-width" data-test="search-submit">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="c-header-expander__keyline u-mb-16">
+            <p class="u-ma-0">
+                <a href="/search/advanced"
+                   data-track="click" data-track-action="advanced search" data-track-label="link">
+                    Advanced search
+                </a>
+            </p>
+        </div>
+        <h3 class="c-header-expander__heading">Quick links</h3>
+        <ul class="u-list-reset">
+            <li class="u-display-inline-block u-mr-24 u-mb-16"><a href="/subjects" data-track="click" data-track-action="explore articles by subject" data-track-label="link">Explore articles by subject</a></li>
+            <li class="u-display-inline-block u-mr-24 u-mb-16"><a href="/naturecareers" data-track="click" data-track-action="find a job" data-track-label="link">Find a job</a></li>
+            <li class="u-display-inline-block u-mr-24 u-mb-16"><a href="/authors/index.html" data-track="click" data-track-action="guide to authors" data-track-label="link">Guide to authors</a></li>
+            <li class="u-display-inline-block u-mr-24 u-mb-16"><a href="/authors/editorial_policies/" data-track="click" data-track-action="editorial policies" data-track-label="link">Editorial policies</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer role="contentinfo" class="composite-layer">
+    
+        <div class="u-mt-16 u-mb-16">
+    <div class="u-container">
+        
+
+    <p class="c-meta u-ma-0">
+        Top headline image: BlackJack3D
+    </p>
+
+
+    </div>
+</div>
+
+    
+    <div class="u-mt-16 u-mb-16">
+    <div class="u-container">
+        <div class="u-display-flex u-flex-wrap u-justify-content-space-between">
+            
+    
+
+
+
+
+            <p class="c-meta u-ma-0 u-flex-shrink">
+                <span class="c-meta__item" itemprop="name">
+                    European Journal of Human Genetics
+                </span>
+                <span class="c-meta__item">
+                    <abbr title="International Standard Serial Number">ISSN</abbr> <span itemprop="issn">1476-5438</span> (online)
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+    <div itemscope itemtype="http://schema.org/Periodical">
+        <meta itemprop="publisher" content="Springer Nature">
+        <div class="c-footer">
+            <div class="u-container">
+                <div class="u-hide-print" data-track-component="footer">
+    <h2 aria-level="2" class="u-visually-hidden">nature.com sitemap</h2>
+    <div class="c-footer__header">
+        <div class="c-footer__logo">
+            <img alt="Nature portfolio" src="/static/images/logos/nature-portfolio-white.7caca87447.svg" loading="lazy" width="200" height="31">
+        </div>
+        <ul class="c-menu c-menu--inherit u-mr-32">
+            <li class="c-menu__item"><a class="c-menu__link" href="https://www.nature.com/npg_/company_info/index.html" data-track="click" data-track-action="about us" data-track-label="link">About us</a></li>
+            <li class="c-menu__item"><a class="c-menu__link" href="https://www.nature.com/npg_/press_room/press_releases.html" data-track="click" data-track-action="press releases" data-track-label="link">Press releases</a></li>
+            <li class="c-menu__item"><a class="c-menu__link" href="https://press.nature.com/" data-track="click" data-track-action="press office" data-track-label="link">Press office</a></li>
+            <li class="c-menu__item"><a class="c-menu__link" href="https://support.nature.com/support/home" data-track="click" data-track-action="contact us" data-track-label="link">Contact us</a></li>
+        </ul>
+        <ul class="c-menu c-menu--inherit">
+            <li class="c-menu__item">
+                <a class="c-menu__link" href="https://www.facebook.com/nature/" aria-label="Facebook" data-track="click" data-track-action="facebook" data-track-label="link">
+                    <svg class="u-icon u-mt-2 u-mb-2" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20"><path d="M2.5 20C1.1 20 0 18.9 0 17.5v-15C0 1.1 1.1 0 2.5 0h15C18.9 0 20 1.1 20 2.5v15c0 1.4-1.1 2.5-2.5 2.5h-3.7v-7.7h2.6l.4-3h-3v-2c0-.9.2-1.5 1.5-1.5h1.6V3.1c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H8.1v3h2.6V20H2.5z"/></svg>
+                </a>
+            </li>
+            <li class="c-menu__item">
+                <a class="c-menu__link" href="https://twitter.com/nresearchnews?lang=en" aria-label="Twitter" data-track="click" data-track-action="twitter" data-track-label="link">
+                    <svg class="u-icon" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M17.6 4.1c.8-.5 1.5-1.4 1.8-2.4-.8.5-1.7.9-2.6 1-.7-.8-1.8-1.4-3-1.4-2.3 0-4.1 1.9-4.1 4.3 0 .3 0 .7.1 1-3.4 0-6.4-1.8-8.4-4.4C1 2.9.8 3.6.8 4.4c0 1.5.7 2.8 1.8 3.6C2 8 1.4 7.8.8 7.5v.1c0 2.1 1.4 3.8 3.3 4.2-.3.1-.7.2-1.1.2-.3 0-.5 0-.8-.1.5 1.7 2 3 3.8 3-1.3 1.1-3.1 1.8-5 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9C13.8 18.6 18 12 18 6.3v-.6c.8-.6 1.5-1.4 2-2.2-.7.3-1.5.5-2.4.6z"/></svg>
+                </a>
+            </li>
+            <li class="c-menu__item">
+                <a class="c-menu__link" href="https://www.youtube.com/channel/UCvCLdSgYdSTpWcOgEJgi-ng" aria-label="YouTube" data-track="click" data-track-action="youtube" data-track-label="link">
+                    <svg class="u-icon" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M7.9 12.6V6.9l5.4 2.8c0 .1-5.4 2.9-5.4 2.9zM19.8 6s-.2-1.4-.8-2c-.8-.8-1.6-.8-2-.9-2.8-.2-7-.2-7-.2s-4.2 0-7 .2c-.4 0-1.2 0-2 .9-.6.6-.8 2-.8 2S0 7.6 0 9.2v1.5c0 1.7.2 3.3.2 3.3s.2 1.4.8 2c.8.8 1.8.8 2.2.9 1.6.1 6.8.2 6.8.2s4.2 0 7-.2c.4 0 1.2-.1 2-.9.6-.6.8-2 .8-2s.2-1.6.2-3.3V9.2c0-1.6-.2-3.2-.2-3.2z"/></svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="c-footer__grid">
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Discover content</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/siteindex" data-track="click" data-track-action="journals a-z" data-track-label="link">Journals A-Z</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/subjects/" data-track="click" data-track-action="article by subject" data-track-label="link">Articles by subject</a></li>
+                <li class="c-footer__item"><a href="https://nano.nature.com/" data-track="click" data-track-action="nano" data-track-label="link">Nano</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/protocolexchange/" data-track="click" data-track-action="protocol exchange" data-track-label="link">Protocol Exchange</a></li>
+                <li class="c-footer__item"><a href="https://www.natureindex.com/" data-track="click" data-track-action="nature index" data-track-label="link">Nature Index</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Publishing policies</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/authors/editorial_policies/" data-track="click" data-track-action="Nature portfolio policies" data-track-label="link">Nature portfolio policies</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/nature-research/open-access" data-track="click" data-track-action="open access" data-track-label="link">Open access</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Author &amp; Researcher services</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/reprints/" data-track="click" data-track-action="reprints and permissions" data-track-label="link">Reprints &amp; permissions</a></li>
+                <li class="c-footer__item"><a href="https://www.springernature.com/gp/authors/research-data" data-track="click" data-track-action="data research service" data-track-label="link">Research data</a></li>
+                <li class="c-footer__item"><a href="https://authorservices.springernature.com/go/nr" data-track="click" data-track-action="language editing" data-track-label="link">Language editing</a></li>
+                <li class="c-footer__item"><a href="https://authorservices.springernature.com/scientific-editing/" data-track="click" data-track-action="scientific editing" data-track-label="link">Scientific editing</a></li>
+                <li class="c-footer__item"><a href="https://masterclasses.nature.com/" data-track="click" data-track-action="nature masterclasses" data-track-label="link">Nature Masterclasses</a></li>
+                <li class="c-footer__item"><a href="https://partnerships.nature.com/product/researcher-training/" data-track="click" data-track-action="nature research academies" data-track-label="link">Nature Research Academies</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Libraries &amp; institutions</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.springernature.com/gp/librarians/tools-services" data-track="click" data-track-action="librarian service and tools" data-track-label="link">Librarian service &amp; tools</a></li>
+                <li class="c-footer__item"><a href="https://www.springernature.com/gp/librarians/manage-your-account/librarianportal" data-track="click" data-track-action="librarian portal" data-track-label="link">Librarian portal</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/openresearch/about-open-access/information-for-institutions/" data-track="click" data-track-action="open research" data-track-label="link">Open research</a></li>
+                <li class="c-footer__item"><a href="https://www.springernature.com/gp/librarians/recommend-to-your-library" data-track="click" data-track-action="Recommend to library" data-track-label="link">Recommend to library</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Advertising &amp; partnerships</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://partnerships.nature.com/product/digital-advertising/" data-track="click" data-track-action="advertising" data-track-label="link">Advertising</a></li>
+                <li class="c-footer__item"><a href="https://partnerships.nature.com/" data-track="click" data-track-action="partnerships and services" data-track-label="link">Partnerships &amp; Services</a></li>
+                <li class="c-footer__item"><a href="https://partnerships.nature.com/media-kits/" data-track="click" data-track-action="media kits" data-track-label="link">Media kits</a></li>
+                <li class="c-footer__item"><a href="https://partnerships.nature.com/product/branded-content-native-advertising/" data-track-action="branded content" data-track-label="link">Branded content</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Career development</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/naturecareers" data-track="click" data-track-action="nature careers" data-track-label="link">Nature Careers</a></li>
+                <li class="c-footer__item"><a href="https://conferences.nature.com" data-track="click" data-track-action="nature conferences" data-track-label="link">Nature<span class="u-visually-hidden"> </span> Conferences</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/natureevents/" data-track="click" data-track-action="nature events" data-track-label="link">Nature<span class="u-visually-hidden"> </span> events</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Regional websites</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/natafrica" data-track="click" data-track-action="nature africa" data-track-label="link">Nature Africa</a></li>
+                <li class="c-footer__item"><a href="http://www.naturechina.com" data-track="click" data-track-action="nature china" data-track-label="link">Nature China</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/nindia" data-track="click" data-track-action="nature india" data-track-label="link">Nature India</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/natitaly" data-track="click" data-track-action="nature Italy" data-track-label="link">Nature Italy</a></li>
+                <li class="c-footer__item"><a href="https://www.natureasia.com/ja-jp/" data-track="click" data-track-action="nature japan" data-track-label="link">Nature Japan</a></li>
+                <li class="c-footer__item"><a href="https://www.natureasia.com/ko-kr/" data-track="click" data-track-action="nature korea" data-track-label="link">Nature Korea</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/nmiddleeast/" data-track="click" data-track-action="nature middle east" data-track-label="link">Nature Middle East</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Legal &amp; Privacy</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/info/privacy" data-track="click" data-track-action="privacy policy" data-track-label="link">Privacy Policy</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/info/cookies" data-track="click" data-track-action="use of cookies" data-track-label="link">Use of cookies</a></li>
+                <li class="c-footer__item"><a class="optanon-toggle-display" href="javascript:;" data-track="click" data-track-action="manage cookies" data-track-label="link">Manage cookies/Do not sell my data</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/info/legal-notice" data-track="click" data-track-action="legal notice" data-track-label="link">Legal notice</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/info/accessibility-statement" data-track="click" data-track-action="accessibility statement" data-track-label="link">Accessibility statement</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/info/terms-and-conditions" data-track="click" data-track-action="terms and conditions" data-track-label="link">Terms &amp; Conditions</a></li>
+                <li class="c-footer__item"><a href="https://www.springernature.com/ccpa" data-track="click" data-track-action="california privacy statement" data-track-label="link">California Privacy Statement</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="c-corporate-footer">
+    <div class="u-container">
+        <img src="/static/images/logos/sn-logo-white.ea63208b81.svg" alt="Springer Nature" loading="lazy" width="140" height="14"/>
+        <p class="c-corporate-footer__legal" data-test="copyright">&copy; 2021 Springer Nature Limited</p>
+    </div>
+</div>
+
+    
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 22 22">
+            <path fill-rule="evenodd" d="M21.697 20.261a1.028 1.028 0 01.01 1.448 1.034 1.034 0 01-1.448-.01l-4.267-4.267A9.812 9.811 0 010 9.812a9.812 9.811 0 1117.43 6.182zM9.812 18.222A8.41 8.41 0 109.81 1.403a8.41 8.41 0 000 16.82z"/>
+        </symbol>
+        <symbol id="icon-info" viewBox="0 0 18 18">
+            <path d="m9 0c4.9705627 0 9 4.02943725 9 9 0 4.9705627-4.0294373 9-9 9-4.97056275 0-9-4.0294373-9-9 0-4.97056275 4.02943725-9 9-9zm0 7h-1.5l-.11662113.00672773c-.49733868.05776511-.88337887.48043643-.88337887.99327227 0 .47338693.32893365.86994729.77070917.97358929l.1126697.01968298.11662113.00672773h.5v3h-.5l-.11662113.0067277c-.42082504.0488782-.76196299.3590206-.85696816.7639815l-.01968298.1126697-.00672773.1166211.00672773.1166211c.04887817.4208251.35902055.761963.76398144.8569682l.1126697.019683.11662113.0067277h3l.1166211-.0067277c.4973387-.0577651.8833789-.4804365.8833789-.9932723 0-.4733869-.3289337-.8699473-.7707092-.9735893l-.1126697-.019683-.1166211-.0067277h-.5v-4l-.00672773-.11662113c-.04887817-.42082504-.35902055-.76196299-.76398144-.85696816l-.1126697-.01968298zm0-3.25c-.69035594 0-1.25.55964406-1.25 1.25s.55964406 1.25 1.25 1.25 1.25-.55964406 1.25-1.25-.55964406-1.25-1.25-1.25z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-success" viewBox="0 0 18 18">
+            <path d="M9 0a9 9 0 110 18A9 9 0 019 0zm3.486 4.982l-4.718 5.506L5.14 8.465a.991.991 0 00-1.423.133 1.06 1.06 0 00.13 1.463l3.407 2.733a1 1 0 001.387-.133l5.385-6.334a1.06 1.06 0 00-.116-1.464.991.991 0 00-1.424.119z" fill-rule="evenodd"/>\
+        </symbol>
+        <symbol id="icon-chevron-down" viewBox="0 0 16 16">
+            <path d="m5.58578644 3-3.29289322-3.29289322c-.39052429-.39052429-.39052429-1.02368927 0-1.41421356s1.02368927-.39052429 1.41421356 0l4 4c.39052429.39052429.39052429 1.02368927 0 1.41421356l-4 4c-.39052429.39052429-1.02368927.39052429-1.41421356 0s-.39052429-1.02368927 0-1.41421356z" fill-rule="evenodd" transform="matrix(0 1 -1 0 11 1)"/>
+        </symbol>
+    </svg>
+
+</footer>
+
+ 
+        
+    
+    <script data-test="idp-callback">
+        var backHalf = false;
+        var doi = false;
+        var distractionFreeSelector = null;
+        var mainParentSelector = document.querySelector('.js-main-column');
+        var prependAccessMessageTo = 'div.distractionFree';
+        var accessMessage = null;
+
+        var idp = {
+            institutionalLogin: function (names) {
+                if (names.length && doi) {
+                    if (mainParentSelector) {
+                        accessMessage = document.createElement('div');
+                        if (backHalf) {
+                            accessMessage.innerHTML = '<p style="transform: translateY(-5px)" class="block mb0 pb4 pt6 text-gray-light text13 text-center">Access provided by ' + names[0] + '</p>';
+                            distractionFreeSelector = document.querySelector(prependAccessMessageTo);
+
+                            if (distractionFreeSelector) {
+                                distractionFreeSelector.classList.remove('visually-hidden');
+                                distractionFreeSelector.prepend(accessMessage);
+                            }                            
+                        } else {
+                            accessMessage.innerHTML = '<p style="transform: translateY(-5px)" class="text14 block mb0 pb10 text-center">Access provided by ' + names[0] + '</p>';
+                            mainParentSelector.prepend(accessMessage);
+                        }
+                    }
+                }
+            },
+            // to be moved potentially and handled by either a component itself, or as part of the header component. TBD
+            hasNatureUserProof: function (hasProof) {
+                if (!hasProof) {
+                    document.getElementById("my-account").setAttribute("style", "display: none;");
+                    document.getElementById("login-button").setAttribute("style", "");
+                }
+            }
+        }
+    </script>
+    <script src="https://verify.nature.com/verify/nature.min.js"></script>
+
+
+
+<noscript>
+    <img hidden src="https://verify.nature.com/verify/nature.png" border="0" width="0" height="0" style="display: none" alt="">
+</noscript>
+
+
+
+</body>
+</html>

@@ -6,7 +6,7 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-from data.constants import SCRAPED_DATA_FILE_PATH
+from data.data import SCRAPED_DATA_FILE_PATH
 from data.scrape.fields import FIELDS
 
 

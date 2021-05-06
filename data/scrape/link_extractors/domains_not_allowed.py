@@ -25,8 +25,6 @@ DENIED_DOMAINS.extend(
         "authors.bmj.com/",
         "springer.com/gp/authors-editors",
         "elsevier.com/about/policies",
-        "academic.oup.com/journals",
         "biomedcentral.com/getpublished",
-        "cambridge.org/core",
     ]
 )

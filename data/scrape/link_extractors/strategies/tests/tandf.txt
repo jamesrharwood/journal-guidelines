@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en" class="pb-page" data-request-id="d392106b-c289-42f2-8f60-82270bf5591c"><head data-pb-dropzone="head"><meta name="pbContext" content=";journal:journal:gacr20;requestedJournal:journal:gacr20;page:string:List of Issues;ctype:string:Journal Content;wgroup:string:Publication Websites;website:website:TFOPB;pageGroup:string:Publication Pages" />
+<title>List of issues Accountability in Research</title>
+<meta name="description" content="Browse the list of issues and latest articles from Accountability in Research">
+<meta charset="UTF-8">
+<meta name="robots" content="noarchive" />
+<meta name="pb-robots-disabled">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<script>var tandfData={"search":{"hasOpenAccess":true,"hasMostCited":true,"hasMostRecent":true,"hasMostRead":true},"seamlessAccess":{"apiUrl":"https://service.seamlessaccess.org/ps/","context":"seamlessaccess.org"},"identity":{"isSpv":false,"isAuthenticated":false},"pubCount":{}};</script>
+<link href="//connect.facebook.net" rel="preconnect" />
+<link href="//go.taylorandfrancis.com" rel="preconnect" />
+<link href="//pi.pardot.com" rel="preconnect" />
+<link href="//static.hotjar.com" rel="preconnect" />
+<link href="//cdn.pbgrd.com" rel="preconnect" />
+<link href="//f1-eu.readspeaker.com" rel="preconnect" />
+<link href="//www.googleadservices.com" rel="preconnect" />
+<link href="https://m.addthis.com" rel="preconnect" />
+<link href="https://wl.figshare.com" rel="preconnect" />
+<link href="https://pagead2.googlesyndication.com" rel="preconnect" />
+<link href="https://www.googletagmanager.com" rel="preconnect" />
+<link href="https://www.google-analytics.com" rel="preconnect" />
+<link href="https://fonts.google.com" rel="preconnect" />
+<link rel="preload" as="font" href="/templates/jsp/css/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" as="font" href="/templates/jsp/_style2/_tandf/pb2/fonts/icomoon/icomoon.woff?g276mb" type="font/woff" crossorigin="anonymous">
+<link type="text/css" rel="stylesheet" href="/wro/k89k~product.css">
+<link rel="stylesheet" type="text/css" href="/pb/css/t1620204326000-v1620204326000/head_4_698_1485_2522_en.css" id="pb-css" data-pb-css-id="t1620204326000-v1620204326000/head_4_698_1485_2522_en.css" />
+<script type="text/javascript" src="//cdn.pbgrd.com/core-tandf.js" async></script>
+<script data-ad-client="ca-pub-5143040550582507" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:864760,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<script>var _prum=[['id','54ff88bcabe53dc41d1004a5'],['mark','firstbyte',(new Date()).getTime()]];(function(){var s=document.getElementsByTagName('script')[0],p=document.createElement('script');p.async='async';p.src='//rum-static.pingdom.net/prum.min.js';s.parentNode.insertBefore(p,s);})();</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="canonical" href="https://www.tandfonline.com/loi/gacr20">
+</head>
+<body class="pb-ui">
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W2RHRDH');</script>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2RHRDH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<script type="text/javascript" src="/wro/k89k~jquery-3.5.0.js"></script>
+<div id="pb-page-content" data-ng-non-bindable>
+<div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+<div class="widget pageHeader none  widget-none  widget-compact-all" id="a4d4fdd3-c594-4d68-9f06-b69b8b37ed56">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><header class="page-header">
+<div data-pb-dropzone="main">
+<div class="widget responsive-layout none header-top widget-none  widget-compact-all" id="036fa949-dc25-4ffe-9df0-d7daefee281b">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container">
+<div class="row row-xs  ">
+<div class="col-xs-1-6 header-index">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget general-image alignLeft header-logo hidden-xs widget-none  widget-compact-horizontal" id="e817489e-2520-418b-a731-b62e247e74df">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-horizontal"><a href="/" title="Taylor and Francis Online">
+<img src="/pb-assets/Global/tfo_logo-1444989687640.png" alt="Taylor and Francis Online" />
+</a></div>
+</div>
+</div>
+<div class="widget general-image none header-logo hidden-sm hidden-md hidden-lg widget-none  widget-compact-horizontal" id="b3fe8380-8b88-4558-b004-6485d3aea155">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-horizontal"><a href="/">
+<img src="/pb-assets/Global/tfo_logo_sm-1459688573210.png" />
+</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-5-6 ">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget layout-inline-content alignRight  widget-none  widget-compact-all" id="a8a37801-55c7-4566-bdef-e4e738967e38">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="inline-dropzone" data-pb-dropzone="content">
+<div class="widget layout-inline-content none customLoginBar widget-none" id="fbe90803-b9c8-4bef-9365-cb53cc4bfa0e">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="inline-dropzone" data-pb-dropzone="content">
+<div class="widget literatumInstitutionBanner none bannerWidth widget-none" id="3ff4d9f6-0fd0-44d0-89cd-6b16c5bb33ba">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="institution-image hidden-xs logout-institution-image">
+</div></div>
+</div>
+</div>
+<div class="widget literatumNavigationLoginBar none  widget-none  widget-compact-all" id="1d69ec8f-0b13-42ca-bc6d-f5a385caf8c4">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="loginBar not-logged-in">
+<span class="icon-user"></span>
+<a href="/action/showLogin?uri=%2Floi%2Fgacr20" class="sign-in-link">
+Log in
+</a>
+<span class="loginSeprator">&nbsp;|&nbsp;</span>
+<a href="/action/registration?redirectUri=%2F" class="register-link">
+Register
+</a>
+</div></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget eCommerceCartIndicatorWidget none literatumCartLink widget-none" id="9de10bb5-08af-48bc-b9f6-3f6433229f3e">
+<div class="wrapped ">
+<div class="widget-body body body-none "><a href="/action/showCart?FlowID=1" class="cartLabel">
+<span class="hidden-xs hidden-sm visible-tl-inline-block">Cart</span>
+<span class="cartItems" data-id="cart-size" role="status">
+</span>
+</a></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget responsive-layout none breadcrumbs-container widget-none  widget-compact-all" id="64c16283-4b04-4d90-ac0f-4db85fcd0cf5">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container">
+<div class="row row-md  ">
+<div class="col-md-1-1 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget literatumBreadcrumbs none breadcrumbs-widget widget-none  widget-compact-all" id="b1c121c1-cbbd-4241-8774-7120f3a783e8">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all">
+<nav aria-label="Breadcrumb">
+<ol class="breadcrumbs">
+<li class="">
+<a href="/" class="bc-click">
+Home
+</a>
+</li>
+<li class="">
+<a href="/action/showPublications?pubType=journal" class="bc-click">
+All Journals
+</a>
+</li>
+<li class="">
+<a href="/gacr20" class="bc-click">
+Accountability in Research
+</a>
+</li>
+<li class="">
+<a href="#" class="bc-click" aria-current="page">
+List of Issues
+</a>
+</li>
+</ol>
+</nav>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement":
+        [{
+            "@type": "ListItem",
+            "position": "1",
+            "name": "Home"
+            ,"item": "https://www.tandfonline.com/"
+        },
+        {
+            "@type": "ListItem",
+            "position": "2",
+            "name": "All Journals"
+            ,"item": "https://www.tandfonline.com/action/showPublications?pubType=journal"
+        },
+        {
+            "@type": "ListItem",
+            "position": "3",
+            "name": "Accountability in Research"
+            ,"item": "https://www.tandfonline.com/gacr20"
+        },
+        {
+            "@type": "ListItem",
+            "position": "4",
+            "name": "List of Issues"
+            
+        }
+        ]
+    }
+</script></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</header></div>
+</div>
+</div>
+<div class="widget pageBody none st-journal more-pages widget-none  widget-compact-all" id="35d9ca18-265e-4501-9038-4105e95a4b7d">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all">
+<div class="page-body pagefulltext">
+<div data-pb-dropzone="main">
+<div class="widget responsive-layout none publicationSerialHeader nav-sticky-header widget-none  widget-compact-all" id="eaa2e6fb-9edc-49ec-b550-e28b349f79d4">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container">
+<div class="row row-md  ">
+<div class="col-md-1-2 search_container">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget quickSearchWidget none search-customize-width widget-none  widget-compact-all" id="2594b486-36b8-43cd-a87f-11fb3f484212">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="quickSearchFormContainer ">
+<form action="/action/doSearch" name="quickSearch" class="quickSearchForm " title="Quick Search" method="get" onsubmit="appendSearchFilters(this)" aria-label="Quick Search"><span class="simpleSearchBoxContainer">
+<input name="AllField" class="searchText main-search-field autocomplete" value="" type="search" id="searchText" title="Type search term here" aria-label="Search" placeholder="Enter keywords, authors, DOI, ORCID etc" autocomplete="off" data-history-items-conf="3" data-publication-titles-conf="3" data-publication-items-conf="3" data-topics-conf="3" data-contributors-conf="3" data-fuzzy-suggester="false" data-auto-complete-target="title-auto-complete" />
+</span>
+<span class="searchDropDownDivRight">
+<label for="searchInSelector" class="visuallyhidden">Search in:</label>
+<select id="searchInSelector" name="SeriesKey" class="js__searchInSelector">
+<option value="gacr20" id="thisJournal" data-search-in="thisJournal">
+This Journal
+</option>
+<option value="" data-search-in="default">
+Anywhere
+</option>
+</select>
+</span>
+<span class="quick-search-btn">
+<input class="mainSearchButton searchButtons pointer" title="Search" role="button" type="submit" value="" aria-label="Search" />
+</span></form>
+</div>
+<div class="advancedSearchLinkDropZone" data-pb-dropzone="advancedSearchLinkDropZone">
+<div class="widget general-html alignRight hidden-xs_sm widget-none  widget-compact-all" id="515bcfb2-069b-471f-a005-348f8f4e8c8a">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><a href="/search/advanced" class="advSearchArticle">Advanced search</a></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-1-2 serNav_container">
+<div class="contents" data-pb-dropzone="contents1">
+
+<div class="widget general-html none navToTop widget-none" id="084813c0-0a80-49a0-9476-0ae3f5e673ab">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="left-nav hidden">
+<ul>
+<li>
+<a class="home-nav" href="/">
+<img src="/templates/jsp/_style2/_tandf/pb2/images/tandf-sm.png" alt="Taylor & Francis Online">
+</a>
+</li>
+<li>
+<a class="top-nav" onclick="backToTop()"><i class="fa fa-chevron-up" aria-hidden="true"></i>Top</a>
+</li>
+</ul>
+</div></div>
+</div>
+</div>
+<div class="widget literatumSeriesNavigation none journal-info-nav widget-none" id="09fe9d0f-4efc-42d4-b432-5793e07cee09">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="issueSerialNavigation journal">
+<div class="cover">
+<img data-src='{"type":"image" , "src":"/action/showCoverImage?journalCode=gacr20"}' src="//:0" alt="Publication Cover" width="120" height="156" />
+</div>
+<div class="info ">
+<div class="title-container">
+<span class="titleHeading">Journal</span>
+<h1 class="journal-heading">
+<a href="/toc/gacr20/current">
+Accountability in Research
+</a>
+</h1>
+<div class="subtitle">
+<span>
+Policies and Quality Assurance
+</span>
+</div>
+</div>
+<div class="seriesNavDropZone" data-pb-dropzone="seriesNavDropZone">
+<div class="widget layout-inline-content none alertsWidgetBtn widget-none  widget-compact-horizontal" id="5ea88ab2-efa8-468e-b28f-12b760c30869">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-horizontal"><div class="inline-dropzone" data-pb-dropzone="content">
+<div class="widget general-html none serial-btns smooth-mv widget-none  widget-compact-all" id="efd684b8-f39f-4ceb-b7dd-5cdbe5f066eb">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="serial-action">
+<a href="http://mc.manuscriptcentral.com/air" role="button" class="green submitAnArticle"><span>Submit an article</span></a>
+<a href="/toc/gacr20/current" role="button" class="jHomepage"><span>Journal homepage</span></a>
+</div></div>
+</div>
+</div>
+<div class="widget literatumAlertsWidget none  widget-none  widget-compact-all" id="c90e0338-10ec-47cd-8b90-c55385180c8d">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="alertsWidget">
+<div class="alerts-body">
+<span class="boxlink etocAlert" id="etocAlert">
+<a href="/action/doUpdateAlertSettings?action=addJournal&journalCode=gacr20&referrer=%252Floi%252Fgacr20&anti-forgery-token=a5f65ca2-ab93-4fa7-9122-f6a19d6b6081" class="post-link" role="button">
+<i class="fa fa-envelope" aria-hidden="true"></i>
+<span>New content alerts</span>
+</a>
+</span>
+<span class="boxlink rssAlert" id="rssAlert">
+<a href="/feed/rss/gacr20" target="_blank" role="button">
+<i class="fa fa-rss" aria-hidden="true"></i>
+<span>RSS</span>
+</a>
+</span>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget general-html none serial-btns smooth-mv widget-none  widget-compact-all" id="5125dbd9-d78a-4709-a62d-5dffc0b65fa7">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><a href="/pricing/journal/gacr20" role="button" class="green subscribe">Subscribe</a></div>
+</div>
+</div>
+<div class="widget general-html none citationSearchBtn widget-none  widget-compact-all" id="ebbb0b13-14bd-4001-89f2-05c8e817ed32">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><a href="#citationSearchPopup" role="button" class="citationSearchPopup"><span>Citation search</span></a>
+<div id="citationSearchPopup">
+<h2>Citation search</h2>
+<div class="form">
+<input type="text" id="quickLinkVolume" placeholder="Volume" title="Volume">
+<input type="text" id="quickLinkIssue" placeholder="Issue" title="Issue">
+<input type="text" id="quickLinkPage" placeholder="Start page" title="Page">
+<input type="button" value="Search" onclick="submitCitationSearch('gacr20')" title="Search">
+</div>
+</div></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget literatumJournalHeaderLinks none  widget-none  widget-compact-all" id="4371427d-ea64-447a-acc0-4eb48f11d36a">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="journal-header-links">
+<a href="/toc/gacr20/current?nav=tocList" class="toc-link">
+<i class="fa fa-book" aria-hidden="true"></i>Current issue
+</a>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget responsive-layout none  widget-none  widget-compact-all" id="cc50e865-f05e-4ce3-956b-a5ebfe2258fc">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container">
+<div class="row row-md  ">
+<div class="col-md-1-6 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget general-html none journalMenuWidget widget-none  widget-compact-all" id="14c7eae5-9181-41a6-a96f-fe953c00c7ee">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="sub-nav" aria-label="journal menu">
+<div class="title">About this journal</div>
+<ul role="menu">
+<li role="menuitem"><a href="/action/journalInformation?show=journalMetrics&amp;journalCode=gacr20">Journal metrics</a></li>
+<li role="menuitem"><a href="/action/journalInformation?show=aimsScope&amp;journalCode=gacr20">Aims and scope</a></li>
+<li role="menuitem"><a href="/action/authorSubmission?show=instructions&amp;journalCode=gacr20">Instructions for authors</a></li>
+<li role="menuitem"><a href="/action/journalInformation?journalCode=gacr20">Journal information</a></li>
+<li role="menuitem"><a href="/action/journalInformation?show=editorialBoard&amp;journalCode=gacr20">Editorial board</a></li>
+<li role="menuitem"><a href="/action/newsAndOffers?journalCode=gacr20">News &amp; calls for papers</a></li>
+<li role="menuitem"><a href="/servlet/linkout?url=https://www.tandf.co.uk/journals/pdf/T%26F-contextual-advertising.pdf">Advertising information</a></li>
+<li role="menuitem"><a href="https://authorservices.taylorandfrancis.com/editorial-policies">Editorial policies</a></li>
+</ul>
+</div></div>
+</div>
+</div>
+<div class="widget general-html none journalMenuWidget widget-none  widget-compact-all" id="ba4acb28-7ced-4aa9-94e1-8439af07ecd3">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="sub-nav" aria-label="Browse this Journal" role="complementary">
+<div class="title">Browse this journal</div>
+<ul role="menu">
+<li role="menuitem"><a href="/toc/gacr20/current">Current issue</a></li>
+<li role="menuitem"><a href="/loi/gacr20">List of issues</a></li>
+<li role="menuitem" data-context="/action/showAxaArticles" class="explore-list-item">
+<a href="/action/showAxaArticles?journalCode=gacr20">Latest articles</a>
+</li>
+<li role="menuitem" data-context="/action/showOpenAccess" class="explore-list-item">
+<a href="/action/showOpenAccess?journalCode=gacr20">Open access articles</a>
+</li>
+<li role="menuitem" data-context="/action/showMostReadArticles" class="explore-list-item">
+<a href="/action/showMostReadArticles?journalCode=gacr20">Most read articles</a>
+</li>
+<li role="menuitem" data-context="/action/showMostCitedArticles" class="explore-list-item">
+<a href="/action/showMostCitedArticles?journalCode=gacr20">Most cited articles</a>
+</li>
+</ul>
+</div></div>
+</div>
+</div>
+<div class="widget literatumAd alignCenter  widget-none  widget-compact-all" id="a000331e-9835-4c89-af6e-c8d0f1801f3a">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="pb-ad">
+<a href="/action/clickThrough?id=5925&amp;url=%2Fr%2Fsubjectsample-bioscience&amp;loc=%2Floi%2Fgacr20&amp;pubId=40000457&amp;placeholderId=1074&amp;productId=1828"><img src="//:0" width="200" height="85" alt="Sample our Bioscience journals, sign in here to start your access, Latest two full volumes FREE to you for 14 days" data-src="{&quot;type&quot;:&quot;image&quot; , &quot;src&quot; : &quot;/sda/5925/JournalAd-Sample-Our-Journals-Bioscience-PB.gif&quot;}" /> </a>
+</div></div>
+</div>
+</div>
+<div class="widget literatumAd none  widget-none  widget-compact-all" id="1d10dd37-22df-4c87-a1fa-37a77f05fa2b">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="pb-ad">
+<a href="/action/clickThrough?id=110718&amp;url=https%3A%2F%2Ftaylorandfrancis.com%2Fpartnership%2Fcommercial%2Fadvertising-solutions%2F&amp;loc=%2Floi%2Fgacr20&amp;pubId=40000457&amp;placeholderId=101378&amp;productId=106375"> <img src="//:0" width="300" height="250" alt="Advert for advertising in academic journals" data-src="{&quot;type&quot;:&quot;image&quot; , &quot;src&quot; : &quot;/sda/110718/JournalAd_Announce_Target_Audience_2_Education_ONLY_PAID_SW.png&quot;}" /> </a>
+</div></div>
+</div>
+</div>
+<div class="widget literatumAd alignCenter  widget-none  widget-compact-all" id="893616ca-be86-43cf-9f2d-594fc14c76ae">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="pb-ad">
+<a href="/action/clickThrough?id=110755&amp;url=https%3A%2F%2Ftandfeditingservices.com%3Futm_source%3Dbanner%26utm_medium%3Dbanner_ad%26utm_campaign%3DJQE20230&amp;loc=%2Floi%2Fgacr20&amp;pubId=40000457&amp;placeholderId=101373&amp;productId=2078"> <img src="//:0" width="200" height="185" alt="Banner advert for Taylor &amp; Francis Editing Services" data-src="{&quot;type&quot;:&quot;image&quot; , &quot;src&quot; : &quot;/sda/110755/JournalAd_Announce_Editing_Services_Regional_English_SW.jpg&quot;}" /> </a>
+</div></div>
+</div>
+</div>
+<div class="widget literatumAd alignCenter  widget-none  widget-compact-all" id="d919387f-9fda-4fe0-beb3-32ac3926a563">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="pb-ad">
+<a href="/action/clickThrough?id=110751&amp;url=https%3A%2F%2Fwww.taylorfrancis.com%2Fsdgo%2F%3Fcontext%3Dsdgo%3Futm_source%3Dwebsite%26utm_medium%3Dbanner%26utm_campaign%3DB013417_er1_4lb_6dp_d658_tfogoal4&amp;loc=%2Floi%2Fgacr20&amp;pubId=40000457&amp;placeholderId=101374&amp;productId=1183"> <img src="//:0" width="200" height="185" alt="SDG Online Goal 4: Quality Education. Request a free trial today" data-src="{&quot;type&quot;:&quot;image&quot; , &quot;src&quot; : &quot;/sda/110751/JournalAd-Resources-SDGO-4-2021.png&quot;}" /> </a>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-5-6 ">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget general-html none  widget-none" id="268c60b0-ed83-4a95-a96f-f3dffcee2817">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div>Browse the list of issues and latest articles from Accountability in Research.</div></div>
+</div>
+</div>
+<div class="widget literatumListOfIssuesWidget none  widget-none" id="592c45e2-803e-47eb-97c7-a6acb6f26048">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div role="navigation" aria-label="List of issues">
+<h2 class="loiTitle">
+List of issues
+</h2>
+<ul class="list-of-issues">
+<li class="no-child">
+<h3><a href="/action/showAxaArticles?journalCode=gacr20">
+Latest articles
+</a>
+</h3>
+<span class="access-icon part" aria-label="You have Partial Access"></span><span class='part-tooltip'>Partial Access</span>
+</li>
+<li class="vol_li" data-id="vgacr20-28" id="vol_28_2021" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-28" class="hidden"></a>
+<h3>
+Volume 28 2021
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-27" id="vol_27_2020" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-27" class="hidden"></a>
+<h3>
+Volume 27 2020
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-26" id="vol_26_2019" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-26" class="hidden"></a>
+<h3>
+Volume 26 2019
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-25" id="vol_25_2018" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-25" class="hidden"></a>
+<h3>
+Volume 25 2018
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-24" id="vol_24_2017" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-24" class="hidden"></a>
+<h3>
+Volume 24 2017
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-23" id="vol_23_2016" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-23" class="hidden"></a>
+<h3>
+Volume 23 2016
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-22" id="vol_22_2015" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-22" class="hidden"></a>
+<h3>
+Volume 22 2015
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-21" id="vol_21_2014" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-21" class="hidden"></a>
+<h3>
+Volume 21 2014
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-20" id="vol_20_2013" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-20" class="hidden"></a>
+<h3>
+Volume 20 2013
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-19" id="vol_19_2012" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-19" class="hidden"></a>
+<h3>
+Volume 19 2012
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-18" id="vol_18_2011" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-18" class="hidden"></a>
+<h3>
+Volume 18 2011
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-17" id="vol_17_2010" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-17" class="hidden"></a>
+<h3>
+Volume 17 2010
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-16" id="vol_16_2009" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-16" class="hidden"></a>
+<h3>
+Volume 16 2009
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-15" id="vol_15_2008" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-15" class="hidden"></a>
+<h3>
+Volume 15 2008
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-14" id="vol_14_2007" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-14" class="hidden"></a>
+<h3>
+Volume 14 2007
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-13" id="vol_13_2006" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-13" class="hidden"></a>
+<h3>
+Volume 13 2006
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-12" id="vol_12_2005" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-12" class="hidden"></a>
+<h3>
+Volume 12 2005
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-11" id="vol_11_2004" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-11" class="hidden"></a>
+<h3>
+Volume 11 2004
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-10" id="vol_10_2003" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-10" class="hidden"></a>
+<h3>
+Volume 10 2003
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-9" id="vol_9_2002" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-9" class="hidden"></a>
+<h3>
+Volume 9 2002
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-8" id="vol_8_2000-2001" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-8" class="hidden"></a>
+<h3>
+Volume 8 2000-2001
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-7" id="vol_7_1999" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-7" class="hidden"></a>
+<h3>
+Volume 7 1999
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-6" id="vol_6_1998-1999" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-6" class="hidden"></a>
+<h3>
+Volume 6 1998-1999
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-5" id="vol_5_1997" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-5" class="hidden"></a>
+<h3>
+Volume 5 1997
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-4" id="vol_4_1995-1996" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-4" class="hidden"></a>
+<h3>
+Volume 4 1995-1996
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-3" id="vol_3_1993-1994" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-3" class="hidden"></a>
+<h3>
+Volume 3 1993-1994
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-2" id="vol_2_1992-1993" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-2" class="hidden"></a>
+<h3>
+Volume 2 1992-1993
+</h3>
+</div>
+</li>
+<li class="vol_li" data-id="vgacr20-1" id="vol_1_1989-1991" tabindex="0">
+<div class="volume_link">
+<a href="/loi/gacr20?treeId=vgacr20-1" class="hidden"></a>
+<h3>
+Volume 1 1989-1991
+</h3>
+</div>
+</li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget pageFooter none  widget-none  widget-compact-all" id="d97c173f-d838-4de1-bbd7-ed69f0d36a91">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><footer class="page-footer">
+<div data-pb-dropzone="main">
+<div class="widget responsive-layout none footer-subjects hidden-xs hidden-sm widget-none  widget-compact-all" id="1f15adc0-4a59-4d27-93fe-8cbb14a5108a">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container">
+<div class="row row-md gutterless ">
+<div class="col-md-1-1 fit-padding">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget pbOptimizerWidget none  widget-none  widget-compact-all" id="af788167-0054-4892-bd47-5de7cbd64256">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div data-optimizer data-widget-id="af788167-0054-4892-bd47-5de7cbd64256" id="widget-af788167-0054-4892-bd47-5de7cbd64256" data-observer>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget responsive-layout none footer-links widget-none  widget-compact-horizontal" id="64a44adf-45ed-4da3-be26-ef25beb9dbee">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-horizontal"><div class="container">
+<div class="row row-md  ">
+<div class="col-md-1-2 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget responsive-layout none footer-responsive-container widget-none" id="6918e9df-910a-4206-9bd0-1a02bc17f740">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="container-fluid">
+<div class="row row-sm  ">
+<div class="col-sm-1-2 footer_left_col">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget general-html none  widget-none  widget-compact-all" id="aa9510dd-52ed-4b74-8211-fb510cd9468e">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="footer-info-list">
+<h3>Information for</h3>
+<ul>
+<li><a href="http://authorservices.taylorandfrancis.com/">Authors</a></li>
+<li><a href="http://editorresources.taylorandfrancisgroup.com/">Editors</a></li>
+<li><a href="/page/librarians">Librarians</a></li>
+<li><a href="/societies">Societies</a></li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-1-2 footer_right_col">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget general-html none  widget-none  widget-compact-all" id="ac8a1c0f-9427-44dd-96be-4f2a6ff4ffce">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="footer-info-list">
+<h3>Open access</h3>
+<ul>
+<li><a href="/openaccess">Overview</a></li>
+<li><a href="/openaccess/openjournals">Open journals</a></li>
+<li><a href="/openaccess/openselect">Open Select</a></li>
+<li><a href="/openaccess/dove">Dove Medical Press</a></li>
+<li><a href="/openaccess/f1000">F1000Research</a></li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-1-2 ">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget responsive-layout none footer-responsive-container widget-none" id="fc564559-f496-499c-87c7-d851f371f061">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="container-fluid">
+<div class="row row-sm  ">
+<div class="col-sm-1-2 footer_left_col">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget general-html none  widget-none  widget-compact-all" id="f3fb3d36-db42-4373-9d0e-432958bf2fbc">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="footer-info-list">
+<h3>Help and info</h3>
+<ul>
+<li><a href="https://help.tandfonline.com">Help & contact</a></li>
+<li><a href="https://newsroom.taylorandfrancisgroup.com/">Newsroom</a></li>
+<li><a href="https://taylorandfrancis.com/partnership/commercial/">Commercial services</a></li>
+<li><a href="https://taylorandfrancis.com/partnership/commercial/advertising-solutions/" class="footer-ad-click">Advertising information</a></li>
+<li><a href="/action/showPublications?pubType=journal">All journals</a></li>
+<li><a href="https://www.routledge.com/?utm_source=website&amp;utm_medium=banner&amp;utm_campaign=B004808_em1_10p_5ec_d713_footeradspot">Books</a></li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-1-2 footer_right_col">
+<div class="contents" data-pb-dropzone="contents1">
+
+<div class="widget general-html none  widget-none  widget-compact-all" id="914433f6-0ea6-4a47-9781-07564061be86">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="footer-social-label">
+<h3>Keep up to date</h3>
+</div>
+<div class="font-size-correction-sml">Register to receive personalised research and resources by email</div>
+<div class="bs">
+<div class="pull-left links font-size-correction">
+<a class="font-size-correction-link" href="https://taylorandfrancis.formstack.com/forms/tfoguest_signup"><i class="fa fa-envelope-square" title="Register to receive personalised research and resources by email"></i>Sign me up</a>
+</div></div></div>
+</div>
+</div>
+<div class="widget literatumSocialLinks none  widget-none  widget-compact-all" id="3b6a5e53-cd62-452f-adc1-92e187a0849d">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="bs">
+<div class="pull-left links">
+<a href="http://facebook.com/TaylorandFrancisGroup">
+<i class="icon-facebook" title="Taylor and Francis Group Facebook page" aria-hidden="true" role="button"></i>
+<span aria-describedby="fb-description">
+<span class="off-screen" id="fb-description">Taylor and Francis Group Facebook page</span>
+</span>
+</a>
+</div>
+<div class="pull-left links">
+<a href="https://twitter.com/tandfonline">
+<i class="fa fa-twitter-square" title="Taylor and Francis Group Twitter page" aria-hidden="true" role="button"></i>
+<span aria-describedby="twitter-description">
+<span class="off-screen" id="twitter-description">Taylor and Francis Group Twitter page</span>
+</span>
+</a>
+</div>
+<div class="pull-left links">
+<a href="http://linkedin.com/company/taylor-&-francis-group">
+<i class="fa fa-linkedin-square" title="Taylor and Francis Group LinkedIn page" aria-hidden="true" role="button"></i>
+<span aria-describedby="linkedin-description">
+<span class="off-screen" id="linkedin-description">Taylor and Francis Group Linkedin page</span>
+</span>
+</a>
+</div>
+<div class="clearfix"></div>
+<div class="pull-left links">
+<a href="https://www.youtube.com/user/TaylorandFrancis">
+<i class="fa fa-youtube-square" title="Taylor and Francis Group YouTube page" aria-hidden="true" role="button"></i>
+<span aria-describedby="youtube-description">
+<span class="off-screen" id="youtube-description">Taylor and Francis Group Youtube page</span>
+</span>
+</a>
+</div>
+<div class="pull-left links">
+<a href="http://www.weibo.com/tandfchina">
+<i class="fa fa-weibo" title="Taylor and Francis Group Weibo page" aria-hidden="true" role="button"></i>
+<span aria-describedby="weibo-description">
+<span class="off-screen" id="weibo-description">Taylor and Francis Group Weibo page</span>
+</span>
+</a>
+</div>
+<div class="clearfix"></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget responsive-layout none  widget-none  widget-compact-horizontal" id="8d803f96-081d-4768-ab7d-280a77af723b">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-horizontal"><div class="container">
+<div class="row row-sm  ">
+<div class="col-sm-3-4 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget general-html none footer-info-container widget-none  widget-compact-vertical" id="b247ecb9-84c9-4762-b270-20f8be1f0ae4">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-vertical"><div class="informa-group-info">
+<span>Copyright © 2021 Informa UK Limited</span>
+<span><a href="https://informa.com/privacy-policy/">Privacy policy</a></span>
+<span><a href="/cookies">Cookies</a></span>
+<span><a href="/terms-and-conditions">Terms & conditions</a></span>
+<span><a href="/accessibility">Accessibility</a></span>
+<p>Registered in England & Wales No. 3099067<br />
+5 Howick Place | London | SW1P 1WG</p>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-1-4 footer_tandf_logo">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget general-image none  widget-none  widget-compact-vertical" id="b6bde365-079b-454f-94f6-1841291656a1">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-vertical"><a href="http://taylorandfrancis.com/" title="Taylor and Francis Group">
+<img src="/pb-assets/Global/Group-logo-white-on-transparent-1468512845090.png" alt="Taylor and Francis Group" />
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget cookiePolicy none  widget-none  widget-compact-all" id="cea739ac-da2c-4d77-9cf1-cb3e0da7e31e">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="banner">
+<a href="#" class="btn">Accept</a>
+<p class="message">We use cookies to improve your website experience. To learn about our use of cookies and how you can manage your cookie settings, please see our <a href="/cookies">Cookie Policy.</a> By closing this message, you are consenting to our use of cookies.</p>
+</div></div>
+</div>
+</div>
+</div>
+</footer></div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="/wro/k89k~loadinview.js"></script>
+<script type="text/javascript" src="/wro/k89k~product.js"></script>
+<script>
+loadCSS("/wro/k89k~lastInBody-css.css");
+loadCSS("https://fonts.googleapis.com/css?family=Droid%20Serif:bold,bolditalic,italic,regular|Open%20Sans:400,300,600,700&display=swap");
+window.scriptSettings=[{js: "/wro/k89k~jwplayer.js",selector:'.mediaThumbnailContainer'},
+{js:'/wro/k89k~ajax-widgets.js',css:"/wro/k89k~ajax-widgets.css",selector:'.ajaxWidget'},
+{js: '/wro/k89k~loi-api.js',selector:'.toc-fns,.literatumListOfIssuesResponsiveWidget,.literatumListOfIssuesWidget'}
+,{js:"/wro/k89k~seamless-access.js",selector: ".seamlessAccess_wrapper,.institutional-login"}];
+window.addEventListener('load',TandfUtils.scriptLoader);
+</script>
+<noscript>
+    <link rel="stylesheet" href="/wro/k89k~lastInBody-css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid%20Serif:bold,bolditalic,italic,regular|Open%20Sans:400,300,600,700&display=swap">
+</noscript>
+</body>
+</html>

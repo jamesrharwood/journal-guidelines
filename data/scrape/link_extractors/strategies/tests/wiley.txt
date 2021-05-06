@@ -1,0 +1,2801 @@
+<!DOCTYPE html>
+<html lang="en" class="pb-page"  data-request-id="3ffd7461-574e-48c5-8277-4aa4ad852fba"  
+><head data-pb-dropzone="head"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="pbContext" content=";journal:journal:16121880;page:string:Journal Home;ctype:string:Journal Content;website:website:pericles;requestedJournal:journal:16121880;wgroup:string:Publication Websites;pageGroup:string:Publication Pages"/>
+
+<script type="text/javascript">var $DoubleClickZone = "chem-biodivers_2136";var $DoubleClickSite =  "wly.chemistry_000033";</script><script id="analyticDigitalData">digitalData = {"site":{"ip":"86.176.93.91","environment":"LIVE","website":"onlinelibrary.wiley.com","websiteCode":"pericles","serverDate":"2021-05-05","server":"web116"},"identities":[{"type":"SmartGroupUser","uuid":"b238ab85-6bb4-49e4-84ca-a0d9f3ee5a35"},{"type":"SmartGroupUser","uuid":"eabce89b-65c2-4a09-ab7c-bd2b3fea2f10"},{"type":"BasicGroup","uuid":"e623deab-c83b-41e3-84a2-d9f1d46c5f17"},{"type":"BasicGroup","uuid":"8b5697d0-0580-43b3-83ea-a258c8085ad5","customerRecords":[{"customerDomain":"ALM-CU","customerNumber":"CORE00000004148"}]},{"type":"BasicGroup","uuid":"a9298b81-eb3e-4dfb-82a5-86f98d156f4d","customerRecords":[{"customerDomain":"ALM-CU","customerNumber":"CORE00000004150"}]},{"type":"SmartGroupUser","uuid":"da88d808-3f7b-4bde-9210-10862b6d121b"},{"type":"SmartGroupUser","uuid":"cf9c85b9-7f3b-4309-aeaa-c41669cabe3b"},{"type":"BasicGroup","uuid":"f0737c70-8d27-48b0-8b44-af576d0063e8","customerRecords":[{"customerDomain":"ALM-CU","customerNumber":"EAL00000068532"}]},{"type":"SmartGroupUser","uuid":"db8b8d10-1aed-4809-b3ee-70938c569014"},{"type":"SmartGroupUser","uuid":"261f34be-39f9-4f9e-8feb-500f73213904"},{"type":"SmartGroupUser","uuid":"cdce41c2-a8de-4a64-a4d9-a85caaaa2314"},{"type":"SmartGroupUser","uuid":"39f911ce-44b6-4dba-9978-8b2e947a8eb0"},{"type":"RegionUser","uuid":"20d013f5-e22b-4df0-ba93-d6d925db9e32"},{"type":"BasicGroup","uuid":"6a17ff38-0daf-4f0a-b4eb-b42c69d5c12f","customerRecords":[{"customerDomain":"ALM-CU","customerNumber":"CORE00000007783"}]},{"type":"BasicGroup","uuid":"9cb21bff-5e36-40b2-9183-08a76524dc18","customerRecords":[{"customerDomain":"ALM-CU","customerNumber":"EAL57933332"}]},{"type":"RegionUser","uuid":"82409588-c43f-4337-a6a8-3272d1b7e20e"},{"type":"BasicGroup","uuid":"197fe835-5b5f-4f4e-b8e9-a74d68491a84"},{"type":"RegionUser","uuid":"3147507a-46c1-4f33-a077-4feac12c6b71"},{"type":"SmartGroupUser","uuid":"b2dbfe27-ecae-4bb6-bb0d-d75e5caa3762"},{"type":"SmartGroupUser","uuid":"77da7ca2-c9f3-4f94-9737-922e1d15b7d9"}],"publication":{"series":{"title":"Chemistry \u0026amp; Biodiversity","doi":"10.1002/(ISSN)1612-1880","access":"no","code":"16121880","issn":"1612-1872","eissn":"1612-1880","topics":[{"taxonomyUri":"global-subject-codes","topicLabel":"Cell \u0026 Molecular Biology","topicUri":"ls30"},{"taxonomyUri":"global-subject-codes","topicLabel":"Organic Chemistry","topicUri":"ch80"},{"taxonomyUri":"global-subject-codes","topicLabel":"Computational Chemistry \u0026 Molecular Modeling","topicUri":"chd0"},{"taxonomyUri":"global-subject-codes","topicLabel":"Industrial Chemistry","topicUri":"ch30"},{"taxonomyUri":"global-subject-codes","topicLabel":"Environmental Chemistry","topicUri":"ch20"},{"taxonomyUri":"global-subject-codes","topicLabel":"Plant Science","topicUri":"ls90"},{"taxonomyUri":"global-subject-codes","topicLabel":"Plant Biochemistry","topicUri":"ls97"},{"taxonomyUri":"global-subject-codes","topicLabel":"Enzymes \u0026 Receptors","topicUri":"chb5"},{"taxonomyUri":"global-subject-codes","topicLabel":"Biochemistry (Chemical Biology)","topicUri":"chb0"},{"taxonomyUri":"global-subject-codes","topicLabel":"Pharmaceutical \u0026 Medicinal Chemistry","topicUri":"ch60"},{"taxonomyUri":"global-subject-codes","topicLabel":"Bioorganic Chemistry","topicUri":"ch83"},{"taxonomyUri":"global-subject-codes","topicLabel":"Flavor, Perfume \u0026 Cosmetic Science","topicUri":"ch33"},{"taxonomyUri":"global-subject-codes","topicLabel":"LIFE SCIENCES","topicUri":"ls"},{"taxonomyUri":"global-subject-codes","topicLabel":"General \u0026 Introductory Life Sciences","topicUri":"ls00"},{"taxonomyUri":"global-subject-codes","topicLabel":"CHEMISTRY","topicUri":"ch"},{"taxonomyUri":"gpt-zonename","topicLabel":"chem-biodivers_2136","topicUri":"chem-biodivers_2136"},{"taxonomyUri":"gpt-sitename","topicLabel":"wly.chemistry_000033","topicUri":"wly.chemistry_000033"}]}},"page":{"page":"Journal Home","pageGroup":"Publication Pages","title":"title","errorCode":200}}</script>
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+
+
+
+
+<meta name="robots" content="noarchive"/>
+<meta name="pb-robots-disabled">
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <meta property="og:title" content="Chemistry &amp; Biodiversity"/>
+
+
+    <meta property="og:type" content="Journal"/>
+
+
+        <meta property="og:url" content="https://onlinelibrary.wiley.com/journal/16121880"/>
+    
+
+        <meta property="og:image" content="https://onlinelibrary.wiley.com/cover/16121880"/>
+    
+
+    <meta property="og:site_name" content="Wiley Online Library"/>
+
+
+        <meta property="og:description" content="Click on the title to browse this journal"/>
+    
+
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <meta name="citation_doi" content="10.1002/(ISSN)1612-1880"/>
+
+    <meta name="dc.identifier" content="10.1002/(ISSN)1612-1880"/>
+
+
+
+
+
+
+
+<title>Chemistry &amp; Biodiversity - Wiley Online Library</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/wro/k82f~product.css">
+
+
+    <style>@font-face {
+    font-family: 'Open Sans Subset';
+    font-display: swap;
+    src: local('Muli Regular'), local('Muli-Regular'),
+    url(data:application/font-woff;charset=utf-8;base64,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) format('woff');
+}
+
+</style><link rel="stylesheet" href="/products/pericles/releasedAssets/css/build-5bf49fb8777720d52ba0.css"/><link rel="stylesheet" href="/products/pericles/releasedAssets/css/print-5bf49fb8777720d52ba0.css" media="print"/>
+
+
+
+
+
+<script async src="/pb-assets/catchpoint-1549680351760.js"></script>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+<link rel="stylesheet" type="text/css" href="/pb-assets/hub-assets/pericles/hub-1613647580217.css">
+
+
+<link rel="stylesheet" type="text/css" href="/pb-assets/css/iucr-1510734465460.css">
+<link rel="stylesheet" type="text/css" href="/pb-assets/css/readcube-1510565373110.css">
+<link rel="stylesheet" type="text/css" href="/pb-assets/css/dr-overrides-1611780866727.css">
+<!-- link rel="stylesheet" type="text/css" href="/pb-assets/css/temporary-1525702334993.css" -->
+
+<style>
+/* PERICLES-7186: distorted cover images */
+.journal-info-container .cover-image__image img {
+    min-height: unset;
+}
+
+/* TEMPORARY CSS HACK TO FIX LIT-220590 */
+.icon-icon-Rss::before {
+    content: "\e629";
+}
+
+/* TEMPORARY CSS TO FIX ALIGNMENT OF TOP AD IN RIGHT RAIL */
+.publication-cover-info {
+    margin-bottom: 20px;
+}
+
+.article-row-right > .pb-ad {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+/* TEMPORARY HACK FOR PERICLES-6763 */
+.table-of-content .issue-item h2 {
+    font-size: 16px;
+}
+
+.table-of-content .issue-item h2 a.issue-item__title {
+    display: inline;
+}
+
+/* TEMPORARY CSS FOR PERICLES-7445 */
+
+input.saml__consent__yes {
+    background: #005274;
+    font-size: 12px;
+    font-size: .75rem;
+    padding: 12px 20px;
+    border-radius: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+input.saml__consent__yes:hover {
+    background: #003951;
+}
+
+/* PERICLES-2166: Site-wide maintenance message */
+
+.admin-message {
+    background-color: #005274;
+    color: white;
+}
+
+/* TEMPORARY CSS FOR STAY-CONNECTED SOCIAL MEDIA ICONS */
+.stay-connected ul  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stay-connected i {
+    margin-right: 10px;
+    font-size: 25px;
+    line-height: 55px;
+}
+
+.stay-connected i.icon-hubs-rg-icon,
+.stay-connected i.icon-hubs-soundcloud-icon {
+    font-size: 41px;
+}
+
+.stay-connected .icon-hubs-pinterest-icon:before {
+    color: white;
+}
+
+.stay-connected .icon-hubs-pinterest-icon {
+    background-color: #BD081C;
+    border: solid #BD081C;
+    border-width: 8px;
+}
+
+/* PERICLES-5833: TEMPORARY CSS TO ADJUST POSITION OF ADS */
+.article-mpu-bottom .pb-ad {
+    margin: 0 0 0 195px;
+}
+
+
+.article-mpu-top .pb-ad {
+    padding-top: 20px;
+    margin: 0 0 -35px 0;
+}
+
+.banner-wrapper .pb-ad {
+    padding: 0;
+}
+
+/* TEMPORARY CSS FOR THE SOCIETY MEMBER LOGIN PAGE */
+.society-member-login .widget__header,
+.society-member-login .show-registration,
+.society-member-login .show-request-reset-password {
+    display: none;
+}
+
+.society-member-login .login-form {
+    margin-top: 20px;
+}
+
+.society-member-login .widget__body .input-group+.input-group {
+    margin-top: 15px;
+}
+
+
+/* TEMPORARY CSS TO HIDE FPI IN TOP CONTENT ACTION WIDGET */
+.top-content .firstPageImage {
+	display: none;
+}
+
+
+.custom-page-pericles .main-content :target:before {
+	content: "";
+	display: block;
+	height: 140px;
+	margin: -140px 0 0;
+}
+
+/* PERICLES-4777: TEMPORARY CSS TO HIDE OPTIONS IN THE SIDEBAR ON MRW PAGES */
+.journal-resources li#TableofContents,
+.journal-resources li#Topics,
+.journal-resources li#ArticleTitlesAZ {
+	display: none;
+}
+
+/* TEMPORARY FIX FOR UNWANTED MARGIN BELOW COVER IMAGES ON BOOK SERIES PAGES */
+.remove-margin .cover-image {
+	margin: 0;
+}
+
+/* TEMPORARY FIX TO MAKE IT POSSIBLE TO EDIT RICH TEXT WIDGETS IN SLIDESHOWS */
+.bs .modal-backdrop {
+	display: none;
+}
+
+/* TEMPORARY FIX FOR MENU POSITION */
+.hubpage-menu nav {
+	padding-bottom: 0;
+	position: relative;
+}
+
+/* TEMPORARY FOR MARGIN AROUND ADS */
+.advert.advert-leaderboard {
+	margin: 15px 0;
+}
+
+.banner-wrapper {
+	box-shadow: none;
+}
+
+/* TEMPORARY TO FIX OVERFLOW FOR P IN JOURNAL-NEWS SLIDESHOWS */
+.journal-news .slide-item p {
+	overflow: unset;
+}
+
+/* EDITOR HIGHLIGHTS CSS */
+div.ancillary-content.relateditem div.content {
+	height: 10em;
+}
+div.ancillary-content.listitem div.content {
+	height: 4em;
+}
+
+/* TEMPORARY Fix heading on Topical Index widget for MRWs */
+.topical-index h2 {
+    margin: 15px 0;
+    font-size: 1.75rem;
+    line-height: 28px;
+    color: #1c1d1e;
+    font-family: Source Serif Pro,serif;
+    font-weight: normal;
+}
+
+/* PERICLES-7288 */
+.issue-supplementary-files, .cover-image__virtual-issue {
+    margin-bottom: 15px;
+}
+
+/* PERICLES-8875 */
+.journal-news .slide-item img {
+    float: left;
+    margin-right: 10px;
+}
+
+/* DO NOT REMOVE */
+li[heading="Restore Points"].ng-isolate-scope,
+li[heading="Disable Widgets"].ng-isolate-scope {
+    display: none!important;
+}
+
+.modal-header .widgetOrigin {
+    display: none;
+}
+
+/* PERICLES-10090 */
+.cover-image__image img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* LIT-282003 */
+.journal-info-container span.info_value:after {
+    content: '\003B';
+}
+
+.journal-info-container span.info_value:last-child:after {
+    content: '';
+}
+
+/* LIT-299510 */
+h1.citation__title {
+    font-size: 22px;
+    font-size: 1.375rem;
+}
+
+@media (max-width: 991px) {
+    h1.citation__title {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+    h1.citation__title:after {
+        content: "";
+    }
+}
+
+/* LIT-295816 */
+.search__item .item__body .meta__details a.publication_meta_serial:after {
+    content: "";
+    margin: 0;
+}
+.search__item .item__body .meta__details a.publication_meta_volume_issue:before {
+    content: "|";
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* PPV */
+.cart-indicator__wrapper {
+    padding: 0;
+}
+
+/* TrendMD Test */
+#article__content #trendmd-suggestions{
+    margin-top: 40px !important;
+    border-top: 1px solid #ddd;
+    
+}
+body #article__content .trendmd-widget-container {
+    margin-top: 20px !important;
+}
+
+body #article__content .trendmd-widget-header__heading{
+    font-size: 20px !important;
+    margin-bottom: 30px !important
+}
+body #article__content .trendmd-widget-list-item__link, body #article__content .trendmd-widget-list-item__meta{
+    font-family:'Open Sans', arial, sans-serif !important;
+}
+body #article__content .trendmd-widget{
+	font-size:16px !important;
+}
+body #article__content .trendmd-widget-list-item{
+	margin-bottom:24px !important;
+}
+body #article__content .trendmd-widget-list-item__link{
+	color: #005293 !important;
+}
+body #article__content .trendmd-widget-list-item__meta{
+	color: #5d5d5d !important;
+	font-size:14px !important;
+	margin-top:3px !important;
+}
+body #article__content .trendmd-widget_horizontal .trendmd-widget-section{
+	width: 47% !important;
+}
+
+@media (max-width: 450px) {
+	body #article__content .trendmd-widget_horizontal .trendmd-widget-section{
+		width: 95% !important;
+	}
+}
+
+#pane-pcw-related .trendmd-widget-header__heading{
+	font-size: 18px !important;
+	font-family:'Open Sans', arial, sans-serif !important;
+}
+#pane-pcw-related .trendmd-widget-container{
+	padding:0 20px !important;
+}
+#pane-pcw-related .trendmd-widget-list-item__link{
+	 font-family:'Open Sans', arial, sans-serif !important;
+	 font-size:14px !important;
+	 color: #005293 !important;
+	 display:block;
+	 margin-bottom: 5px !important;
+}
+#pane-pcw-related .trendmd-widget-list-item__meta{
+	font-family:'Open Sans', arial, sans-serif !important;
+	color:#666 !important;
+}
+#pane-pcw-related .trendmd-widget-list-item{
+	margin-bottom:20px !important;
+}
+
+
+</style>
+
+<!-- The Adobe DTM script. Must come after the digitalData object -->
+<script src="//assets.adobedtm.com/6e626c9ec247e474f6b98eb15a79a185cf7e26a5/satelliteLib-c1ac050bbdc647f13a62578e71f0d817f8a6cbb5.js"></script>
+
+<!-- Google Search Console verification -->
+<meta name="google-site-verification" content="ffz4i4DxIJCdGpRXe0XN6KG6o4FYI-nnFW9I_dg8piM" />
+
+<!-- KRUX Implementation-->
+<script class="kxct" data-id="JMOONjNh" data-timing="async" data-version="1.9" type="text/javascript">
+
+	window.Krux || (( Krux = function () {
+		Krux.q.push ( arguments )
+	}).q = []);
+
+	( function () {
+		var k , m , s , src;
+		k = document.createElement ( 'script' );
+		k.type 	= 'text/javascript';
+		k.async = true;
+		src = ( m = location.href.match ( /\bkxsrc=([^&]+)/ )) && decodeURIComponent ( m [ 1 ]);
+		k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test ( src ) ? src : src === 'disable' ? '' : ( location.protocol === 'https:'?'https:':'http:' ) + '//cdn.krxd.net/controltag?confid=JMOONjNh';
+		s = document.getElementsByTagName ( 'script' ) [ 0 ];
+		s.parentNode.insertBefore ( k , s );
+	} ());
+</script>
+
+<!-- KRUX Implementation cont'd -->
+<script type="text/javascript">
+	window.Krux || (( Krux = function () {
+		Krux.q.push ( arguments );
+	}).q = []);
+
+	( function () {
+		function retrieve ( n ) {
+			var m , k = 'kx' + n;
+			if ( window.localStorage ) {
+				return window.localStorage [ k ] || '';
+			} else if ( navigator.cookieEnabled ) {
+				m = document.cookie.match ( k + '=([^;]*)' );
+				return ( m && unescape ( m [ 1 ])) || '';
+			} else {
+				return '';
+			}
+		}
+
+		Krux.user = retrieve ( 'user' );
+		Krux.segments = retrieve ( 'segs' ) && retrieve ( 'segs' ).split ( ',' ) || [];
+	}) ();
+</script>
+
+<!-- Grapeshot Implementation -->
+<script>
+	var gs_channels = 'default';
+</script>
+
+<script src="//wiley.grapeshot.co.uk/main/channels.cgi?url=https://onlinelibrary.wiley.com/journal/16121880" async></script>
+
+<!-- DoubleClick Implementation -->
+<script type="text/javascript">
+	var $WileyGooglePublisherID = 2215;
+
+	if (!$DoubleClickSite) {
+		switch("pericles") {
+      case "acsess.onlinelibrary.wiley.com":
+				var $DoubleClickSite = "wly.agriculture_000018";
+				break;
+			case "afspubs":
+				var $DoubleClickSite = "wly.aqua.fish_000017";
+				break;
+			case "aasldpubs":
+  				var $DoubleClickSite = "wly.gastro.hep_000059";
+  				break;
+			case "headachejournal":
+  				var $DoubleClickSite = "wly.neurology_000086";
+  				break;
+			default:
+				var $DoubleClickSite = "undefined-site";
+		};
+  	};
+
+	if (!$DoubleClickZone) {
+		switch("pericles") {
+      case "acsess.onlinelibrary.wiley.com":
+        var $DoubleClickZone = "Agriculture_ACSESS_Hub";
+        break;
+			case "afspubs":
+				var $DoubleClickZone = "AFS_HUB";
+				break;
+      case "aasldpubs":
+        var $DoubleClickZone = "AASLD-pubs_HUB";
+        break;
+      case "headachejournal":
+        var $DoubleClickZone = "headache_HUB";
+        break;
+			default:
+				var $DoubleClickZone = "undefined-zone";
+		};
+	};
+
+	var $GooglePublisherCategory = "/" + $WileyGooglePublisherID + "/" + $DoubleClickSite + "/" + $DoubleClickZone;
+</script>
+
+<script>
+	var googletag = googletag || {};
+
+	googletag.cmd = googletag.cmd || [];
+
+	( function () {
+
+		var gads = document.createElement ( 'script' ) ,
+		node = document.getElementsByTagName ( 'script' ) [ 0 ] ;
+
+		gads.async = true;
+		gads.src = document.location.protocol + '//www.googletagservices.com/tag/js/gpt.js';
+
+		node.parentNode.insertBefore ( gads , node );
+
+	}) ();
+</script>
+
+<script>
+	googletag.cmd.push ( function () {
+
+		var sizes = {
+			leaderboard : googletag.sizeMapping ()
+				.addSize ([ 300 , 100 ] , [ 300 , 50 ])
+				.addSize ([ 740 , 100 ] , [ 728 , 90 ])
+				.addSize ([ 0 , 0 ] , 'fluid')
+				.build () ,
+			rail : googletag.sizeMapping ()
+				.addSize ([ 0 , 0 ] , [ 300 , 250 ])
+				.build (),                                          
+			interstitial : googletag.sizeMapping ()
+							.addSize ([ 0 , 0 ] , [ 640 , 480 ])
+							.build ()
+
+		};
+
+
+		gptPage = window.digitalData && digitalData.page && digitalData.page.page ? digitalData.page.page : "blank";
+		gptSubPage = window.digitalData && digitalData.page && digitalData.page.subPage ? digitalData.page.subPage : "blank";
+
+
+		function gptClean(gptText){
+			if(typeof(gptText)=="string"){
+				gptText = gptText.replace(/\&/g,'%26');
+
+
+				return gptText.replace(/\^|\*|#|\$|\"|\'|\=|\,|\!|\+|\~|\;|\(|\)|\<|\>|\[|\]|\?|\%|\:|\@|\;|\&|\||\{|\}|\\|/g,'');
+
+			}
+			return "blank";
+		}
+
+
+		googletag.pubads ()
+			.setTargeting ( 'property' 	, 'value-of-property' 	) 	// Change and duplicate this line for as many additional keywords to send
+			.setTargeting ( 'doi' , gptClean('10.1002/(ISSN)1612-1880')) // Publication DOI
+			.setTargeting ( 'gs_cat' 	, gs_channels 		) 	// Grapeshot
+			.setTargeting ( 'ksg' 		, Krux.segments 	) 	// Krux
+			.setTargeting ( 'kuid' 		, Krux.user 		) 	// Krux
+			.setTargeting ( 'pbPage', gptClean(gptPage) )
+			.setTargeting ( 'pbSubPage', gptClean(gptSubPage) )
+			.setTargeting ( 'urlpath', gptClean(document.location.pathname));
+
+		googletag.defineSlot ( $GooglePublisherCategory, 'fluid', 'advert-leaderboard' )
+			.defineSizeMapping ( sizes.leaderboard )
+			.addService ( googletag.pubads ())
+			.setCollapseEmptyDiv ( true );
+
+		googletag.defineSlot ( $GooglePublisherCategory, 'fluid', 'advert-rail-1' )
+			.defineSizeMapping ( sizes.rail )
+			.setTargeting ( 'Position', 'advert-rail-1')
+			.addService ( googletag.pubads ())
+			.setCollapseEmptyDiv ( true );
+
+		googletag.defineSlot ( $GooglePublisherCategory, 'fluid', 'advert-rail-2' )
+			.defineSizeMapping ( sizes.rail )
+			.setTargeting ( 'Position', 'advert-rail-2')
+			.addService ( googletag.pubads ())
+			.setCollapseEmptyDiv ( true );
+
+		googletag.defineSlot ( $GooglePublisherCategory, 'fluid', 'advert-video' )
+			.defineSizeMapping ( sizes.interstitial )
+			.setTargeting ( 'Position', 'advert-video')
+			.addService ( googletag.pubads ())
+			.setCollapseEmptyDiv ( true );
+
+
+		googletag.pubads ().enableSingleRequest ();
+		googletag.enableServices ();
+	});
+	//]]>
+</script>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Get whether TNSI is in live or test mode -->
+    
+    <!-- Get the configured TNSI Javascript version number -->
+    
+    <!-- Get the configured TNSI MerchantID -->
+    
+    <!-- Add "TEST" to beginning of merchant ID when running in test mode -->
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    <!-- loading Javascript for using the persistence Service -->
+    <script src="//unpkg.com/@theidentityselector/thiss-ds"></script>
+
+    <script type="text/javascript">
+
+        function getParameter(parameterName) {
+            let result = null,
+                tmp = [];
+            location.search
+                .substr(1)
+                .split("&")
+                .forEach(function (item) {
+                    tmp = item.split("=");
+                    if (tmp[0] === parameterName) result = tmp[1];
+                });
+            return result;
+        }
+
+        var SeamlessAccessService = {
+            spUrl: "/action/ssostart",
+            returnURL: window.location.href,
+            my_context: 'seamlessaccess.org',
+
+            getWAYFLessUrl: function (entityId) {
+                let redirectURL = getParameter('redirectUri');
+                if(redirectURL == null){
+                    redirectURL = encodeURIComponent(this.returnURL);
+                }
+                if(redirectURL.indexOf('saml_referrer') < 0){
+                    redirectURL += encodeURIComponent(((redirectURL.indexOf('?') !== -1) ? '&' : '?') + 'saml_referrer');
+                }
+                return this.spUrl + "?idp=" + encodeURIComponent(entityId)
+                    + "&redirectUri=" + redirectURL;
+            },
+            retrieveEntity: function () {
+                var self = this;
+                var ps = new thiss.PersistenceService('https://service.seamlessaccess.org/ps/');
+
+                return new Promise(function (resolve, reject) {
+                    ps.entities(self.my_context)
+                        .then(function (res) {
+                            // get the results
+                            var results = res.data;
+                            return resolve(results);
+                        }, function (err) {
+                            // failed
+                            reject('retrieve entity error: ' + err);
+                        });
+                });
+            },
+            updateEntity: function (entitydata) {
+                var self = this;
+                var ps = new thiss.PersistenceService('https://service.seamlessaccess.org/ps/');
+
+                var jsonObj = {};
+                try {
+                    //try to parse it, if it is a json string
+                    jsonObj = JSON.parse(entitydata.val());
+                } catch (e) {
+                    jsonObj = entitydata;
+                }
+                return new Promise(function (resolve) {
+                    ps.update(self.my_context, jsonObj)
+                        .then(function (res) {
+                            // Process the results
+                            var ssoInstitutions = res.data;
+                            return resolve(ssoInstitutions);
+                        }, function (err) {
+                            // failed
+                            console.log('failed to update the local storage duo to: ' + err);
+                        });
+                })
+            },
+            getAccessibleEntityStatus: function (doi, entityId) {
+                return new Promise(function (resolve) {
+                    $.ajax({
+                        type: 'POST',
+                        url: '/action/seamlessAccess',
+                        accept: {
+                            text: "application/json"
+                        },
+                        data: {doi: doi, entityid: entityId}
+
+                    }).done(function (status) {
+                        return resolve(status);
+                    });
+                });
+            },
+            getEntitiesWithAllInfo: function (doi) {
+                let self = this,
+                    arrayOfPromises = [];
+                return new Promise(function (resolve, reject) {
+                    self.retrieveEntity().then(function (res) {
+                        let allSsoInstitutions = res;
+                        for (let i in allSsoInstitutions) {
+                            let ssoInstitution = allSsoInstitutions[i];
+                            arrayOfPromises.push(new Promise(function (resolve) {
+                                self.getAccessibleEntityStatus(doi, ssoInstitution.entity.entityID)
+                                    .then(function (entityStatus) {
+                                        resolve({
+                                            entityID: ssoInstitution.entity.entityID,
+                                            entityTitle: ssoInstitution.entity.title,
+                                            entityStatusObj: entityStatus,
+                                            entitySsoUrl: self.getWAYFLessUrl(ssoInstitution.entity.entityID)
+                                        });
+                                    }, function (err) {
+                                        console.log('failed to get the entity status: ' + err);
+                                    });
+                            }));
+                        }
+                        Promise.all(arrayOfPromises)
+                            .then(function (finalResponse) {
+                                resolve(finalResponse);
+                            });
+
+                    }).catch(function (err) {
+                        reject(err);
+                    })
+                });
+            }
+        };
+
+        window.addEventListener('load', function () {
+            document.querySelectorAll(".sso-institution").forEach(function (institution) {
+                var entityId = institution.getAttribute('data-entityid');
+                var entityName = institution.getAttribute('data-name');
+                var entitydata = {
+                    entityID: entityId,
+                    title: entityName
+                };
+                institution.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    var self = this;
+                    SeamlessAccessService.updateEntity(entitydata).then(function (res) {
+                        console.log(res);
+                        window.location.href = self.href;
+                    });
+                });
+            });
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+    
+    <script type="text/javascript">
+        (function() {
+            function riskifiedBeaconLoad() {
+                var store_domain = 'https://onlinelibrary.wiley.com';
+                var session_id = 'aaa2CcKcVU-1zfhE-N4Kx';
+                var url = ('https:' == document.location.protocol ? 'https://' : 'http://')
+                    + "beacon.riskified.com?shop=" + store_domain + "&sid=" + session_id;
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url;
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+            if (window.attachEvent)
+                window.attachEvent('onload', riskifiedBeaconLoad)
+            else
+                window.addEventListener('load', riskifiedBeaconLoad, false);
+        })();
+    </script>
+
+
+
+
+
+
+
+    
+
+
+<script>
+    var digitalData = window.digitalData ? window.digitalData : {};
+    digitalData.page.title = "Chemistry &amp; Biodiversity - Wiley Online Library";
+</script>
+
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+<body class="pb-ui">
+
+<div class="skip-links">
+    <ul class="rlist">
+        
+                <li><a href="#main-content" tabindex="1">Skip to Main Content</a></li>
+            
+    </ul>
+</div>
+
+
+
+
+
+
+
+    <div id="pb-page-content" data-ng-non-bindable>
+        <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="pageHeader" data-widget-id="62175478-b98a-43d5-90f2-1f2045ac1a7e" class="pageHeader">
+        
+
+
+
+        
+        <header class="page-header">
+    <div data-pb-dropzone="main">
+    
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="bb5b5e2c-d3d6-4015-b586-eeade38f59d4" class="admin-message">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div>
+
+
+
+        
+        
+
+
+
+        <div class="pb-ad">
+            <div style="background=blue;">
+    <div class="container">
+        <p style="text-align: center;"><b>Working off-campus?</b> Learn about our <a href="/action/clickThrough?id=101169&url=https%3A%2F%2Fonlinelibrary.wiley.com%2Fresearchers%2Fread%2Faccess-options&loc=%2Fjournal%2F16121880&pubId=41611727&placeholderId=1029&productId=1011" target="_blank" tabindex="2"><font color="white"><u>remote access options</u></font></a></p>
+    </div>
+</div>
+        </div>
+    
+
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="cookiePolicy-popup"><div class="container"><span class="cookiePolicy-popup__content">By continuing to browse this site, you agree to its use of cookies as described in our <a tabindex="2" class="cookie-policy-popup__content" href="https://www.wiley.com/cookies">Cookie Policy</a>.</span><a tabindex="2" href="#" aria-label="Agree to cookie policy and close message" class="cookiePolicy-popup__close close">&times;</a></div></div>
+
+
+
+
+        
+        <div class="container"><div class="row"><div class="contents col-md-12">
+
+
+
+        
+        <div class="pull-left">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="ff262197-0fb8-4973-aaa2-2fceba4b5a61" class="logo-container hidden-xs hidden-sm hidden-md">
+        
+
+
+
+        
+        <a href="/" title="Wiley Online Library"><img id="mainLogo" alt="Wiley Online Library" src="/pb-assets/hub-assets/pericles/logo-header-1526603583437.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="6b601b23-7301-47c8-8889-242d041241c4" class="logo-container-mobile hidden-lg hidden-md hidden-sm">
+        
+
+
+
+        
+        <a href="/" title="Wiley Online Library"><img id="mobileLogo" alt="Wiley Online Library" src="/pb-assets/hub-assets/pericles/mobilehublogo-1518781861020.png"/></a>
+
+        </div>
+    
+</div><div class="pull-right">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3QuickSearchWidget" data-widget-id="48175bb0-0f70-46e6-bb89-7e2781fdb8e4" class="header-quicksearch">
+        
+
+
+
+        
+        <div class="quick-search-wrapper"><a href="#" title="search" aria-label="Search" class="quick-search__item"><i aria-hidden="true" class="icon-search"></i><span class="quick-search__item__arrow"></span></a><div data-linkto-page="true" class="quick-search quickSearchFormContainer"><div class="main-search-field-wrapper"><div class="tab clearfix"><input type="search" placeholder="Search" value="" tabindex="13" class="fakeQSInput quickSearchFilter"/><label for="search-within" class="sr-only">Search within</label><select name="search-within" id="search-within" tabindex="10" class="search-within"><option value="#pane-67065c09-4a88-49cd-934c-ac707951d35c0">This Journal</option><option value="#pane-67065c09-4a88-49cd-934c-ac707951d35c1">Anywhere</option></select><ul role="tablist" class="rlist tab__content"><li id="pane-67065c09-4a88-49cd-934c-ac707951d35c0" aria-labelledby="pane-67065c09-4a88-49cd-934c-ac707951d35c0-con" role="tab" class="tab__pane quick-search-pane__anywhere active"><form action="/action/doSearch" name="thisJournalQuickSearch" method="get" title="Quick Search"><div class="input-group option-0"><label for="searchField0" class="hiddenLabel">Search term</label><input type="search" name="AllField" id="searchField0" placeholder="Search" onfocus="this.value = this.value;" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" value="" tabindex="9" class="autocomplete actualQSInput quickSearchFilter"/><input type="hidden" name="SeriesKey" value="16121880"/><div class="search-options-wrapper quickSearchFilter"><a href="https://onlinelibrary.wiley.com/search/advanced?publication=16121880" title="" tabindex="12" class="advanced">  Advanced Search</a><a href="https://onlinelibrary.wiley.com/search/advanced?publication=16121880#citation" title="" tabindex="12" class="citation">  Citation Search</a></div></div><button type="submit" title="Search" tabindex="11" aria-label="Submit Search" class="btn quick-search__button icon-search"></button></form></li><li id="pane-67065c09-4a88-49cd-934c-ac707951d35c1" aria-labelledby="pane-67065c09-4a88-49cd-934c-ac707951d35c1-con" role="tab" class="tab__pane quick-search-pane__anywhere"><form action="https://onlinelibrary.wiley.com/action/doSearch" name="defaultQuickSearch" method="get" title="Quick Search"><div class="input-group option-1"><label for="searchField1" class="hiddenLabel">Search term</label><input type="search" name="AllField" id="searchField1" placeholder="Search" onfocus="this.value = this.value;" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" value="" tabindex="9" class="autocomplete actualQSInput quickSearchFilter"/><div class="search-options-wrapper quickSearchFilter"><a href="https://onlinelibrary.wiley.com/search/advanced" title="" tabindex="12" class="advanced">  Advanced Search</a><a href="https://onlinelibrary.wiley.com/search/advanced#citation" title="" tabindex="12" class="citation">  Citation Search</a></div></div><button type="submit" title="Search" tabindex="11" aria-label="Submit Search" class="btn quick-search__button icon-search"></button></form></li></ul></div></div></div></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="5ef13ed1-f4ac-4b62-a426-07ec9576a586" class="cart-indicator__wrapper">
+        
+
+
+
+        
+        <div class="pull-left">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="eCommerceCartIndicatorWidget" data-widget-id="4a9f7c04-a273-4a25-91fb-8e7bd9970288" class="cart-indicator__wrapper">
+        
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        </div>
+    
+</div><div class="pull-right">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="literatumNavigationLoginBar" data-widget-id="d384ca92-7137-45d6-b3c2-78c9c0a98c2b" class="login-bar-container">
+        
+
+
+
+        
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    <div class="loginBar login-open">
+        <a href="/action/showLogin?uri=%2Fjournal%2F16121880&amp;aria-label=Log+in+or+Register" class="show-login" role="button" uri="/journal/16121880" aria-label="Log in or Register">
+            <span class="icon-profile_empty"></span>
+            <span class="sign-in-label">Login / Register</span>
+        </a>
+            
+    </div>
+
+
+    
+
+
+        </div>
+    
+</div>
+
+        </div>
+    
+</div>
+</div></div></div>
+    </div>
+</header>
+
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="pageBody" data-widget-id="72100436-7a82-49fc-933b-c6c9d8c42914" class="pageBody body-text">
+        
+
+
+
+        
+        <main id="main-content" tabindex="-1">
+    <!--begin pagefulltext-->
+    <div class="page-body pagefulltext">
+        <div data-pb-dropzone="main">
+        
+
+
+
+        
+        <div>
+
+
+
+        
+        <h1 class="hidden"> Journal list menu </h1>
+<div class="pages-nav--sticky pages-nav hidden-lg">
+  <div class="pages-nav--res">
+      <div class="container">
+        <ul class="rlist--inline pull-left">
+          <li><a href="#" data-db-target-for="journal-list" data-db-switch="icon-close_thin"><i aria-hidden="true" class="icon-toc"></i><span>Journal</span></a>
+            <div id="journal-list" data-db-target-of="journal-list" class="rlist dropBlock__holder">
+              <div data-target="#menu-item-undefined-1, #menu-item-undefined-2, #menu-item-main-menu-1-1, #menu-item-main-menu-1-2, #menu-item--1, #menu-item--2, .journal-featured" data-remove="false" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div>
+              
+<!-- PERICLES-7683
+              <a href="#" title="More from this journal" class="dropdown__toggle"><span>More from this journal</span></a>
+              
+                <div data-target=".journal-resources" data-remove="false" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div>
+-->   
+
+            </div>
+          </li>
+          <li><a href="#" data-db-target-for="articles-list" data-db-switch="icon-close_thin"><i aria-hidden="true" class="article-img-icon"><img src="/pb-assets/hub-assets/pericles/articles_1-1499257321163.png"></i><span>Articles</span></a>
+            <div id="articles-list" data-db-target-of="articles-list" class="rlist dropBlock__holder">
+              <div data-target="#menu-item-undefined-3, #menu-item-undefined-4, #menu-item-main-menu-1-3, #menu-item-main-menu-1-4, #menu-item--3" data-remove="false" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div>
+            </div>
+          </li>
+        </ul>
+        <ul class="rlist--inline pull-right">
+          <li><a href="#" data-db-target-for="actions-list" data-db-switch="icon-close_thin"><span>Actions</span><i aria-hidden="true" class="icon-chevron-down"></i></a>
+            <div id="actions-list" data-db-target-of="actions-list" class="rlist dropBlock__holder">
+              <h2 class="side-section-header hiddenLabel--lg">Tools</h2>
+                <div data-target=".journal-actions-container li:nth-child(1), .journal-actions-container li:nth-child(2), .journal-actions-container li:nth-child(3), .journal-actions-container li:nth-child(4), .journal-actions-container li:nth-child(5), #subscribeLink" data-remove="false" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div>
+              <h2 class="side-section-header hiddenLabel--lg">Follow journal</h2>
+                <div data-target="#alert-link, #facebook-link, #twitter-link, #linkedin-link, #most-recent-link, #most-read-link, #most-cited-link" data-remove="false" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div>
+            </div>
+          </li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="literatumAd" data-widget-id="0220a30b-90c0-4b51-8637-141edf12f86a" class="secondary-bg-color banner-wrapper">
+        
+
+
+
+        
+        
+
+
+
+        <div class="pb-ad">
+            <aside role="complementary">
+		<div id="advert-leaderboard" class="advert advert-leaderboard">
+			<script>
+				googletag.cmd.push 		( function () {
+					googletag.display 	( 'advert-leaderboard' );
+				});
+			</script>
+
+			<!-- No JavaScript support is a call to an image -->
+			<noscript>
+				<a href="/action/clickThrough?id=1013&url=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fjump%3Fiu%3D%24googlePublisherCategory%26amp%3Bsz%3D728x90%26amp%3Btile%3D1%26amp%3Bc%3D%24random&loc=%2Fjournal%2F16121880&pubId=41611727&placeholderId=1015&productId=101018" target="_blank">
+					<img src="https://pubads.g.doubleclick.net/gampad/ad?iu=$googlePublisherCategory&amp;sz=728x90&amp;tile=1&amp;c=$random">
+				</a>
+			</noscript>
+		</div>
+	</aside>
+        </div>
+    
+
+
+        </div>
+    
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+        <section data-widget-def="ux3-layout-widget" data-widget-id="9e8ee65a-2e18-4c00-9474-5ac10e16ecfe" class="journal-page-header card">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class="journal-info-container col-md-8">
+
+
+
+        
+        <div>
+
+
+
+        
+        <a href="/journal/16121880" title="Chemistry &amp; Biodiversity homepage">
+<h1 id="journal-banner-text" style="margin: 0; font-size: 0">Chemistry &amp; Biodiversity</h1>
+<img id="journal-banner-image" class="journal-banner-image" alt="Chemistry &amp; Biodiversity" src="/pb-assets/journal-banners/16121880-1511871266927.jpg" style="margin-bottom: 15px; display: none">
+</a>
+
+<script>
+var image = new Image();
+
+image.onload = function() {
+   // if the image exists
+    document.getElementById("journal-banner-image").style.display = "block";
+}
+
+image.onerror = function() {
+    // if the image does not exist 
+    document.getElementById("journal-banner-text").style.marginBottom = "15px";
+    document.getElementById("journal-banner-text").style.fontSize = "22px";
+}
+
+image.src = "/pb-assets/journal-banners/16121880-1511871266927.jpg";
+</script>
+</div>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="d08b12af-2d1c-44ea-ae5f-87e80f701049" class="info-block">
+        
+
+
+
+        
+        <p>Editor-in-Chief:  Richard J. Smith</p>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="graphQueryWidget" data-widget-id="6af4eaa8-4a17-4825-a32d-261438a24354" class="info-block">
+        
+
+
+
+        
+        <div class="info-block"><span class="info_label">Impact factor:</span><span class="info_value">2.039</span></div><div class="info-block"><span class="info_label">2019
+ Journal Citation Reports (Clarivate Analytics): </span><span class="info_value">225/297 (Biochemistry & Molecular Biology)</span><span class="info_value">101/177 (Chemistry, Multidisciplinary)</span></div><div class="info-block"><span class="info_label">Online ISSN:</span><span class="info_value">1612-1880</span></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="4a28f66d-aafb-4c5b-bb1e-6b8a1899631f" class="info-block">
+        
+
+
+
+        
+        © Wiley-VHCA AG, Zurich, Switzerland
+
+        </div>
+    
+</div><div class="hidden-xs hidden-sm hidden-md col-md-4">
+
+
+
+        
+        <ul class="rlist loc mostRecent"><li class="grid-item cover-image cover-image__latestIssue"><div class="cover-image__image hasDetails"><a href="/toc/16121880/2021/18/4"><img src="/cms/asset/7e515f23-ed59-4613-8b28-0d804b8f58b8/cbdv.v18.4.cover.gif" alt="View Table of Contents for Chemistry &amp;amp; Biodiversity volume 18 issue 4"/></a></div><div class="cover-image__details"><a href="/toc/16121880/2021/18/4" title="Go to latest issue" class="cover-image__link">LATEST ISSUE<span aria-hidden="true">&nbsp; &gt;</span></a><div><span class="comma">Volume 18,&nbsp;</span>Issue 4</div><div><span>April 2021</span></div></div></li></ul>
+</div></div></div>
+
+        </section>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="menuWidget" data-widget-id="998218b4-f988-4a0c-8c4f-b2d3875e1770" class="scrollThenFix stickybar pages-nav hidden-xs hidden-sm hidden-md">
+        
+
+
+
+        
+        <div class="stickybar__wrapper"><div class="main-nav"><a href="#undefined" data-toggle="nav" title="menu drawer"><i aria-hidden="true" class="icon-menu2"></i><i aria-hidden="true" class="icon-close_thin"></i></a><nav role="navigation" data-ctrl-res="never" aria-label="Journal navigation" class="drawer__nav container gutterless hidden-sm hidden-xs"><h2 class="is-accessible">Navigation Bar</h2><section><h3 class="is-accessible">Menu</h3><a href="/" class="menu-header hidden-md hidden-lg">Home</a><ul id="menubar" role="menubar" class="menubar rlist--inline"><li id="menu-item-undefined-0" role="presentation" data-menu-label="Home" class="menu-item"><a href="/journal/16121880" role="menuitem" tabindex="0" class="sub-menu-item"><span>Home</span></a></li><li id="menu-item-undefined-1" role="presentation" data-menu-label="About" class="dropdown menu-parent"><a href="#" data-target="About-1-dropdown" id="About-1" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false" tabindex="-1" class="dropdown__toggle"><span>About</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-md hidden-lg"></i><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="About-1" role="menu" id="About-1-dropdown" class="rlist dropdown__menu"><li role="presentation" data-menu-label="Overview" class="menu-item"><a href="/page/journal/16121880/homepage/productinformation.html" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Overview</span></a></li><li role="presentation" data-menu-label="Contact" class="menu-item"><a href="/page/journal/16121880/homepage/contact.html" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Contact</span></a></li><li role="presentation" data-menu-label="Editorial Board" class="menu-item"><a href="/page/journal/16121880/homepage/editorialboard.html" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Editorial Board</span></a></li><li role="presentation" data-menu-label="News" class="menu-item"><a href="/page/journal/16121880/homepage/news.html" role="menuitem" tabindex="-1" class="sub-menu-item"><span>News</span></a></li><li role="presentation" data-menu-label="Permissions" class="menu-item"><a href="/page/journal/16121880/homepage/permissions.html" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Permissions</span></a></li><li role="presentation" data-menu-label="Advertise" class="menu-item"><a href="/pb-assets/assets/vch/WOL_media-1606377840113.pdf" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Advertise</span></a></li></ul></li><li id="menu-item-undefined-2" role="presentation" data-menu-label="Contribute" class="dropdown menu-parent"><a href="#" data-target="Contribute-2-dropdown" id="Contribute-2" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false" tabindex="-1" class="dropdown__toggle"><span>Contribute</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-md hidden-lg"></i><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="Contribute-2" role="menu" id="Contribute-2-dropdown" class="rlist dropdown__menu"><li role="presentation" data-menu-label="Author Guidelines" class="menu-item"><a href="/page/journal/16121880/homepage/forauthors.html" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Author Guidelines</span></a></li><li role="presentation" data-menu-label="Open Access" class="menu-item"><a href="/page/journal/16121880/homepage/fundedaccess.html" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Open Access</span></a></li><li role="presentation" data-menu-label="Submit a Manuscript" class="menu-item"><a href="https://www.editorialmanager.com/chembiodiv/default.aspx" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Submit a Manuscript</span></a></li><li role="presentation" data-menu-label="For Referees" class="menu-item"><a href="http://wileypeerreview.com" role="menuitem" tabindex="-1" class="sub-menu-item"><span>For Referees</span></a></li></ul></li><li id="menu-item-undefined-3" role="presentation" data-menu-label="Browse" class="dropdown menu-parent"><a href="#" data-target="Browse-3-dropdown" id="Browse-3" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false" tabindex="-1" class="dropdown__toggle"><span>Browse</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-md hidden-lg"></i><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="Browse-3" role="menu" id="Browse-3-dropdown" class="rlist dropdown__menu"><li role="presentation" data-menu-label="Accepted Articles" class="menu-item"><a href="/toc/16121880/0/ja" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Accepted Articles</span></a></li><li role="presentation" data-menu-label="Early View" class="menu-item"><a href="/toc/16121880/0/0" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Early View</span></a></li><li role="presentation" data-menu-label="Current Issue" class="menu-item"><a href="/toc/16121880/current" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Current Issue</span></a></li><li role="presentation" data-menu-label="All Issues" class="menu-item"><a href="/loi/16121880" role="menuitem" tabindex="-1" class="sub-menu-item"><span>All Issues</span></a></li><li role="presentation" data-menu-label="Cover Gallery" class="menu-item"><a href="/page/journal/16121880/homepage/cover/index.html" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Cover Gallery</span></a></li><li role="presentation" data-menu-label="Most Accessed" class="menu-item"><a href="/page/journal/16121880/homepage/mostaccessed.html" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Most Accessed</span></a></li><li role="presentation" data-menu-label="Virtual Issues" class="menu-item"><a href="/page/journal/16121880/homepage/virtualissuespage.html" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Virtual Issues</span></a></li></ul></li><li id="menu-item-undefined-4" role="presentation" data-menu-label="Special Collections" class="dropdown menu-parent"><a href="#" data-target="SpecialCollections-4-dropdown" id="SpecialCollections-4" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false" tabindex="-1" class="dropdown__toggle"><span>Special Collections</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-md hidden-lg"></i><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="SpecialCollections-4" role="menu" id="SpecialCollections-4-dropdown" class="rlist dropdown__menu"><li role="presentation" data-menu-label="All Virtual Issues" class="menu-item"><a href="https://onlinelibrary.wiley.com/page/journal/16121880/homepage/virtualissuespage.html" role="menuitem" tabindex="-1" class="sub-menu-item"><span>All Virtual Issues</span></a></li><li role="presentation" data-menu-label="Biologically Active Peptides" class="menu-item"><a href="https://onlinelibrary.wiley.com/page/journal/16121880/homepage/virtualissuespage.html#Peptides" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Biologically Active Peptides</span></a></li><li role="presentation" data-menu-label="Bioactive Phloroglucinol Derivatives" class="menu-item"><a href="https://onlinelibrary.wiley.com/page/journal/16121880/homepage/virtualissuespage.html#Myrthaceae" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Bioactive Phloroglucinol Derivatives</span></a></li><li role="presentation" data-menu-label="Marine Natural Product Research in China" class="menu-item"><a href="https://onlinelibrary.wiley.com/page/journal/16121880/homepage/virtualissuespage.html#ChinaMarineDrugs" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Marine Natural Product Research in China</span></a></li><li role="presentation" data-menu-label="Bioactive Natural Products from Lingnan" class="menu-item"><a href="https://onlinelibrary.wiley.com/page/journal/16121880/homepage/virtualissuespage.html#BioactiveNatural" role="menuitem" tabindex="-1" class="sub-menu-item"><span>Bioactive Natural Products from Lingnan</span></a></li></ul></li></ul></section>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="da482e6e-3a68-4ea5-91a9-31ac46ddfd41" class="social-links">
+        
+
+
+
+        
+        <div class="social-media">
+  <h2 class="side-section-header hiddenLabel--lg hiddenLabel--md">Follow journal</h2>
+  <ul class="rlist--inline">
+        <li class="icon-alert-header icon-round" id="alert-link"><a href="/action/doUpdateAlertSettings?action=addJournal&amp;journalCode=16121880"><i class="icon-alert"></i><span class="label hiddenLabel--lg">Alert</span></a></li>
+        <!-- li><a title="Facebook page" href="#" id="facebook-link"><i class="icon-facebook-round"></i><span class="label hiddenLabel-lg hiddenLabel-md">Facebook page</span></a></li -->
+        <!-- li><a title="Twitter channel" href="" id="twitter-link"><i class="icon-twitter-round"></i><span class="label hiddenLabel-lg hiddenLabel-md">Twitter channel</span></a></li -->
+        <li>
+            <div class="expandable-list">
+
+<a href="#" role="button" aria-expanded="false" aria-haspop="true" aria-label="Live Feed" data-toggle="dropdown" id="pane-1" class="expandable-list__toggle">
+  <i aria-hidden="true" class="icon-icon-Rss"></i><span class="label hiddenLabel--lg hiddenLabel--md">RSS Feeds</span>
+</a>
+
+              <ul aria-hidden="true" aria-labelledby="pane-1" class="rlist expandable-list__body">
+                <li id="most-recent-link"><a href="/feed/16121880/most-recent"><i class="icon-icon-Rss"></i>Most recent (RSS)</a></li>
+                <!-- li id="most-read-link"><a href="/feed/16121880/most-read"><i class="icon-icon-Rss"></i>Most accessed</a></li -->
+                <li id="most-cited-link"><a href="/feed/16121880/most-cited"><i class="icon-icon-Rss"></i>Most cited (RSS)</a></li>
+              </ul>
+            </div>
+         </li>
+  </ul>
+</div>
+
+        </div>
+    
+</nav></div></div><div class="header__dropzone"></div>
+
+        </div>
+    
+</div>
+
+
+
+
+        
+        <div><div class="pb-dropzone" data-pb-dropzone="col-0" title="col-0"></div></div>
+
+
+
+
+
+
+
+
+
+
+        <section data-widget-def="ux3-layout-widget" data-widget-id="0f7bccba-8328-4dbd-a1fa-e84c526dd9ab" class="journal-body journal-page-body">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class=" col-md-12">
+
+
+
+        
+        <div class="gutterless--xs gutterless--sm gutterless--md main-content col-md-8">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3SlideShow" data-widget-id="bc4c69e3-266c-4229-b7eb-b6fd2903c287" class="journal-news">
+        
+
+
+
+        
+            <h2 class="section__mainHeader--mid">
+                On the Cover
+            </h2>
+        
+        <div class="slideShow"><a href="#afterSlideshow-nes" class="sr-only-focusable">Skip slideshow</a><div data-loop="true" data-items="1" data-slideby="1" data-autoheight="false" data-responsive="" data-speed="5000" data-autoplay="true" data-animation="slide" data-indicators="true" data-arrow="true" data-controls="true" data-stagePadding='0' data-label="Slideshow" class="owl-carousel" data-pause-slide="Pause slideshow" data-play-slide="Play slideshow" data-go-to-slide="Go to slide:" data-next-slide="Go to next slide" data-prev-slide="Go to previous slide"><div class="slide-item">
+
+
+
+        
+        <div class="slide-item">
+<div class="creative-work left-side-image"><a href="/doi/10.1002/cbdv.202000979"><img src="/pb-assets/assets/16121880/cover/slide-1-1620160687677.jpg" alt="Front Cover: Synthesis, Biological Evaluation, and Docking Study of Ring-Opening Amide Analogs of Matrine as Antitumor Agents (4/2021)" title="Front Cover: Synthesis, Biological Evaluation, and Docking Study of Ring-Opening Amide Analogs of Matrine as Antitumor Agents (4/2021)"></a></div>
+<div><b>Front Cover</b>. Matrine, an alkaloid extracted from the roots of <i>Sophora flavescens</i>, which has been widely studied as a potential anti-cancer agent against various cancers. However, the activity of matrine is limited because of its low efficacy and short half-life. To overcome these disadvantages, two series of matrine analogues with ring-opening in the lactam portion of the molecule were designed and synthesized. Our <i>in vitro</i> cytotoxicity study showed that analogue B11 with a <i>meta</i>-bromide on the phenyl ring displayed the best antiproliferative activity. Moreover, B11 induced cell cycle arrest in G1 phase and cell apoptosis in a dose-dependent manner in A549 cells. Molecular modeling revealed that B11 achieved a higher docking score compared to its precursor A11 and parent compound matrine, possibly because B11 formed a hydrogen bond with SER91 and a halogen bond with GLN320 on the binding site of annexin A2 as reported by <i>Qian et al</i>. in their
+full paper at <a href="/doi/10.1002/cbdv.202000979">10.1002/cbdv.202000979</a>.</div>
+</div>
+
+
+</div><div class="slide-item">
+
+
+
+        
+        <div class="slide-item">
+<div class="creative-work left-side-image"><a href="/doi/10.1002/cbdv.202000992"><img src="/pb-assets/assets/16121880/cover/slide-2-1620160688643.jpg" alt="Front Cover: Argireline: Needle-Free Botox as Analytical Challenge (Chem. Biodiversity 3/2021)" title="Front Cover: Argireline: Needle-Free Botox as Analytical Challenge (Chem. Biodiversity 3/2021)"></a></div>
+<div><b>Front Cover</b>. Creams and other cosmetics are often applied to reduce the visible ageing effects, such as facial wrinkles. Argireline, an acetyl hexapeptide Ac-Glu-Glu-Met-Gln-Arg-Arg-NH<sub>2</sub>, sometimes described as &lsquo;needle-free Botox' is often added to higher-end anti-wrinkle cosmetic products. However, detection and quantification of argireline content in commercially available cosmetics is complicated due to the low concentration and very complex matrix. The application of such sensitive method as LC-MS may not be enough to detect argireline in some products, moreover, the experiments revealed that the methionine residue is often oxidized, which may affect its biological properties in unexpected and as of yet uninvestigated ways, as reported by <i>Kluczyk et al</i>. in their full paper at <a href="/doi/10.1002/cbdv.202000992">10.1002/cbdv.202000992</a>.</div>
+</div>
+
+
+</div><div class="slide-item">
+
+
+
+        
+        <div class="slide-item">
+<div class="creative-work left-side-image"><a href="/doi/10.1002/cbdv.202000883"><img src="/pb-assets/assets/16121880/cover/slide-3-1620160689387.jpg" alt="Front Cover: Investigation of the Effects of Primary Structure Modifications within the RRE Motif on the Conformation of Synthetic Bovine Herpesvirus 1-Encoded UL49.5 Protein Fragments (Chem. Biodiversity 2/2021)" title="Front Cover: Investigation of the Effects of Primary Structure Modifications within the RRE Motif on the Conformation of Synthetic Bovine Herpesvirus 1-Encoded UL49.5 Protein Fragments (Chem. Biodiversity 2/2021)"></a></div>
+<div><b>Front Cover</b>. TAP transporter is a key component of the MHC class I-restricted antigen presentation pathway, shuttling antigenic peptides across the ER membrane. BoHV-1 herpesvirus-encoded UL49.5 protein is a viral TAP inhibitor. Searching for the molecular mechanism of UL49.5 action, variations in the RRE(9-11) motif of its N-terminal domain were designed to abolish (RRE(9-11)GGG) or stabilize (RRE(9-11)AAA and RRE(9-11)E11G) the structure of the &alpha;-helix. The desired structural alterations were confirmed by circular dichroism, NMR, and molecular dynamics in membrane-mimetic environments. The introduced RRE modifications slightly altered the biological activity of UL49.5 in human cells, as demonstrated by MHC I level measurements by flow cytometry; yet, they could not abolish the UL49.5-mediated peptide transport arrest. The results indicate that other structural motifs may contribute to TAP inhibition as reported by <i>Karska et al</i>. in their full paper at
+<a href="/doi/10.1002/cbdv.202000883">10.1002/cbdv.202000883</a>.</div>
+</div>
+
+
+</div><div class="slide-item">
+
+
+
+        
+        <div class="slide-item">
+<div class="creative-work left-side-image"><a href="/doi/10.1002/cbdv.202001004"><img src="/pb-assets/assets/16121880/cover/slide-4-1620160690320.jpg" alt="Cover Picture: Phosphonic Analogs of Alanine as Acylpeptide Hydrolase Inhibitors (Chem. Biodiversity 2/2021)" title="Cover Picture: Phosphonic Analogs of Alanine as Acylpeptide Hydrolase Inhibitors (Chem. Biodiversity 2/2021)"></a></div>
+<div><b>Cover Picture</b>. The primary function of acylpeptide hydrolase is associated with the removal of N-acetylated amino acid residues from proteins and peptides. Considering the protein degradation cycle cross-talk between acylpeptide hydrolase and proteasome, inhibition of the first enzyme resulted in down-regulation of the ubiquitin-proteasome system and induction of cancer cell apoptosis as reported by <i>Maciej Walczak et al</i>. in their full paper at<a href="/doi/10.1002/cbdv.202001004">10.1002/cbdv.202001004</a>.</div>
+</div>
+
+
+</div></div><a href="" class="more-widget-link">more ></a><span id="afterSlideshow-nes" tabindex="-1"></span></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="general-rich-text" data-widget-id="0a24998a-0288-459e-aa12-4ac9095eb53d" class="clearfix my-4">
+        
+
+
+
+        
+            <h2 class="section__mainHeader--mid">
+                Special Collection - Neglected Tropical Diseases
+            </h2>
+        
+        <div id="rich-text-0a24998a-0288-459e-aa12-4ac9095eb53d" class="pb-rich-text" >
+        <p>This Virtual Collection showcases research in the field of Neglected Tropical Diseases (NTDs). These diseases are especially common in many countries of Asia, Africa, and Latin America and massively impact the health of over one billion people worldwide. This collection will feature recent advances in the research on NTDs, especially in the field of essential oils, parasitology and medicinal chemistry.</p>
+<br>
+<p>Our guest editor</p>
+<table>
+<tbody>
+<tr>
+<td><a href="https://millercrotti.wixsite.com/research-group" target="_blank" rel="noopener"> <img style="width: 200px;" title="Crotti" src="/pb-assets/assets/16121880/images/Crotti-1620218000263.png" alt="Crotti"></a></td>
+<td><img style="width: 200px;" title="Krause" src="/pb-assets/assets/16121880/images/Krause-1620218000243.png" alt="Krause"></td>
+</tr>
+<tr>
+<td><a href="https://millercrotti.wixsite.com/research-group" target="_blank" rel="noopener">Prof. Antônio Eduardo Miller Crotti</a><br>(University of São Paulo, Brazil)</td>
+<td>Dr. Malgorzata Krause-Gruszczynska<br>(Associate Editor Chemistry &amp; Biodiversity)</td>
+</tr>
+</tbody>
+</table>
+<p>looking forward to receiving your submissions.</p>
+</div>
+
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3Tabs" data-widget-id="01cbe741-499a-4611-874e-1061f1f4679e" class="tabs--defult-style">
+        
+
+
+
+        
+            <h2 class="section__mainHeader--mid">
+                Articles
+            </h2>
+        
+        <div data-ctrl-res="screen-md" class="tab"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="tab__nav__item"><a href="#pane-01cbe741-499a-4611-874e-1061f1f4679e01" aria-controls="#pane-01cbe741-499a-4611-874e-1061f1f4679e01" role="tab" data-toggle="tab" id="pane-01cbe741-499a-4611-874e-1061f1f4679e01con" aria-selected="true" data-simple-tab-id="" class="tab__nav__item__link active"><span>Most Recent</span></a></li><li role="presentation" class="tab__nav__item"><a href="#pane-01cbe741-499a-4611-874e-1061f1f4679e11" aria-controls="#pane-01cbe741-499a-4611-874e-1061f1f4679e11" role="tab" data-toggle="tab" id="pane-01cbe741-499a-4611-874e-1061f1f4679e11con" aria-selected="false" data-simple-tab-id="" class="tab__nav__item__link"><span>Most Cited</span></a></li></ul><div class="tab__content"><div id="pane-01cbe741-499a-4611-874e-1061f1f4679e01" aria-labelledby="pane-01cbe741-499a-4611-874e-1061f1f4679e01con" role="tabpanel" class="tab__pane active">
+
+
+
+        
+        <div class="top-content"><div class="issue-item"><div class="doi-access-wrapper"><span class="item-category">Cover Picture</span></div><a href="/doi/full/10.1002/cbdv.202100284" class="issue-item__title visitable"><h3 class="issue-item__title issue-item__title__en">Longibramides A &#x2013; E, Peptaibols Isolated from a Mushroom Derived Fungus <i>Trichoderma longibrachiatum</i> Rifai DMG&#x2010;3&#x2010;1&#x2010;1.</h3></a><ul class="rlist--inline separator issue-item__details"><li><label>First Published:</label><span class="bold"> &nbsp5 May 2021</span></li></ul><div class="abstract-group">
+   <div class="toc-item__abstract abstract-preview">
+      <h3 class="article-section__header graphical abstractlang_en graphical">Abstract</h3>
+      <div class="left-side-image abstract-preview__visual clearfix"><a title="Link to full-size graphical abstract" class="abstract-preview__zoom" href="/cms/asset/834dab5d-3412-4d0e-b8d2-506708f78b48/cbdv202100284-toc-0001-m.jpg"><img loading="lazy" class="image" src="/cms/asset/834dab5d-3412-4d0e-b8d2-506708f78b48/cbdv202100284-toc-0001-m.jpg"></a>
+         <span tabindex="0"><b>Front Cover</b>. Five new peptaibols, longibramides A – E (<b>1</b>–<b>5</b>) with 11 amino acid residues, were isolated from a fungus <i>Trichoderma longibrachiatum</i> Rifai DMG‐3‐1‐1, which was isolated from a mushroom <i>Clitocybe nebularis</i> (Batsch) P. Kumm collected from coniferous forest in the subboreal area of northeast China. The structures of longibramides A – E were determined by their spectroscopic data (NMR and MS‐MS spectra), their absolute configurations were determined by X‐ray diffractions and Marfey's analyses. The X‐ray diffractions of longibramides A, B and the similar CD spectra of A – E showed that they all had <i>α</i>‐helix conformations. Longibramides B and E showed moderate cytotoxicities against BV2 and MCF‐7 cells, and also showed some inhibitory effects against methicillin‐resistant <i>Staphylococcus aureus</i> MRSA T144. This result enriched the family of peptaibol, as reported by <i>Zhang et al</i>. in their full paper at<a href="https://doi.org/10.1002/cbdv.202100128">10.1002/cbdv.202100128</a>.
+            </span>
+         
+      </div>
+   </div>
+</div><div class="content-item-format-links"><ul class="rlist--inline separator"><li><a href="/doi/abs/10.1002/cbdv.202100284" title="Abstract">Abstract</a></li><li><a href="/doi/full/10.1002/cbdv.202100284" title="Full text">Full text</a></li><li><a href="/doi/epdf/10.1002/cbdv.202100284" title="ePDF">PDF</a></li><li><a href="https://onlinelibrary.wiley.com/action/rightsLink?doi=10.1002%2Fcbdv.202100284&amp;mode=" title="Request permissions" target="_blank">Request permissions</a></li></ul></div></div><div class="issue-item"><div class="doi-access-wrapper"><span class="item-category">Full Paper</span></div><a href="/doi/full/10.1002/cbdv.202100265" class="issue-item__title visitable"><h3 class="issue-item__title issue-item__title__en">Commiphoranes K&#x2212;O, new terpenoids from Resina Commiphora and their anti&#x2010;inflammatory activities</h3></a><ul class="rlist--inline loa comma">
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Yang%2C+Xiaohua"><span>Xiaohua Yang</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Wang%2C+Daiwei"><span>Daiwei Wang</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Yan%2C+Yongming"><span>Yongming Yan</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Jiao%2C+Yabin"><span>Yabin Jiao</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Cheng%2C+Yongxian"><span>Yongxian Cheng<i aria-hidden="true" class="icon-mail_outline"></i></span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Wang%2C+Feng"><span>Feng Wang</span></a></span></li>
+</ul><ul class="rlist--inline separator issue-item__details"><li><label>First Published:</label><span class="bold"> &nbsp3 May 2021</span></li></ul><div class="content-item-format-links"><ul class="rlist--inline separator"><li><a href="/doi/abs/10.1002/cbdv.202100265" title="Abstract">Abstract</a></li><li><a href="/doi/epdf/10.1002/cbdv.202100265" title="ePDF">PDF</a></li></ul></div></div><div class="issue-item"><div class="doi-access-wrapper"><span class="item-category">Full Paper</span></div><a href="/doi/full/10.1002/cbdv.202100053" class="issue-item__title visitable"><h3 class="issue-item__title issue-item__title__en">Analytical profiling of phenolic compounds in extracts of three Cistus species from Sardinia and their potential antimicrobial and antioxidant activity.</h3></a><ul class="rlist--inline loa comma">
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Mastino%2C+Patrizia"><span>Patrizia Mastino<i aria-hidden="true" class="icon-mail_outline"></i></span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Marchetti%2C+Mauro+Alberto"><span>Mauro  Alberto Marchetti</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Costa%2C+Jean"><span>Jean Costa</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Juliano%2C+Claudia"><span>Claudia Juliano</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Usai%2C+Marianna"><span>Marianna Usai</span></a></span></li>
+</ul><ul class="rlist--inline separator issue-item__details"><li><label>First Published:</label><span class="bold"> &nbsp1 May 2021</span></li></ul><div class="content-item-format-links"><ul class="rlist--inline separator"><li><a href="/doi/abs/10.1002/cbdv.202100053" title="Abstract">Abstract</a></li><li><a href="/doi/epdf/10.1002/cbdv.202100053" title="ePDF">PDF</a></li></ul></div></div><div class="issue-item"><div class="doi-access-wrapper"><span class="item-category">Full Paper</span></div><a href="/doi/full/10.1002/cbdv.202100097" class="issue-item__title visitable"><h3 class="issue-item__title issue-item__title__en">Variation of essential oil content and composition, phenolics, and yield related traits using different pollination systems in populations of Thymus species</h3></a><ul class="rlist--inline loa comma">
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Khanahmadi%2C+Faranak"><span>Faranak Khanahmadi</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Rahimmalek%2C+Mehdi"><span>Mehdi Rahimmalek<i aria-hidden="true" class="icon-mail_outline"></i></span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Sabzalian%2C+Mohammad+R"><span>Mohammad  R. Sabzalian</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Tohidi%2C+Behnaz"><span>Behnaz Tohidi</span></a></span></li>
+</ul><ul class="rlist--inline separator issue-item__details"><li><label>First Published:</label><span class="bold"> &nbsp1 May 2021</span></li></ul><div class="content-item-format-links"><ul class="rlist--inline separator"><li><a href="/doi/abs/10.1002/cbdv.202100097" title="Abstract">Abstract</a></li><li><a href="/doi/epdf/10.1002/cbdv.202100097" title="ePDF">PDF</a></li></ul></div></div><div class="issue-item"><div class="doi-access-wrapper"><span class="item-category">Full Paper</span></div><a href="/doi/full/10.1002/cbdv.202001043" class="issue-item__title visitable"><h3 class="issue-item__title issue-item__title__en">Protective Effect of n&#x2010;Butanol Extract from Viola yedoensis on Immunological Liver Injury</h3></a><ul class="rlist--inline loa comma">
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Chu%2C+Haiqing"><span>Haiqing Chu</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Wang%2C+Jiexin"><span>Jiexin Wang</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Wang%2C+Qian"><span>Qian Wang</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Chen%2C+Jie"><span>Jie Chen</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Li%2C+Jiaoning"><span>Jiaoning Li</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Li%2C+Hangying"><span>Hangying Li</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Zhang%2C+Liming"><span>Liming Zhang<i aria-hidden="true" class="icon-mail_outline"></i></span></a></span></li>
+</ul><ul class="rlist--inline separator issue-item__details"><li><label>First Published:</label><span class="bold"> &nbsp30 April 2021</span></li></ul><div class="content-item-format-links"><ul class="rlist--inline separator"><li><a href="/doi/abs/10.1002/cbdv.202001043" title="Abstract">Abstract</a></li><li><a href="/doi/epdf/10.1002/cbdv.202001043" title="ePDF">PDF</a></li></ul></div></div></div>
+
+
+
+
+        
+        <a href="/action/doSearch?SeriesKey=16121880&amp;sortBy=Earliest" title="More articles" class="more-widget-link">more <span aria-hidden="true">&gt;</span></a>
+
+</div><div id="pane-01cbe741-499a-4611-874e-1061f1f4679e11" aria-labelledby="pane-01cbe741-499a-4611-874e-1061f1f4679e11con" role="tabpanel" class="tab__pane">
+
+
+
+        
+        <div id="rich-text-e5488a34-60f4-4971-b218-d58582b6e54e" class="pb-rich-text" >
+        <p>The following is a list of the most cited articles based on citations published in the last three years, according to CrossRef.</p>
+</div>
+
+
+
+
+
+        
+        <div class="top-content"><div class="issue-item"><a href="/doi/full/10.1002/cbdv.200790152" class="issue-item__title visitable"><h3 class="issue-item__title issue-item__title__en">Human Cannabinoid Pharmacokinetics</h3></a><ul class="rlist--inline loa comma">
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Huestis%2C+Marilyn+A"><span>Marilyn A. Huestis</span></a></span></li>
+</ul><ul class="rlist--inline separator issue-item__details"><li class="iPageRange"><label>Pages:</label><span>&nbsp1770-1804</span></li><li><label>First Published:</label><span class="bold"> &nbsp21 August 2007</span></li></ul><div class="firstPageImage"><img src="/cms/asset/af895c61-f8db-4339-8d39-892438bed60f/cbdv.200790152.fp.png" alt="First page image" loading="lazy"></div><div class="content-item-format-links"><ul class="rlist--inline separator"><li><a href="/doi/epdf/10.1002/cbdv.200790152" title="ePDF">PDF</a></li><li><a href="/doi/full/10.1002/cbdv.200790152#reference" title="References">References</a></li><li><a href="https://onlinelibrary.wiley.com/action/rightsLink?doi=10.1002%2Fcbdv.200790152&amp;mode=" title="Request permissions" target="_blank">Request permissions</a></li></ul></div></div><div class="issue-item"><a href="/doi/full/10.1002/cbdv.200890195" class="issue-item__title visitable"><h3 class="issue-item__title issue-item__title__en">KP1019, A New Redox&#x2010;Active Anticancer Agent &#x2013; Preclinical Development and Results of a Clinical Phase I Study in Tumor Patients</h3></a><ul class="rlist--inline loa comma">
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Hartinger%2C+Christian+G"><span>Christian G. Hartinger<i aria-hidden="true" class="icon-mail_outline"></i></span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Jakupec%2C+Michael+A"><span>Michael A. Jakupec</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Zorbas-Seifried%2C+Stefanie"><span>Stefanie Zorbas‐Seifried</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Groessl%2C+Michael"><span>Michael Groessl</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Egger%2C+Alexander"><span>Alexander Egger</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Berger%2C+Walter"><span>Walter Berger</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Zorbas%2C+Haralabos"><span>Haralabos Zorbas</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Dyson%2C+Paul+J"><span>Paul J. Dyson</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Keppler%2C+Bernhard+K"><span>Bernhard K. Keppler<i aria-hidden="true" class="icon-mail_outline"></i></span></a></span></li>
+</ul><ul class="rlist--inline separator issue-item__details"><li class="iPageRange"><label>Pages:</label><span>&nbsp2140-2155</span></li><li><label>First Published:</label><span class="bold"> &nbsp29 October 2008</span></li></ul><div class="abstract-group"></div><div class="content-item-format-links"><ul class="rlist--inline separator"><li><a href="/doi/abs/10.1002/cbdv.200890195" title="Abstract">Abstract</a></li><li><a href="/doi/epdf/10.1002/cbdv.200890195" title="ePDF">PDF</a></li><li><a href="/doi/full/10.1002/cbdv.200890195#reference" title="References">References</a></li><li><a href="https://onlinelibrary.wiley.com/action/rightsLink?doi=10.1002%2Fcbdv.200890195&amp;mode=" title="Request permissions" target="_blank">Request permissions</a></li></ul></div></div><div class="issue-item"><a href="/doi/full/10.1002/cbdv.200790144" class="issue-item__title visitable"><h3 class="issue-item__title issue-item__title__en">History of Cannabis and Its Preparations in Saga, Science, and Sobriquet</h3></a><ul class="rlist--inline loa comma">
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Russo%2C+Ethan+B"><span>Ethan B. Russo<i aria-hidden="true" class="icon-mail_outline"></i></span></a></span></li>
+</ul><ul class="rlist--inline separator issue-item__details"><li class="iPageRange"><label>Pages:</label><span>&nbsp1614-1648</span></li><li><label>First Published:</label><span class="bold"> &nbsp21 August 2007</span></li></ul><div class="abstract-group"></div><div class="content-item-format-links"><ul class="rlist--inline separator"><li><a href="/doi/abs/10.1002/cbdv.200790144" title="Abstract">Abstract</a></li><li><a href="/doi/epdf/10.1002/cbdv.200790144" title="ePDF">PDF</a></li><li><a href="/doi/full/10.1002/cbdv.200790144#reference" title="References">References</a></li><li><a href="https://onlinelibrary.wiley.com/action/rightsLink?doi=10.1002%2Fcbdv.200790144&amp;mode=" title="Request permissions" target="_blank">Request permissions</a></li></ul></div></div><div class="issue-item"><a href="/doi/full/10.1002/cbdv.200790147" class="issue-item__title visitable"><h3 class="issue-item__title issue-item__title__en">Cannabidiol &#x2013; Recent Advances</h3></a><ul class="rlist--inline loa comma">
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Mechoulam%2C+Raphael"><span>Raphael Mechoulam<i aria-hidden="true" class="icon-mail_outline"></i></span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Peters%2C+Maximilian"><span>Maximilian Peters</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Murillo-Rodriguez%2C+Eric"><span>Eric Murillo‐Rodriguez</span></a></span></li>
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Hanu%C5%A1%2C+Lum%C3%ADr+O"><span>Lumír O. Hanuš</span></a></span></li>
+</ul><ul class="rlist--inline separator issue-item__details"><li class="iPageRange"><label>Pages:</label><span>&nbsp1678-1692</span></li><li><label>First Published:</label><span class="bold"> &nbsp21 August 2007</span></li></ul><div class="abstract-group"></div><div class="content-item-format-links"><ul class="rlist--inline separator"><li><a href="/doi/abs/10.1002/cbdv.200790147" title="Abstract">Abstract</a></li><li><a href="/doi/epdf/10.1002/cbdv.200790147" title="ePDF">PDF</a></li><li><a href="/doi/full/10.1002/cbdv.200790147#reference" title="References">References</a></li><li><a href="https://onlinelibrary.wiley.com/action/rightsLink?doi=10.1002%2Fcbdv.200790147&amp;mode=" title="Request permissions" target="_blank">Request permissions</a></li></ul></div></div><div class="issue-item"><a href="/doi/full/10.1002/cbdv.200490173" class="issue-item__title visitable"><h3 class="issue-item__title issue-item__title__en">Pyrimidine as Constituent of Natural Biologically Active Compounds</h3></a><ul class="rlist--inline loa comma">
+   <li><span><a class="publication_contrib_author" href="/action/doSearch?ContribAuthorStored=Lagoja%2C+Irene+M"><span>Irene M. Lagoja<i aria-hidden="true" class="icon-mail_outline"></i></span></a></span></li>
+</ul><ul class="rlist--inline separator issue-item__details"><li class="iPageRange"><label>Pages:</label><span>&nbsp1-50</span></li><li><label>First Published:</label><span class="bold"> &nbsp24 January 2005</span></li></ul><div class="abstract-group"></div><div class="content-item-format-links"><ul class="rlist--inline separator"><li><a href="/doi/abs/10.1002/cbdv.200490173" title="Abstract">Abstract</a></li><li><a href="/doi/epdf/10.1002/cbdv.200490173" title="ePDF">PDF</a></li><li><a href="/doi/full/10.1002/cbdv.200490173#reference" title="References">References</a></li><li><a href="https://onlinelibrary.wiley.com/action/rightsLink?doi=10.1002%2Fcbdv.200490173&amp;mode=" title="Request permissions" target="_blank">Request permissions</a></li></ul></div></div></div>
+
+
+
+
+        
+        <a href="/action/doSearch?SeriesKey=16121880&amp;sortBy=cited" title="More articles" class="more-widget-link">more <span aria-hidden="true">&gt;</span></a>
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="30cc1a9b-0386-4da3-958b-05f8b519dc9c">
+        
+
+
+
+        
+        <div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3MultiSearchWidget" data-widget-id="268fdf69-aca1-43fb-be55-639e459d204f" class="news grid-lg-2 grid-md-2 grid-sm-2 grid-xs-1 cover-image--parentInfo">
+        
+
+
+
+        
+            <h2 class="section__mainHeader--mid multi-search__header">
+                Latest news
+            </h2>
+        
+        <div class="multi-search"><input type="hidden" name="contextual_publication" value="16121880"/><input type="hidden" name="contextual_group" value="10.1002/cbdv.v18.4"/><div class="multi-search--empty"></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="news__more-links multi-search__more-links" >
+    <a href="/allnews/16121880" title="More news">More news &gt;</a>
+</div>
+</div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="4ce7b335-b48f-47f8-8428-2fb0e72b2ce1">
+        
+
+
+
+        
+            <h2 class="section__mainHeader--mid">
+                Recent issues
+            </h2>
+        
+        <div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3CoverImage" data-widget-id="cc39c68d-547d-4f53-8960-d4d530111a33" class="grid-lg-2 grid-md-2 grid-sm-2 grid-xs-1  cover-image--parentInfo">
+        
+
+
+
+        
+        <ul class="rlist loc mostRecent"><li class="grid-item cover-image"><div class="cover-image__image hasDetails"><a href="/toc/16121880/2021/18/4"><img src="/cms/asset/7e515f23-ed59-4613-8b28-0d804b8f58b8/cbdv.v18.4.cover.gif" alt="View Table of Contents for Chemistry &amp;amp; Biodiversity volume 18 issue 4"/></a></div><div class="cover-image__details"><span class="cover-image__type">Issue</span><a href="/toc/16121880/2021/18/4" title="View Table of Contents for Chemistry &amp;amp; Biodiversity volume 18 issue 4" class="cover-image__parent-item"><span class="comma">Volume 18,&nbsp;</span>Issue 4</a><div class="cover-image__date"><span>April 2021</span></div></div></li><li class="grid-item cover-image"><div class="cover-image__image hasDetails"><a href="/toc/16121880/2021/18/3"><img src="/cms/asset/0a371993-47f1-4bc7-9cf1-71b9bdaa2adc/cbdv.v18.3.cover.gif" alt="View Table of Contents for Chemistry &amp;amp; Biodiversity volume 18 issue 3"/></a></div><div class="cover-image__details"><span class="cover-image__type">Issue</span><a href="/toc/16121880/2021/18/3" title="View Table of Contents for Chemistry &amp;amp; Biodiversity volume 18 issue 3" class="cover-image__parent-item"><span class="comma">Volume 18,&nbsp;</span>Issue 3</a><div class="cover-image__date"><span>March 2021</span></div></div></li><li class="grid-item cover-image"><div class="cover-image__image hasDetails"><a href="/toc/16121880/2021/18/2"><img src="/cms/asset/e211dca4-f3d6-405c-b70a-97c7281ec430/cbdv.v18.2.cover.gif" alt="View Table of Contents for Chemistry &amp;amp; Biodiversity volume 18 issue 2"/></a></div><div class="cover-image__details"><span class="cover-image__type">Issue</span><a href="/toc/16121880/2021/18/2" title="View Table of Contents for Chemistry &amp;amp; Biodiversity volume 18 issue 2" class="cover-image__parent-item"><span class="comma">Volume 18,&nbsp;</span>Issue 2</a><div class="cover-image__date"><span>February 2021</span></div></div></li><li class="grid-item cover-image"><div class="cover-image__image hasDetails"><a href="/toc/16121880/2021/18/1"><img src="/cms/asset/21dc2bad-c57a-4844-8a52-0a525d49f699/cbdv.v18.1.cover.gif" alt="View Table of Contents for Chemistry &amp;amp; Biodiversity volume 18 issue 1"/></a></div><div class="cover-image__details"><span class="cover-image__type">Issue</span><a href="/toc/16121880/2021/18/1" title="View Table of Contents for Chemistry &amp;amp; Biodiversity volume 18 issue 1" class="cover-image__parent-item"><span class="comma">Volume 18,&nbsp;</span>Issue 1</a><div class="cover-image__date"><span>January 2021</span></div></div></li></ul>
+
+        </div>
+    
+</div>
+
+        </div>
+    
+</div><div class="gutterless--xs gutterless--sm gutterless--md col-md-4">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="ee7a3430-1136-4dfb-922e-2ee614f121aa" class="journal-sidebar">
+        
+
+
+
+        
+        <div>
+
+
+
+        
+        <div class="journal-side-section journal-actions-container">
+ <h2 class="side-section-header hidden-lg hidden-md">Tools</h2>
+ <ul class="unordered-list-icons">
+  <li id="SubmitanArticle"><a href="https://www.editorialmanager.com/chembiodiv/default.aspx"><i aria-hidden="true" class="icon-submit_article"></i>Submit an Article</a></li>
+  <!--<li id="Browsefreesampleissue"><a href="/toc/10.1002/(ISSN)1612-1880/free-sample"><i aria-hidden="true" class="icon-sample_issue"></i>Browse free sample issue</a></li>-->
+  <li id="Getcontentalerts"><a href="/action/doUpdateAlertSettings?action=addJournal&amp;journalCode=16121880"><i aria-hidden="true" class="icon-alert"></i>Get content alerts</a></li>
+  <!-- li id="Recommendtoalibrarian"><a href="/action/recommendation?doi=10.1002/(ISSN)1612-1880"><i aria-hidden="true" class="icon-recommend"></i>Recommend to a librarian</a></li -->
+ </ul>
+</div>
+
+
+
+
+        
+        <div class="journal-side-section">
+<ul class="unordered-list-icons">
+<li><a href="https://ordering.onlinelibrary.wiley.com/subs.asp?ref=1612-1880&amp;doi=10.1002/(ISSN)1612-1880" id="subscribeLink" title="Subscribe to this journal"><i aria-hidden="true" class="icon-subscribe"></i>Subscribe to this journal</a></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="5e6f26aa-d597-4688-9154-94c250dbfcf6" class="card--bordered my-4 sidebar-society-logo">
+        
+
+
+
+        
+        <!-- Society Logos -->
+<style>
+    .sidebar-society-logo {
+        display: none;
+    }
+</style>
+
+        </div>
+    
+
+
+
+
+        
+        
+
+
+
+        <div class="pb-ad">
+            <div id="advert-rail-1" class="advert advert-rail">
+			<script>
+
+				googletag.cmd.push 		( function () {
+					googletag.display 	( 'advert-rail-1' );
+				});
+
+			</script>
+
+			<!-- No JavaScript support is a call to an image -->
+			<noscript>
+				<a href="/action/clickThrough?id=1011&url=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fjump%3Fiu%3D%24googlePublisherCategory%26amp%3Bsz%3D160x600%7C160x320%7C160x160%7C120x600%26amp%3Btile%3D2%26amp%3Bc%3D%24random&loc=%2Fjournal%2F16121880&pubId=41611727&placeholderId=1014&productId=101018" target="_blank">
+					<img src="https://pubads.g.doubleclick.net/gampad/ad?iu=$googlePublisherCategory&amp;sz=160x600|160x320|160x160|120x600&amp;tile=2&amp;c=$random">
+				</a>
+			</noscript>
+		</div>
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="d4c99a14-f731-4a95-ab2a-670b958c4c3c" class="my-4">
+        
+
+
+
+        
+            <h2 class="section__mainHeader--small">
+                More from this journal
+            </h2>
+        
+        <div class="journal-side-section journal-resources">
+  <ul class="unordered-bordered-list">
+    <!--<li id="News"><a href="/page/journal/16121880/homepage/news.html">News</a></li>-->
+    <li id="InternationalCollaboration"><a href="/page/journal/16121880/homepage/internationalcollab.html">International Collaboration</a></li>
+    <!--<li id="EditorsHighlights"><a href="/page/journal/16121880/homepage/editorshighlights.html">Editors' Highlights</a></li>-->
+  </ul>
+</div>
+
+
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="bc02eaa6-d53d-4636-a3a5-1bb30dcb73c9" class="my-4">
+        
+
+
+
+        
+        <iframe src="https://www.diversityinresearch.careers/widget/bootstrap/job/#i=402" id="mdgxWidgetiFrame" style="width: 100%; border: 0; height: 400px; background: 0" frameBorder="0"></iframe>
+
+        </div>
+    
+
+
+
+
+        
+        
+
+
+
+        <div class="pb-ad">
+            <aside>
+	<div id="advert-rail-2" class="advert advert-rail">
+		<script>
+
+			googletag.cmd.push 		( function () {
+				googletag.display 	( 'advert-rail-2' );
+			});
+
+		</script>
+
+		<!-- No JavaScript support is a call to an image -->
+		<noscript>
+			<a href="/action/clickThrough?id=1012&url=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fjump%3Fiu%3D%24googlePublisherCategory%26amp%3Bsz%3D160x600%7C160x320%7C160x160%7C120x600%26amp%3Btile%3D2%26amp%3Bc%3D%24random&loc=%2Fjournal%2F16121880&pubId=41611727&placeholderId=1013&productId=101018" target="_blank">
+				<img src="https://pubads.g.doubleclick.net/gampad/ad?iu=$googlePublisherCategory&amp;sz=160x600|160x320|160x160|120x600&amp;tile=2&amp;c=$random">
+			</a>
+		</noscript>
+	</div>
+</aside>
+        </div>
+    
+
+
+
+
+
+        
+        <ul class="rlist loc"></ul>
+</div>
+
+        </div>
+    
+</div>
+</div></div></div>
+
+        </section>
+    
+        </div>
+    </div><!--end pagefulltext-->
+</main>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="pageFooter" data-widget-id="053994f3-7d80-4bb1-97a4-c67fbc4768cd" class="pageFooter">
+        
+
+
+
+        
+        <footer class="page-footer">
+    <div data-pb-dropzone="main">
+    
+
+
+
+        
+        <div class="main-footer">
+
+
+
+        
+        <style>
+    .footer-links {
+        text-align: center;
+    }
+    .footer-links h3 {
+        font-weight: 300;
+    }
+    .footer-links a {
+        font-weight: 600;
+    }
+    @media (min-width: 992px) {
+        .footer-links {
+            text-align: left;
+        }
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="2753bec1-a79d-4403-827b-6c788ddd6db3" class="footer-sections">
+        
+
+
+
+        
+            <h2 class="sr-only">
+                Additional links
+            </h2>
+        
+        <div class="container"><div class="row"><div class=" col-md-3">
+
+
+
+        
+        <div class="footer-links mb-3">
+  <h3>About Wiley Online Library</h3>
+  <ul class="rlist">
+    <li><a href="https://www.wiley.com/privacy">Privacy Policy</a></li>
+    <li><a href="https://onlinelibrary.wiley.com/terms-and-conditions">Terms of Use</a></li>
+    <li><a href="https://onlinelibrary.wiley.com/cookies">Cookies</a></li>
+    <li><a href="https://onlinelibrary.wiley.com/accessibility">Accessibility</a></li>
+  </ul>
+</div>
+</div><div class=" col-md-3">
+
+
+
+        
+         <div class="footer-links mb-3">
+    <h3>Help & Support</h3>
+    <ul class="rlist">
+      <li><a href="https://hub.wiley.com/community/support/onlinelibrary">Contact Us</a></li>
+      <li><a href="https://www.wiley.com/customer-success/wiley-online-library-training-hub">Training and Support</a></li>
+    <li><a href="/dmca-notification-policy">DMCA &amp; Reporting Piracy</a></li>
+    </ul>
+  </div>
+</div><div class=" col-md-3">
+
+
+
+        
+         <div class="footer-links mb-3">
+    <h3>Opportunities</h3>
+    <ul class="rlist">
+      <li><a href="https://onlinelibrary.wiley.com/agents">Subscription Agents</a></li>
+      <li><a href="https://onlinelibrary.wiley.com/advertisers">Advertisers & Corporate Partners</a></li>
+    </ul>
+  </div>
+</div><div class=" col-md-3">
+
+
+
+        
+        <div class="footer-links mb-3">
+    <h3>Connect with Wiley</h3>
+    <ul class="rlist">
+      <li><a href="https://www.wiley.com/network">The Wiley Network</a></li>
+      <li><a href="https://newsroom.wiley.com/">Wiley Press Room</a></li>
+    </ul>
+  </div>
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="86584e25-e4db-4118-9550-9b4f5341a4ac" class="copyright-container">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class=" col-md-12">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="bfbf6c5d-a650-4662-828f-5275fada9120" class="copyright">
+        
+
+
+
+        
+        <div class="copyright pull-left">Copyright &copy; 1999-2021 <a href="https://www.wiley.com">John Wiley &amp; Sons, Inc</a>. All rights reserved</div>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="footer-logo pull-right">
+        
+<a href="https://www.wiley.com" title="Wiley Home Page" aria-label="Wiley"><img alt="Wiley Home Page" src="/pb-assets/tmp-images/footer-logo-wiley-1510029248417.png"></a>
+
+</div>
+</div></div></div>
+
+        </div>
+    
+</div>
+    </div>
+</footer>
+
+        </div>
+    
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="popup login-popup hidden" role="dialog" tabindex="-1" aria-labelledby="loginPopupHead">
+
+
+
+    <div class="content">
+        <a href="#" class="close" role="button" aria-label="Cancel Login"><i class="icon-tools_close"></i></a>
+        <div class="modal__header">
+            
+
+<div class="header_logo">
+    <img src="/pb-assets/hub-assets/pericles/logo-header-1526603583437.png" alt="">
+</div>
+        </div>
+
+        <div class="modal__body">
+            <div class="ssoLogin">
+                
+            </div>
+
+            <h2 id="loginPopupHead">Log in to Wiley Online Library</h2>
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="login-form">
+    
+
+    
+
+    
+    <form action="/action/doLogin?societyURLCode=" class="bordered" method="post"><input type="hidden" name="id" value="67065c09-4a88-49cd-934c-ac707951d35c" />
+        
+            <input type="hidden" name="popup" value="true" />
+        
+        
+
+        
+        <input type="hidden" name="loginUri" value="/journal/16121880" />
+        
+            
+
+
+
+
+<input type="hidden" name="redirectUri" value="/journal/16121880" />
+<input type="hidden" name="loginUri" value="/journal/16121880" />
+            
+        
+        
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    <div class="input-group">
+        <div class="label">
+
+            
+                    <label for="username">Email or Customer ID</label>
+                
+        </div>
+        
+        
+                <input id="username" class="login" type="text" name="login" value="" size="15" placeholder="Enter your email"autocorrect="off"spellcheck="false"autocapitalize="off"required="true" />
+            
+        
+                    
+                        <div class="actions">
+                            
+                        </div>
+                    
+                
+    </div>
+
+
+                
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="input-group">
+        <div class="label">
+            <label for="password">Password</label>
+        </div>
+        
+        
+                <input id="password" class="password" type="password" name="password" value="" autocomplete="off" placeholder="Enter your password"autocorrect="off"spellcheck="false"autocapitalize="off"required="true" />
+            
+        <span class="password-eye-icon icon-eye hidden"></span>
+        
+                
+    </div>
+
+                
+                    
+                        <div class="actions">
+                            
+                            <a href="/action/requestResetPassword" class="link show-request-reset-password">
+                                Forgot password?
+                            </a>
+                        </div>
+                    
+                
+            
+        
+        <div class="loginExtraBeans-dropZone" data-pb-dropzone="loginExtraBeans">
+            
+        </div>
+
+        
+                <div class="align-end">
+                    
+                    
+                            
+                            <span class="submit ">
+                                <input class="button btn submit primary no-margin-bottom accessSubmit" type="submit" name="submitButton" value="Log In" />
+                            </span>
+                        
+                </div></form>
+    <div class="societySpecificInstructions">
+        
+    </div>
+</div>
+
+            
+                <div class="login-container clearfix form-btn">
+                    <a href="/action/registration" class="linkBtn float-left">
+                        
+                        NEW USER <span aria-hidden="true">></span>
+                    </a>
+                    
+                        <a href="/action/ssostart?redirectUri=%2Fjournal%2F16121880" class="linkBtn float-right instituation-login">
+                            
+                            INSTITUTIONAL LOGIN <span aria-hidden="true">></span>
+                        </a>
+                    
+                </div>
+            
+
+        </div>
+    </div>
+</div>
+
+
+
+
+        
+        
+
+
+
+
+
+
+<div class="popup change-password-drawer hidden" role="dialog" tabindex="-1" aria-labelledby="changePasswordPopupHead">
+    <div class="content">
+        <a href="#" class="close cancel" role="button" aria-label="close dialog"><i class="icon-close_thin"></i></a>
+        <div class="modal__header">
+            
+
+<div class="header_logo">
+    <img src="/pb-assets/hub-assets/pericles/logo-header-1526603583437.png" alt="">
+</div>
+
+            <h2 id="changePasswordPopupHead">Change Password</h2>
+        </div>
+        <div class="modal__body">
+
+            <div class="form">
+
+                <form action="/action/changePassword" method="post"><div class="message error"></div>
+                    <input type="hidden" name="submit" value="submit" />
+                    <div class="input-group">
+                        <div class="label">
+                            <label for="a589574e-bb98-4c6e-8fed-67365ff05357-old">Old Password</label>
+                        </div>
+                        <input id="a589574e-bb98-4c6e-8fed-67365ff05357-old" class="old" type="password" name="old" value="" autocomplete="off" />
+                        <span class="password-eye-icon icon-eye hidden"></span>
+                    </div>
+                    <div class="input-group">
+                        <div class="label">
+                            <label for="a589574e-bb98-4c6e-8fed-67365ff05357-new">New Password</label>
+                        </div>
+                        <input id="a589574e-bb98-4c6e-8fed-67365ff05357-new" class="pass-hint new" type="password" name="new" value="" autocomplete="off" />
+                        <span class="password-eye-icon icon-eye hidden"></span>
+                        
+                            
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+    
+
+
+<div class="password-strength-indicator" data-min="10" data-max="32" data-strength="3">
+    <span class="text too-short">Too Short</span>
+    <span class="text weak">Weak</span>
+    <span class="text medium">Medium</span>
+    <span class="text strong">Strong</span>
+    <span class="text very-strong">Very Strong</span>
+    <span class="text too-long">Too Long</span>
+</div>
+                        
+                    </div>
+                    <input class="button primary submit" type="submit" value="Submit" disabled="disabled" /></form>
+                <a href="#" class="fakeFormLastElement"></a>
+            </div>
+            <div class="success-template hidden">
+                <h2>Password Changed Successfully</h2>
+                <p>Your password has been changed</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+        
+        
+
+
+
+
+
+<div class="popup registration-popup hidden"  role="dialog" tabindex="-1" aria-labelledby="createAccountPopupHead">
+
+
+
+    <div class="content">
+        <a href="#" class="close" role="button" aria-label="close dialog"><i class="icon-tools_close"></i></a>
+        <div class="modal__header">
+            <div class="logoDropZone" data-pb-dropzone="logoDropZone">
+                
+            </div>
+
+            <h2 id="createAccountPopupHead">Create a new account</h2>
+        </div>
+
+        <div class="modal__body">
+            <form action="/action/registration" class="registration-form" method="post"><input type="hidden" name="redirectUri" value="/journal/16121880" />
+                <div class="input-group">
+                    <div class="label">
+                        <label for="4e647394-f751-4441-baa4-df426bca4b6e.email">Email or Customer ID</label>
+                    </div>
+                    <input id="4e647394-f751-4441-baa4-df426bca4b6e.email" class="email" type="text" name="email" value="" size="15" />
+                </div>
+                <div class="submit">
+                    <input class="button submit primary" type="submit" value="Register" />
+                </div></form>
+            <div class="center">
+                <a href="/action/showLogin" class="show-login">
+                    
+                    Returning user
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+        
+        
+
+
+
+<div class="popup top-drawer request-reset-password-drawer hidden" role="dialog" tabindex="-1" aria-labelledby="resetPasswordPopupHead">
+    <div class="content">
+        <div class="modal__header">
+            <a href="#" class="cancel close" role="button" aria-label="close dialog"><i class="icon-close_thin"></i></a>
+
+            
+
+<div class="header_logo">
+    <img src="/pb-assets/hub-assets/pericles/logo-header-1526603583437.png" alt="">
+</div>
+
+            <h2 id="resetPasswordPopupHead">Forgot your password?</h2>
+
+            <p class="sub">Enter your email address below. </p>
+
+        </div>
+
+        <div class="modal__body">
+
+            
+
+
+
+
+
+
+
+
+
+<div class="error"></div>
+
+
+<form action="/action/requestResetPassword" class="request-reset-password-form" method="post"><input type="hidden" name="requestResetPassword" value="true" />
+    
+            <div class="input-group">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    <div class="input-group">
+        <div class="label">
+
+            
+                    <label for="email">Email or Customer ID</label>
+                
+        </div>
+        
+        
+                <input id="email" class="email" type="text" name="email" value="" size="15" placeholder="Enter your email"autocorrect="off"spellcheck="false"autocapitalize="off" />
+            
+        
+    </div>
+
+            </div>
+        
+
+
+    
+            <div class="password-recaptcha-ajax"></div>
+        
+
+    <div class="form-btn">
+        <input class="button btn primary submit" type="submit" name="submit" value="RESET PASSWORD" disabled="disabled" />
+    </div></form>
+            
+
+            <div class="message error"></div>
+
+            <div class="success-template hidden">
+
+                <p>Please check your email for instructions on resetting your password.
+                    If you do not receive an email within 10 minutes, your email address may not be registered,
+                    and you may need to create a new Wiley Online Library account.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+        
+        <div><div class="pb-dropzone" data-pb-dropzone="col-0" title="col-0"></div></div>
+
+
+
+
+        
+        
+
+
+
+
+<div class="popup top-drawer request-username-drawer username-popup hidden"  role="dialog" tabindex="-1" aria-labelledby="requestUsernamePopupHead">
+    <a href="#" class="close" role="button" aria-label="close dialog"><i class="icon-close_thin"></i></a>
+    <div class="content">
+        <h2 id="requestUsernamePopupHead">Request Username</h2>
+        <div class="form">
+            <p>Can't sign in? Forgot your username?</p>
+            <p class="sub">Enter your email address below and we will send you your username</p>
+            <div class="message error"></div>
+            <form action="/action/requestUsername" method="post"><input type="hidden" name="requestUsername" value="requestUsername" />
+                <div class="input-group">
+                    <div class="label">
+                        <label for="ac834f24-aa07-4ad2-9d13-f77c843f21cb.email">Email or Customer ID</label>
+                    </div>
+                    <input id="ac834f24-aa07-4ad2-9d13-f77c843f21cb.email" class="email" type="text" name="email" value="" size="15" />
+                </div>
+
+                <div class="username-recaptcha-ajax">
+                </div>
+
+                <input class="button primary submit" type="submit" name="submit" value="Submit" disabled="disabled" />
+                <div class="center">
+                    <a href="#" class="cancel">Close</a>
+                </div></form>
+        </div>
+        <div class="success-template hidden note">
+            <p>If the address matches an existing account you will receive an email with instructions to retrieve your username</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+        
+        <!-- Belongs at the bottom of the page -->
+
+<script type="text/javascript">
+if(window._satellite) { 
+_satellite.pageBottom(); 
+}
+</script>
+
+
+
+
+        
+        <style type="text/css">
+.16121880-featured-bg {
+    background-image: url(/pb-assets/images/publications/16121880/background/featured.jpg);
+}
+</style>
+        </div>
+    </div>
+<script src="/products/pericles/releasedAssets/js/build.lazyload.bundle-7468fe63b4cfad746bcc.js"></script><script src="/products/pericles/releasedAssets/js/main.bundle-13e6d7491135df9da2fe.js"></script>
+<script type="text/javascript" src="/wro/k82f~product.js"></script>
+
+<script>var _prum=[['id','59e8fecb3847311aab7b23c6'],['mark','firstbyte',(new Date()).getTime()]];(function(){var s=document.getElementsByTagName('script')[0],p=document.createElement('script');p.async='async';p.src='//rum-static.pingdom.net/prum.min.js';s.parentNode.insertBefore(p,s);})();</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'64aa4638cae0bc54',m:'7502f77501e53a13480ee97a4305b251e639cea2-1620220911-1800-AVaBg8hvgD9W6LJ//ZCgQku/EwNDnup6UWceoovukTxQth+KjSGRFmkQckkpvZDkCG/bv2hsbsVpMWcpT6lmnj0tk9fPPGi5IaUeyHzxFgHJc7hQQKlCwxaZNAZXunxEieishxVd8MVVSFPjRtC06S4=',s:[0x26244c2fc7,0xc80dc86173],}})();</script></body>
+</html>

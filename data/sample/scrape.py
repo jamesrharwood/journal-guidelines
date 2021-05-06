@@ -4,7 +4,7 @@ import json
 from scrapy.utils.project import get_project_settings
 from scrapy.crawler import CrawlerProcess
 
-from data.constants import PREPROCESSED_DATA_FILE_PATH
+from data.data import PREPROCESSED_DATA_FILE_PATH
 from data.scrape.load_urls import load_journal_urls_df_from_csv
 from data.scrape.spiders import JournalSpider
 from .utils import get_sample_dir_path

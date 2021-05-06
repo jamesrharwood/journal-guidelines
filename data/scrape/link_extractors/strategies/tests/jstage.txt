@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<head>
+
+
+
+<!-- 2.0.14 -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="Access full-text academic articles: J-STAGE is an online platform for Japanese academic journals.">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@jstage_ej" />
+<meta name="og:url" content="https://www.jstage.jst.go.jp/browse/atcs" />
+<meta name="og:title" content="Annals of Thoracic and Cardiovascular Surgery" />
+<meta name="og:description" content="Published by The Editorial Committee of Annals of Thoracic and Cardiovascular Surgery. OPEN ACCESS" />
+<meta name="og:site_name" content="J-STAGE" />
+<meta name="og:image" content="https://www.jstage.jst.go.jp/html/images/common/SNS/J-STAGE_logo_sns.png" />
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<title>Annals of Thoracic and Cardiovascular Surgery</title>
+<link rel="stylesheet" href="/web/css/bootstrap3-wysiwyg5-color.css" />
+<link rel="stylesheet" href="/web/css/bootstrap3-wysiwyg5.css" />
+<link rel="stylesheet" href="/web/css/ranking.css?rn=2.0.14" />
+
+<link rel="stylesheet" href="/web/css/bootstrap.min.css" />
+
+<link rel="stylesheet" href="/web/css/style.css?rn=2.0.14"/>
+<link rel="stylesheet" href="/web/css/common-elements-style.css?rn=2.0.14" />
+<link rel="stylesheet" href="/web/css/jquery.treefilter.css" />
+<link rel="stylesheet" href="/web/css/jplayer.blue.monday.css" />
+<link rel="stylesheet" href="/web/css/main.css?rn=2.0.14" />
+<!--[if lt IE 9]>
+
+<script src="/web/js/html5shiv.min.js"></script>
+<script src="/web/js/respond.min.js"></script>
+<![endif]-->
+<style type="text/css">
+<!--
+b {
+	font-weight: bold;
+}
+i {
+	font-style: italic;
+}
+// -->
+</style>
+</head>
+	<body class="body-offcanvas addition-pages">
+
+		
+
+<!-- HEADER :: START -->
+<span class="noprint">
+<header class="clearfix">
+	<!-- NAVIGATION :: START -->
+	<nav class="navbar navbar-default navbar-fixed-top ep-nav-shadow" >
+		<div class="container">
+			<button type="button" class="navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar">&nbsp;</span> <span class="icon-bar">&nbsp;</span> <span class="icon-bar">&nbsp;</span> </button>
+			<!-- RIGHT NAV SEARCH :: BEGIN -->
+			<div class="search-nav-block dropdown">
+				<a href="javascript:;" class=""  data-toggle="collapse" data-target="#Search_nav"><i class="search-nav-icon"></i></a>
+			</div>
+			<!-- RIGHT NAV SEARCH :: END -->
+			<!-- LOGO :: START -->
+			<a class="navbar-brand ms-logowrap hm-logo-padding" href="https://www.jstage.jst.go.jp/browse/-char/en"><img src="/web/images/J-STAGE_logo_A3.png" alt="" style="margin-top:6px;"/></a>
+			<!-- LOGO :: END -->
+			<!-- HAMBURGER LEFT TO RIGHT SLIDE :: START -->
+			<div class="offcanvas-left-wrap register-offcanvas-left-wrap">
+								<div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-fade" role="navigation" id="js-bootstrap-offcanvas">
+					<div class="offcanvas-left-wrap">
+						<div class="navbar-header">
+							<a class="navbar-brand jst-homelink" href="https://www.jstage.jst.go.jp/browse/-char/en">J-STAGE home</a>
+							<button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;"> <img src="/web/images/edit-profile/icon-close-menu.png" alt=""></button>
+						</div>
+						<div class="offcanvas-nav-wrap">
+							<ul class="nav navbar-nav">
+																<li class="dropdown reponsive-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Browse<b class="caret"></b></a>
+									<ul class="dropdown-menu ep-dropdown-menu">
+										<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+										<li><a href="/journal/list/-char/en">All titles</a></li>
+										<li><a href="/journal/fields/-char/en">All subject areas</a></li>
+										<li><a href="/journal/publisher/-char/en">All publishers</a></li>
+										<li><a href="/search/global/_search/-char/en">Search articles</a></li>
+									</ul>
+								</li>
+																<li class="dropdown reponsive-menu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About J-STAGE <b class="caret"></b></a>
+									<ul class="dropdown-menu ep-dropdown-menu">
+										<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageOverview/-char/en">Overview</a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB1/-char/en">Services and features</a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/PublicDataAboutJstage/-char/en">Public data</a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en">Terms and Policy</a></li>
+																			</ul>
+								</li>
+
+																<li class="dropdown reponsive-menu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">News and PR  <b class="caret"></b></a>
+									<ul class="dropdown-menu ep-dropdown-menu">
+										<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB1/Current/Page1/-char/en">News</a></li>
+																				<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB2/Page1/-char/en">Maintenance information</a></li>
+																														<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB6/Page1/-char/en">Special contents </a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB7/Page1/-char/en">PR media </a></li>
+									</ul>
+								</li>
+																<li class="dropdown reponsive-menu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Support  <b class="caret"></b></a>
+									<ul class="dropdown-menu ep-dropdown-menu">
+										<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+																														<li><a href="https://www.jstage.jst.go.jp/static/pages/ForReaders/-char/en">User's manual</a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/RecommendedEnvironment/-char/en">Current confirmed browsers</a></li>
+																				 <li><a href="https://www.jstage.jst.go.jp/static/pages/FAQs/TAB3/-char/en">FAQ</a></li> 										<li><a href="https://www.jstage.jst.go.jp/static/pages/Contact/-char/en">Contact </a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/Sitemap/-char/en">Sitemap </a></li>
+									</ul>
+								</li>
+																																														<li class="reponsive-menu"><a href="/mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fatcs%2F-char%2Fen">Sign in</a></li>
+																											<li class="reponsive-menu"><a href="/cart/list/-char/en?backurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fatcs%2F-char%2Fen" class="" >Cart <img src="/web/images/edit-profile/icon-cart.png" alt=""></a>
+									</li>
+																<li class="dropdown reponsive-menu">
+																		<a href="#" class="dropdown-toggle" data-toggle="dropdown"> EN  <img src="/web/images/edit-profile/icon-lang.png" alt=""> <b class="caret"></b></a>
+									<ul class="dropdown-menu ep-dropdown-menu">
+									<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+																				<li><a href="javascript:;" onclick="doChangeLang('en')">English</a></li>
+										<li><a href="javascript:;" onclick="doChangeLang('ja')">日本語</a></li>
+																			</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+								<ul class="nav navbar-nav offcanvas-left-display-none">
+										<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Browse<b class="caret"></b></a>
+						<ul class="dropdown-menu ep-dropdown-menu">
+							<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+							<li><a href="/journal/list/-char/en">All titles</a></li>
+							<li><a href="/journal/fields/-char/en">All subject areas</a></li>
+							<li><a href="/journal/publisher/-char/en">All publishers</a></li>
+							<li><a href="/search/global/_search/-char/en">Search articles</a></li>
+						</ul>
+					</li>
+										<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About J-STAGE <b class="caret"></b></a>
+						<ul class="dropdown-menu ep-dropdown-menu">
+							<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageOverview/-char/en">Overview</a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB1/-char/en">Services and features</a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/PublicDataAboutJstage/-char/en">Public data</a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en">Terms and Policy</a></li>
+													</ul>
+					</li>
+										<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">News and PR  <b class="caret"></b></a>
+						<ul class="dropdown-menu ep-dropdown-menu">
+							<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB1/Current/Page1/-char/en">News</a></li>
+														<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB2/Page1/-char/en">Maintenance information</a></li>
+																					<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB6/Page1/-char/en">Special contents </a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB7/Page1/-char/en">PR media </a></li>
+						</ul>
+					</li>
+										<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Support  <b class="caret"></b></a>
+						<ul class="dropdown-menu ep-dropdown-menu">
+							<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+																					<li><a href="https://www.jstage.jst.go.jp/static/pages/ForReaders/-char/en">User's manual</a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/RecommendedEnvironment/-char/en">Current confirmed browsers</a></li>
+														 <li><a href="https://www.jstage.jst.go.jp/static/pages/FAQs/TAB3/-char/en">FAQ</a></li> 							<li><a href="https://www.jstage.jst.go.jp/static/pages/Contact/-char/en">Contact </a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/Sitemap/-char/en">Sitemap </a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- HAMBURGER LEFT TO RIGHT SLIDE :: END -->
+			<div class="offcanvas-right-wrap register-offcanvas-right-wrap">
+				<ul class="nav navbar-nav">
+																					<li class=""> <a href="/mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fatcs%2F-char%2Fen" class="" >Sign in  </a></li>
+															<li class=""><a href="/cart/list/-char/en?backurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fatcs%2F-char%2Fen" class="" >Cart </a>
+					</li>
+												<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					 EN 					<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu ep-dropdown-menu" style="min-width: 80px;">
+						<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""></span></li>
+						<li><a href="javascript:;" onclick="doChangeLang('en')">English</a></li>
+						<li><a href="javascript:;" onclick="doChangeLang('ja')">日本語</a></li>
+					</ul>
+				</li>
+								</ul>
+			</div>
+			<!-- RIGHT NAV SEARCH DROPDOWN :: BEGIN -->
+			<ul class="dropdown-menu collapse ep-dropdown-menu search-dropdown-menu" id="Search_nav" style="max-width: 300px;">
+				<li style="background:none !important;"><span class="topnav-dropdown-icon"></span></li>
+				<li>
+					<div class="col-md-24 edit-profile-form-control">
+						<form action="/result/journal/-char/en" method="get">
+						<div class="input-group">
+							<input name="globalSearchKey" type="text" class="form-control search-nav-input" placeholder="Search within all titles on J-STAGE">
+							<span class="input-group-btn search-btn">
+							<button class="btn btn-default" type="submit"><i class="search-nav-icon"></i></button>
+							</span>
+						</div><!-- /input-group -->
+						<a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en" class="advanced-search-link">Advanced search </a>
+						</form>
+					</div>
+				</li>
+			</ul>
+			<!-- RIGHT NAV SEARCH DROPDOWN :: END -->
+
+			<div class="clearfix"></div>
+		</div>
+	</nav>
+	<!-- NAVIGATION :: END -->
+</header>
+</span>
+<!-- HEADER :: END -->
+
+		
+
+
+<!-- JOURNAL INTRODUCTION :: START -->
+<div id="page-content">
+	<div id="journal-header" class="secondlevel-tabnavigation-detail colorscheme04-normal">
+		<div class="container">
+			<div class="flt-left" style="width:100%; position:relative;">
+				<div class="journal-name">Annals of Thoracic and Cardiovascular Surgery</div>
+
+									<div id="journal-left-infosection" class="col-sm-15">
+												<div class="top-margin-1x">
+							 Published by
+																	<a href="http://www.atcs.jp/" target="_blank" rel="noopener noreferrer">The Editorial Committee of Annals of Thoracic and Cardiovascular Surgery</a> <span class="fa fa-external-link external-link-icon"></span>
+																&nbsp;
+													</div>
+					</div>
+
+					<div id="journal-right-infosection" class="col-sm-6">
+						<div class="fs-16">
+															 1,906 registered articles<br>
+																						<span class="italic-style fs-12">(updated on  May 05, 2021)</span>
+													</div>
+						<div class="top-margin-15x fs-12">
+															Online ISSN : 2186-1005<br>
+																						Print ISSN : 1341-1098<br>
+																						ISSN-L : 1341-1098
+													</div>
+													<div class="mrg-t-20">
+																<span class="fs-20">1.584</span><br>
+																									<span class="fs-11">2019 Journal Impact Factor (JIF)</span>
+															</div>
+											</div>
+
+											<div class="journal-thumbnail-wrap">
+														<a href="https://www.jstage.jst.go.jp/browse/atcs/list/-char/en"><img src="https://www.jstage.jst.go.jp/pub/atcs/thumbnail/atcs_27_2.jpg" id="journal-thumbnail" alt="" /></a>
+													</div>
+										<div class="journal-tags-clearfix"></div>
+					<div id="journal-tags">
+						<div class="global-tags" style="max-width:640px;">
+															<span class="tags-wrap original-tag-style" title="JOURNALS">JOURNALS</span>
+																						<span class="tags-wrap peerreviwed-tag-style" title="PEER REVIEWED">PEER REVIEWED</span>
+																						<span class="tags-wrap freeaccess-tag-style" title="OPEN ACCESS">OPEN ACCESS</span>
+																													<span class="tags-wrap advance-publication-tag-style" title="ADVANCE PUBLICATION">ADVANCE PUBLICATION</span>
+																					<br>
+																											<span class="tags-wrap" title="Indexed in Scopus" style="color: #ff6c00;">Scopus</span>
+																																				<span class="tags-wrap" title="Indexed in PubMed" style="color: #336699;">Pubmed</span>
+																														</div>
+						<div class="clearfix"></div>
+					</div>
+								<div class="journal-tags-clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- JOURNAL INTRODUCTION :: END -->
+
+<!-- SECOND LEVEL TAB NAVIGATION :: START -->
+<div class="colorscheme04-normal">
+	<div class="container">
+		<div id="second-level-nav-tabs">
+			<ul class="nav nav-tabs">
+				<li class='active'><a href="javascript:void(0)">Journal home</a></li>
+									<li ><a href="https://www.jstage.jst.go.jp/browse/atcs/advpub/0/_contents/-char/en">Advance online publication</a></li>
+								<li ><a href="https://www.jstage.jst.go.jp/browse/atcs/list/-char/en">Journal issue</a></li>
+												<li ><a href="https://www.jstage.jst.go.jp/browse/atcs/_contents/journal-featured-articles/-char/en">Featured articles</a></li>
+								<li ><a href="https://www.jstage.jst.go.jp/browse/atcs/_pubinfo/-char/en">About the journal</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- SECOND LEVEL TAB NAVIGATION :: END --><!-- INTRODUCTION :: START -->
+<div class="container">
+<div class="row">
+	<div class="col-md-24">
+			<!-- BREDCRUMBS :: START -->
+		<ul class="global-breadcrumbs">
+			<li><a href="https://www.jstage.jst.go.jp/browse/-char/en">J-STAGE home</a></li>
+			<li>/</li>
+						<li><a href="https://www.jstage.jst.go.jp/browse/atcs/-char/en" class="customTooltip" title="Annals of Thoracic and Cardiovascular Surgery">Annals of Thoracic and Cardiov ...</a></li>
+						<li> / </li>
+			<li>Journal home</li>
+		</ul>
+		<div class="clearfix"></div>	<!-- BREDCRUMBS :: END -->	</div>
+</div>
+</div>
+<!-- INTRODUCTION :: END -->
+<!-- JOURNAL LANDING :: START -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-24">
+						<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="row">
+		<!-- LEFT SECTION :: START -->
+		<div class="col-md-18">
+			<!-- INNER SECTION :: START -->
+			<div id="journal-current-issuse">
+	<div class="section-divider">
+		<div class="section-title-18-nonsticky"><a href="https://www.jstage.jst.go.jp/browse/atcs/list/-char/en">
+												 2021 Volume 27
+						 Issue 2															</a></div>
+						<ul id="journal-current-issuse-list">
+				
+																<li class="notoppadding">
+												<div name="https://www.jstage.jst.go.jp/article/atcs/27/2/27_oa.20-00123/_article/-char/en" class="clickable_div">
+								<div class="ci-content-wrap">
+																	<a href="https://www.jstage.jst.go.jp/article/atcs/27/2/27_oa.20-00123/_article/-char/en" class="ci-article-name customTooltip" title="Short- and Long-Term Outcome after Emergent Cardiac Surgery during Transcatheter Aortic Valve Implantation">Short- and Long-Term Outcome after Emergent Cardiac Surgery during Transcatheter Aortic Valve Implantation</a>
+																									<span class="ci-authors-names customTooltip" title="Fei Li, Xu Wang, Yuetang Wang, Xuan Li, Shihua Zhao, Yongjian Wu, Wei Wang">Fei Li, Xu Wang, Yuetang Wang, Xuan Li, Shihua Zhao, Yongjian Wu, Wei Wang</span>
+																</div>
+																<div class="clearfix"></div>
+							</div>
+						</li>
+				
+																<li>
+												<div name="https://www.jstage.jst.go.jp/article/atcs/27/2/27_oa.20-00139/_article/-char/en" class="clickable_div">
+								<div class="ci-content-wrap">
+																	<a href="https://www.jstage.jst.go.jp/article/atcs/27/2/27_oa.20-00139/_article/-char/en" class="ci-article-name customTooltip" title="Risk Factors of Cervical Anastomotic Leakage after McKeown Minimally Invasive Esophagectomy: Focus on Preoperative and Intraoperative Lung Function">Risk Factors of Cervical Anastomotic Leakage after McKeown Minimally Invasive Esophagectomy: Focus on Preoperative and Intraoperative Lung Function</a>
+																									<span class="ci-authors-names customTooltip" title="Wenda Gao, Mingbo Wang, Peng Su, Fan Zhang, Chao Huang, Ziqiang Tian">Wenda Gao, Mingbo Wang, Peng Su, Fan Zhang, Chao Huang, Ziqiang Tian</span>
+																</div>
+																<div class="clearfix"></div>
+							</div>
+						</li>
+				
+																<li>
+												<div name="https://www.jstage.jst.go.jp/article/atcs/27/2/27_oa.20-00078/_article/-char/en" class="clickable_div">
+								<div class="ci-content-wrap">
+																	<a href="https://www.jstage.jst.go.jp/article/atcs/27/2/27_oa.20-00078/_article/-char/en" class="ci-article-name customTooltip" title="Health-Related Quality of Life in Children and Adolescents with Simple Congenital Heart  Defects before and after Transcatheter  Intervention Therapy: A Single-Center Study">Health-Related Quality of Life in Children and Adolescents with Simple Congenital Heart  Defects before and after Transcatheter  Intervention Therapy: A Single-Center Study</a>
+																									<span class="ci-authors-names customTooltip" title="Kai-Peng Sun, Ning Xu, Shu-Ting Huang, Hua Cao, Qiang Chen">Kai-Peng Sun, Ning Xu, Shu-Ting Huang, Hua Cao, Qiang Chen</span>
+																</div>
+																<div class="clearfix"></div>
+							</div>
+						</li>
+				
+																<li>
+												<div name="https://www.jstage.jst.go.jp/article/atcs/27/2/27_oa.20-00137/_article/-char/en" class="clickable_div">
+								<div class="ci-content-wrap">
+																	<a href="https://www.jstage.jst.go.jp/article/atcs/27/2/27_oa.20-00137/_article/-char/en" class="ci-article-name customTooltip" title="Left Ventricular Hypertrophy Is More Prevalent in Type B than Type A Aortic Dissection">Left Ventricular Hypertrophy Is More Prevalent in Type B than Type A Aortic Dissection</a>
+																									<span class="ci-authors-names customTooltip" title="Koichi Akutsu, Kensuke Ozaki, Susumu Oshima, Shigeru Sakurai, Takahiro Ohara, Toshiaki Otsuka, Shin Yamamoto">Koichi Akutsu, Kensuke Ozaki, Susumu Oshima, Shigeru Sakurai, Takahiro Ohara, Toshiaki Otsuka, Shin Yamamoto</span>
+																</div>
+																<div class="clearfix"></div>
+							</div>
+						</li>
+						</ul>
+		<div class="clearfix"></div>
+		<a href="https://www.jstage.jst.go.jp/browse/atcs/list/-char/en" class="flt-right top-margin-1x bluelink-style">View all articles in Current issue</a>
+			</div>
+</div>
+
+			<!-- INNER SECTION :: END -->
+			<div class="clearfix"></div>
+			<!-- INNER SECTION :: START -->
+				<!-- INNER SECTION :: START -->
+	<div class="section-divider">
+		<div class="section-title-18-nonsticky">Most viewed articles Apr.2021</div>
+		<ul id="most-popular-articles-list">
+			
+																										<li>
+					<div name="https://www.jstage.jst.go.jp/article/atcs/26/2/26_ra.19-00158/_article/-char/en" class="clickable_div">
+						<div class="most-popular-articles-list-left colorscheme04-lighter"> 1 </div>
+												<div class="most-popular-articles-list-right">
+							<p class="customTooltip" title="Current Management of Acute Pulmonary Embolism">Current Management of Acute Pulmonary Embolism</p>
+							<p class="grey lh18">
+																	Released: April 20, 2020 |
+																									Volume 26
+																			Issue 2
+																												 Pages 65-71
+																								</p>
+							<p class="grey lh18">Carlos R. Martinez Licha, Chelsea M. McCurdy, Sarina Masso Maldonado, Lawrence S. Lee</p>
+													</div>
+						<div class="clearfix"></div>
+					</div>
+				</li>
+			
+																										<li>
+					<div name="https://www.jstage.jst.go.jp/article/atcs/20/5/20_oa.14-00162/_article/-char/en" class="clickable_div">
+						<div class="most-popular-articles-list-left colorscheme04-lighter"> 2 </div>
+												<div class="most-popular-articles-list-right">
+							<p class="customTooltip" title="Photodynamic Diagnoses of Malignant Pleural Diseases Using the Autofluorescence Imaging System">Photodynamic Diagnoses of Malignant Pleural Diseases Using the Autofluorescence Imaging System</p>
+							<p class="grey lh18">
+																	Released: October 20, 2014 |
+																									Volume 20
+																			Issue 5
+																												 Pages 378-382
+																								</p>
+							<p class="grey lh18">Masahiro Kitada, Yoshinobu Ohsaki, Yoshinari Matsuda, Satoshi Hayashi, Kei Ishibashi</p>
+													</div>
+						<div class="clearfix"></div>
+					</div>
+				</li>
+			
+																										<li>
+					<div name="https://www.jstage.jst.go.jp/article/atcs/27/2/27_oa.20-00139/_article/-char/en" class="clickable_div">
+						<div class="most-popular-articles-list-left colorscheme04-lighter"> 3 </div>
+												<div class="most-popular-articles-list-right">
+							<p class="customTooltip" title="Risk Factors of Cervical Anastomotic Leakage after McKeown Minimally Invasive Esophagectomy: Focus on Preoperative and Intraoperative Lung Function">Risk Factors of Cervical Anastomotic Leakage after McKeown Minimally Invasive Esophagectomy: Focus on Preoperative and Intraoperative Lung Function</p>
+							<p class="grey lh18">
+																	Released: April 20, 2021 |
+																									Volume 27
+																			Issue 2
+																												 Pages 75-83
+																								</p>
+							<p class="grey lh18">Wenda Gao, Mingbo Wang, Peng Su, Fan Zhang, Chao Huang, Ziqiang Tian</p>
+													</div>
+						<div class="clearfix"></div>
+					</div>
+				</li>
+			
+																										<li>
+					<div name="https://www.jstage.jst.go.jp/article/atcs/27/2/27_cr.18-00077/_article/-char/en" class="clickable_div">
+						<div class="most-popular-articles-list-left colorscheme04-lighter"> 4 </div>
+												<div class="most-popular-articles-list-right">
+							<p class="customTooltip" title="Successful Surgical Closure of an Esophagobronchial Fistula Caused by a Foreign Body in the Esophagus of a Female Octogenarian with a Delayed Diagnosis: A Case Report">Successful Surgical Closure of an Esophagobronchial Fistula Caused by a Foreign Body in the Esophagus of a Female Octogenarian with a Delayed Diagnosis: A Case Report</p>
+							<p class="grey lh18">
+																	Released: April 20, 2021 |
+																									Volume 27
+																			Issue 2
+																												 Pages 126-131
+																								</p>
+							<p class="grey lh18">Takahiro Yanagihara, Hideo Ichimura, Keisuke Kobayashi, Yukio Sato</p>
+													</div>
+						<div class="clearfix"></div>
+					</div>
+				</li>
+			
+																										<li>
+					<div name="https://www.jstage.jst.go.jp/article/atcs/27/2/27_oa.20-00137/_article/-char/en" class="clickable_div">
+						<div class="most-popular-articles-list-left colorscheme04-lighter"> 5 </div>
+												<div class="most-popular-articles-list-right">
+							<p class="customTooltip" title="Left Ventricular Hypertrophy Is More Prevalent in Type B than Type A Aortic Dissection">Left Ventricular Hypertrophy Is More Prevalent in Type B than Type A Aortic Dissection</p>
+							<p class="grey lh18">
+																	Released: April 20, 2021 |
+																									Volume 27
+																			Issue 2
+																												 Pages 119-125
+																								</p>
+							<p class="grey lh18">Koichi Akutsu, Kensuke Ozaki, Susumu Oshima, Shigeru Sakurai, Takahiro Ohara, Toshiaki Otsuka, Shin Yamamoto</p>
+													</div>
+						<div class="clearfix"></div>
+					</div>
+				</li>
+					</ul>
+	</div>
+<!-- INNER SECTION :: END -->			<!-- INNER SECTION :: END -->
+			<div class="clearfix"></div>
+			<!-- SHARING ICONS :: BIG SET :: START -->
+			<div class="section-divider">
+<div id="socialmedia-share-plugins" class="colorscheme04-lighter">
+<div class="sectionheading">Share this page</div>
+<ul class="share-icons-list">
+<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fatcs%2F-char%2Fen" target="_blank" rel="noopener noreferrer"><span class="fa fa-facebook facebook-share-icn"></span></a></li>
+<li><a href="http://twitter.com/share?url=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fatcs%2F-char%2Fen&text=Annals+of+Thoracic+and+Cardiovascular+Surgery" target="_blank" rel="noopener noreferrer"><span class="fa fa-twitter twitter-share-icn"></span></a></li>
+<li><a href="mailto:?body=Annals of Thoracic and Cardiovascular Surgery %0d%0aURL%3A%20https://www.jstage.jst.go.jp/browse/atcs/-char/en"> <span class="fa fa-envelope outlook-share-icn"></span></a></li>
+</ul>
+</div>
+</div>
+			<!-- SHARING ICONS :: BIG SET :: END -->
+			<div class="clearfix"></div>
+		</div>
+		<!-- LEFT SECTION :: END -->
+		<!-- RIGHT SECTION :: START -->
+		<div class="col-md-6">
+			<div class="section-divider">
+								<!-- VOLUME AND ISSUE :: START -->
+				<div id="pastvol-issuse-dropdown">
+	<div class="section-title-noborder-14">Select past volume & issue</div>
+	<form class="pastvol-issuse-form" id="pastvolIssuseForm" method="get" action="">
+	<ul class="pastvol-issuse-list">
+		
+				<li class="pastvol-issuse-listbox-width">
+						<select class="journal-volume-dd" name="journal-volume" id="selectVol">
+					<option value="">Volume</option>
+																						<option value="27">Vol 27</option>
+																																			<option value="26">Vol 26</option>
+																																			<option value="25">Vol 25</option>
+																																			<option value="24">Vol 24</option>
+																																			<option value="23">Vol 23</option>
+																																			<option value="22">Vol 22</option>
+																																			<option value="21">Vol 21</option>
+																																			<option value="20">Vol 20</option>
+																																			<option value="19">Vol 19</option>
+																																			<option value="18">Vol 18</option>
+																																			<option value="17">Vol 17</option>
+																		</select>
+			</li>
+						<li class="pastvol-issuse-listbox-width">
+							<select class="journal-issue-dd" name="journal-issue" id="selectIssue" disabled>
+					<option value="">Issue</option>
+				</select>
+			</li>
+			<li class="pastvol-issuse-go-btn-width">
+				<input type="button" value="Go" class="pastvol-issuse-go-btn" id="goBtn">
+			</li>
+		</ul>
+	</form>
+<div class="clearfix"></div>
+</div>				<!-- VOLUME AND ISSUE :: END -->
+				<!-- THIRD LEVEL NAVIGATION :: START -->
+				<div id="third-level-navigation">
+	<a href="http://www.editorialmanager.com/atcs/" class="thirdlevel-active-btn" target="_blank" rel="noopener noreferrer">Submit your paper<span class="fa fa-angle-right icon-wrap-active"></span></a>
+	<a href="http://www.atcs.jp/journal/inst.html" class="thirdlevel-links" target="_blank" rel="noopener noreferrer">Information for authors<span class="fa fa-angle-right icon-wrap"></span></a><span class="third-level-nav-divider"></span>
+<a href="https://www.jstage.jst.go.jp/AF05S010NewRssDld?btnaction=JT0040&sryCd=atcs&rssLang=en" target="_blank" rel="noopener noreferrer" class="thirdlevel-links">RSS feed (Issue)<span class="fa fa-rss-square rss-icon-bg"></span></a> <span class="third-level-nav-divider"></span>
+<a href="https://www.jstage.jst.go.jp/AF05S010NewRssDld?btnaction=JT0041&sryCd=atcs&rssLang=en" target="_blank" rel="noopener noreferrer" class="thirdlevel-links">RSS feed (Article)<span class="fa fa-rss-square rss-icon-bg"></span></a> <span class="third-level-nav-divider"></span>
+</div>				<!-- THIRD LEVEL NAVIGATION :: END -->
+				<!-- INNER SECTION :: START -->
+				<div class="section-divider">
+	<div class="section-title-14">Favorites & Alerts</div>
+	<ul class="star-list-style">
+					<li><a href = "javascript:;" class = "add-favorites-titles" value = "1">Add to favorites</a></li>
+			<li><a href = "javascript:;" class = "add-favorites-titles" value = "0">Announcement alert</a></li>
+			<li><a href = "javascript:;" class = "add-favorites-titles" value = "2">New arrival alert</a></li>
+			</ul>
+</div>
+<form action = "/fav/articles/_insert/-char/en" method = "get" id = "favorites-articles" name = "favorites-articles"></form>
+<form action = "/fav/title/_insert/-char/en" method = "get" id = "favorites-titles" name = "favorites-titles"></form>
+<input type="hidden" name="sryCd" value="atcs">
+<input type="hidden" name="noVol" value="17">
+<input type="hidden" name="noIssue" value="2">
+<input type="hidden" name="kijiCd" value="17_oa.08.01309">
+				<!-- INNER SECTION :: END -->
+				
+			</div>
+		</div>
+		<!-- RIGHT SECTION :: END -->
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- JOURNAL LANDING :: END -->
+<div class="clearfix"></div>
+<!-- FOOTER :: START -->
+<span class="noprint">
+<footer class="footer-style2">
+<div id="footer-strip" class="colorscheme04-lighter">
+	<div class="container">
+				Edited and published by : The Editorial Committee of Annals of Thoracic and Cardiovascular Surgery
+		<br>
+				Produced and listed by : Medical Tribune, Inc.
+		</div>
+</div>
+<div class="footer-wrap print-non-disp">
+	<a href="#0" class="take-on-top1">Top</a>
+	<div class="container">
+		<div class="footer-link-section">
+						<div class="footer-link-heading">Browse</div>
+			<ul class="footer-link-list">
+				<li><a href="/journal/list/-char/en">All titles</a></li>
+				<li><a href="/journal/fields/-char/en">All subject areas</a></li>
+				<li><a href="/journal/publisher/-char/en">All publishers</a></li>
+				<li><a href="/search/global/_search/-char/en">Search articles</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-link-section">
+						<div class="footer-link-heading">About J-STAGE</div>
+			<ul class="footer-link-list">
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageOverview/-char/en">Overview</a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB1/-char/en">Services and features</a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/PublicDataAboutJstage/-char/en">Public data</a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en">Terms and Policy</a></li>
+							</ul>
+		</div>
+		<div class="footer-link-section">
+						<div class="footer-link-heading">News and PR</div>
+			<ul class="footer-link-list">
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB1/Current/Page1/-char/en">News</a></li>
+								<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB2/Page1/-char/en">Maintenance information</a></li>
+												<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB6/Page1/-char/en">Special contents </a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB7/Page1/-char/en">PR media </a></li>
+			</ul>
+		</div>
+		<div class="footer-link-section">
+						<div class="footer-link-heading">Support</div>
+			<ul class="footer-link-list">
+												<li><a href="https://www.jstage.jst.go.jp/static/pages/ForReaders/-char/en">User's manual</a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/RecommendedEnvironment/-char/en">Current confirmed browsers</a></li>
+								 <li><a href="https://www.jstage.jst.go.jp/static/pages/FAQs/TAB3/-char/en">FAQ</a></li> 				<li><a href="https://www.jstage.jst.go.jp/static/pages/Contact/-char/en">Contact </a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/Sitemap/-char/en">Sitemap </a></li>
+			</ul>
+		</div>
+		
+		<div class="clearfix"></div>
+				<div class="clearfix"></div>
+	</div>
+	</div>
+</footer>
+</span>
+<!-- FOOTER :: END -->
+<!-- FEEDBACK BUTTON :: START -->
+<span class="noprint print-non-disp">
+<div id="right-feedback-btn"><a href="https://form.jst.go.jp/enquetes/jstage-feedback" target="_blank" rel="noopener noreferrer">feedback</a></div>
+</span>
+<!-- FEEDBACK BUTTON :: END -->
+<!-- TAKE ME TO TOP :: START -->
+<a href="#0" class="take-on-top" style="z-index:inherit">Top</a>
+<!-- TAKE ME TO TOP :: END -->
+
+<!-- STICKY REGISTER TO J-STAGE HERE :: START -->
+<div id="sticky-register-to-j-stage" class="sticky-register-to-j-stage print-non-disp" style="display:none;">
+<span class="noprint">
+<a href="javascript:;" class="sticky-register-to-j-stage-close" onclick="registerStickyClose();"><i class="fa fa-times-circle-o"></i></a>
+</span>
+<h3 class="register-for-free"><nobr>Register with J-STAGE for free!</nobr></h3>
+<a href="/myregister/-char/en" class="sticky-register-btn">Register</a>
+<p class="register-for-already">Already have an account? Login in <a href="/mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fatcs%2F-char%2Fen">here</a></p>
+</div>
+<!-- STICKY REGISTER TO J-STAGE HERE :: END -->
+<script src="/web/js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below) -->
+<script src="/web/js/bootstrap.js"></script>
+
+<script src="/web/js/bootstrap.offcanvas.min.js"></script>
+
+<script src="/web/js/bootstrap-tabdrop.min.js"></script>
+
+<script src="/web/js/modernizr.js"></script>
+
+	<script src="/web/js/jquery.hc-sticky.min.js"></script>
+
+<script src="/web/js/jquery.touchSwipe.min.js"></script>
+
+<script src="/web/js/jquery.advancedSlider.min.js"></script>
+
+<script src="/web/js/jquery-navtoselect.min.js?rn=2.0.14"></script>
+
+<script src="/web/js/jquery.treefilter.min.js"></script>
+
+<script src="/web/js/jquery.jplayer.min.js"></script>
+
+<script src="/web/js/jquery.coolfieldset.min.js"></script>
+
+<script src="/web/js/select2.full.min.js"></script>
+
+<script src="/web/js/prettify.min.js"></script>
+
+<script src="/web/js/common.js?rn=2.0.14"></script>
+
+<script src="/web/js/tableHeadFixe.min.js"></script>
+
+<script src="/web/js/validation.js?rn=2.0.14"></script>
+
+
+<script src="/web/js/new_plugin/slick/slick.min.js"></script>
+<script src="/web/js/journalHome.js"></script>
+<script src="/web/js/favoriteAlerts.js"></script>
+
+<script>
+$(document).ready(function () {
+if(('localStorage' in window) && (window.localStorage !== null)) {
+	if(localStorage.getItem('C.regsticky') != 'off'){
+	$('#sticky-register-to-j-stage').show();
+	}
+}
+$('.dropdown-toggle').on('click', function(E) {
+	$(this).find('.glyphicon').toggleClass("glyphicon-chevron-up");
+	$(this).find('.glyphicon').toggleClass("glyphicon-chevron-down");
+});
+$('[data-toggle="tooltip"]').tooltip({});
+$('.warningtooltip').tooltip();
+
+});
+$(".journal-volume-dd").select2( {width: 'resolve'});
+$(".journal-issue-dd").select2();
+$('#facetsearch-header').facetsearch();
+$('.facetsearch-subheader').facetsearch();
+$(window).load(function(){
+	$('.collapseall-icon').hide();
+	$('.vol-link').click(function(e){
+		e.stopPropagation();
+	});
+	$('.expandall-icon').click(function(){
+		$(this).addClass('expand-inactive');
+		$('.collapseall-icon').removeClass('collapse-inactive')
+		$('.inner-content').slideDown();
+		$('.content').each(function(index, element) {
+			$(this).find('.expand').removeClass('collapse1');
+		});
+		$('.collapseall-icon').show();
+		$('.expandall-icon').hide();
+		$('.show_abstract').hide();
+		$('.hide_abstract').show();
+	});
+	$('.collapseall-icon').addClass('collapse-inactive');
+	$('.collapseall-icon').click(function(){
+		$(this).addClass('collapse-inactive');
+		$('.expandall-icon').removeClass('expand-inactive');
+		$('.inner-content').slideUp();
+		$('.content').each(function(index, element) {
+			$(this).find('.expand').addClass('collapse1');
+		});
+		$('.expandall-icon').show();
+		$('.collapseall-icon').hide();
+		$('.show_abstract').show();
+		$('.hide_abstract').hide();
+	});
+	$('.inner-content').hide();
+	$(".expand a").click(function (e) {
+		e.preventDefault();
+		$(this).parent().toggleClass('collapse1');
+		$(this).closest('.content').find('.inner-content').slideToggle().toggleClass('datapanel_opend');
+		if(!$(this).closest('.content').find('.inner-content').hasClass("datapanel_opend")){
+			$('div.collapseall-icon').removeClass('collapse-inactive');
+		} else {
+			$('div.collapseall-icon').addClass('collapse-inactive');
+		}
+
+		$(this).find('.show_abstract').toggle();
+		$(this).find('.hide_abstract').toggle();
+
+	});
+});
+$(".journal-volume-dd").select2();
+$(".journal-issue-dd").select2();
+$(".searchresults-noofpages-dropdown").select2({
+	minimumResultsForSearch: Infinity
+});
+$(".search-browse-volissue-tabs a").click(function(event) {
+	event.preventDefault();
+	$(this).parent().addClass("current");
+	$(this).parent().siblings().removeClass("current");
+	var tab = $(this).attr("href");
+	$(".searchbrowse-volissue-tab-content").not(tab).css("display", "none");
+	$(tab).fadeIn();
+});
+$('.inner-content .abstract').each(function(){
+	if ($(this).height() < 120) {
+		$(this).find('.full-abstract').hide();
+	}
+});
+
+if ( document.getElementById("selectedVol") != null ) {
+	var pos = $("#selectedVol").position();
+	$(".faceted-search-scrollwrap").scrollTop((pos.top - 50));
+}
+var ddd = [
+{ noVol:"27", noIssue:["2", "1"] }
+,{ noVol:"26", noIssue:["6", "5", "4", "3", "2", "1"] }
+,{ noVol:"25", noIssue:["6", "5", "4", "3", "2", "1"] }
+,{ noVol:"24", noIssue:["6", "5", "4", "3", "2", "1"] }
+,{ noVol:"23", noIssue:["6", "5", "4", "3", "2", "1"] }
+,{ noVol:"22", noIssue:["6", "5", "4", "3", "2", "1"] }
+,{ noVol:"21", noIssue:["6", "5", "4", "3", "2", "1"] }
+,{ noVol:"20", noIssue:["6", "5", "4", "3", "2", "1", "Supplement"] }
+,{ noVol:"19", noIssue:["6", "5", "4", "3", "2", "1"] }
+,{ noVol:"18", noIssue:["6", "5", "4", "3", "2", "1"] }
+,{ noVol:"17", noIssue:["6", "5", "4", "3", "2", "1"] }
+];
+$("#selectVol").bind("change", function() {
+	var selectVol = $(":selected").val();
+	if (selectVol == "") {
+		$("#selectIssue").attr("disabled", "disabled");
+	} else {
+		var disabledAttr = $("#selectIssue").attr("disabled");
+		if (typeof disabledAttr !== "undefined") {
+			$("#selectIssue").removeAttr("disabled");
+		}
+	}
+	$("#selectIssue").children().remove();
+	$('#selectIssue').append($('<option>').html("Issue").val(""));
+	if (selectVol != "") {
+		for (var idx in ddd) {
+			var noVol = ddd[idx].noVol;
+			if (noVol == selectVol) {
+				var noIssueArry = ddd[idx].noIssue;
+				for (i = 0; i < noIssueArry.length; i++) {
+											$('#selectIssue').append($('<option>').html("Issue" + noIssueArry[i]).val(noIssueArry[i]));
+									}
+				break;
+			}
+		}
+	}
+	$("#selectIssue").select2();
+});
+$("#mobileSelectVol").bind("change", function() {
+	var selectVol = $("#mobileSelectVol option:selected").val();
+	if (selectVol == "") {
+		$("#mobileSelectIssue").attr("disabled", "disabled");
+	} else {
+		var disabledAttr = $("#mobileSelectIssue").attr("disabled");
+		if (typeof disabledAttr !== "undefined") {
+			$("#mobileSelectIssue").removeAttr("disabled");
+		}
+	}
+	$("#mobileSelectIssue").children().remove();
+	$('#mobileSelectIssue').append($('<option>').html("Issue").val(""));
+	if (selectVol != "") {
+		for (var idx in ddd) {
+			var noVol = ddd[idx].noVol;
+			if (noVol == selectVol) {
+				var noIssueArry = ddd[idx].noIssue;
+				for (i = 0; i < noIssueArry.length; i++) {
+											$('#mobileSelectIssue').append($('<option>').html("Issue" + noIssueArry[i]).val(noIssueArry[i]));
+									}
+				break;
+			}
+		}
+	}
+	$("#mobileSelectIssue").select2();
+});
+$("#goBtn").bind("click", function() {
+	var noVol = $("#selectVol").val();
+	var noIssue = $("#selectIssue").val();
+	var pageInput = $('#pageInput').val();
+	if (pageInput === undefined) {
+		pageInput = null;
+	}
+	return clickGoBtn("1", noVol, noIssue, pageInput);
+});
+$("#mobileGoBtn").bind("click", function() {
+	var noVol = $("#mobileSelectVol").val();
+	var noIssue = $("#mobileSelectIssue").val();
+	var pageInput = $('#mobilePageInput').val();
+	if (pageInput === undefined) {
+		pageInput = null;
+	}
+	return clickGoBtn("2", noVol, noIssue, pageInput);
+});
+$(window).load(function(){
+	try {
+		var issueList1 = '';
+		var issueOptions = jQuery('#selectIssue').children();
+		if (issueOptions.length > 1) {
+			for ( var i=1; i<issueOptions.length; i++ ){
+				issueList1 = issueList1 + issueOptions.eq(i).val();
+			}
+		}
+		var selectVol = $("#selectVol").val();
+		var selectIssue = $("#selectIssue").val();
+		if (selectVol != "") {
+			for (var idx in ddd) {
+				var noVol = ddd[idx].noVol;
+				if (noVol == selectVol) {
+					var issueList2 = '';
+					var noIssueArry = ddd[idx].noIssue;
+					for (i = 0; i < noIssueArry.length; i++) {
+						issueList2 = issueList2 + noIssueArry[i];
+					}
+					if (issueList1 != issueList2) {
+						$("#selectVol").trigger("change");
+						$("#mobileSelectVol").trigger("change");
+					}
+				}
+			}
+		}
+	} catch (e) {console.log("Exception : " + e);}
+});
+$(window).unload(function(){});
+function pressEnter4GoBtn() {
+	if (window.event.keyCode == 13) {
+		$('#goBtn').trigger("click");
+	}
+}
+function pressEnter4MobileGoBtn() {
+	if (window.event.keyCode == 13) {
+		$('#mobileGoBtn').trigger("click");
+	}
+}
+function clickGoBtn(mode, noVol, noIssue, pageInput) {
+	if (mode == "1") {
+		$("#pageMessage01").css("display", "none");
+		$("#pageMessage02").css("display", "none");
+		$("#pageMessage03").css("display", "none");
+	} else if (mode == "2") {
+		$("#mobilePageMessage01").css("display", "none");
+		$("#mobilePageMessage02").css("display", "none");
+		$("#mobilePageMessage03").css("display", "none");
+	}
+	try {
+
+		if ((noVol == null || noVol == "") && (noIssue == null || noIssue == "")){
+							noVol = "27";
+				noIssue = "2"
+					}
+
+		if (noIssue == null || noIssue == ""){
+			noIssue = "0"
+		}
+
+		if (pageInput == null || pageInput == "") {
+			var url = getUrl(noVol, noIssue);
+			url = url.replace('repXXX', noVol);
+			url = url.replace('repYYY', noIssue);
+			document.location.href = url;
+			return;
+		}
+		if (noVol == null) {
+			if (mode == "1") {
+				$("#pageMessage01").css("display", "block");
+			} else if (mode == "2") {
+				$("#mobilePageMessage01").css("display", "block");
+			}
+			return;
+		}
+		var jsonUrl = 'https://www.jstage.jst.go.jp/pageSearch/atcs/repXXX/repYYY/repZZZ';
+		jsonUrl = jsonUrl.replace('repXXX', noVol);
+		jsonUrl = jsonUrl.replace('repYYY', noIssue);
+		jsonUrl = jsonUrl.replace('repZZZ', pageInput);
+		$.ajax({
+			cache: false,
+			type: 'GET',
+			url: jsonUrl,
+			dataType: 'json',
+			contentType:'application/json',
+			success: function(json) {
+				var errorCd = json.errorCd;
+				var redirectSryCd = json.redirectSryCd;
+				var redirectNoVol = json.redirectNoVol;
+				var redirectNoIssue = json.redirectNoIssue;
+				var redirectCdArticle = json.redirectCdArticle;
+				if (
+						"0" == errorCd
+						&& redirectSryCd != null && redirectSryCd != ''
+						&& redirectNoVol != null && redirectNoVol != ''
+						&& redirectNoIssue != null && redirectNoIssue != ''
+						&& redirectCdArticle != null && redirectCdArticle != ''
+				) {
+					var shosiUrl = 'https://www.jstage.jst.go.jp/article/atcs/repXXX/repYYY/repZZZ/_article/-char/en';
+					var urls = shosiUrl.match('(http.+/article/)([0-9a-z]+)(/repXXX.+)');
+					if(urls.length == 4){
+						shosiUrl = urls[1];
+						shosiUrl += redirectSryCd;
+						shosiUrl += urls[3];
+					}
+					shosiUrl = shosiUrl.replace('repXXX', redirectNoVol);
+					shosiUrl = shosiUrl.replace('repYYY', redirectNoIssue);
+					shosiUrl = shosiUrl.replace('repZZZ', redirectCdArticle);
+					document.location.href = shosiUrl;
+					return true;
+				} else if ("1" == errorCd) {
+					if (mode == "1") {
+						$("#pageMessage02").css("display", "block");
+					} else if (mode == "2") {
+						$("#mobilePageMessage02").css("display", "block");
+					}
+				} else if ("2" == errorCd) {
+					if (mode == "1") {
+						$("#pageMessage03").css("display", "block");
+					} else if (mode == "2") {
+						$("#mobilePageMessage03").css("display", "block");
+					}
+				}
+			}
+		});
+	} catch (e) {
+	}
+	return false;
+}
+function getUrl(noVol, noIssue) {
+	return 'https://www.jstage.jst.go.jp/browse/atcs/repXXX/repYYY/_contents/-char/en';
+}
+
+
+function registerStickyClose(){
+	$("#sticky-register-to-j-stage").hide();
+	if(('localStorage' in window) && (window.localStorage !== null)) {
+		localStorage.setItem('C.regsticky', 'off');
+	}
+}
+function doChangeLang(langKind){
+
+	if (typeof changeLang == "function")  {
+				changeLang(langKind);
+		return;
+
+	} else {
+						var encStr = "";
+		if(langKind == "ja") {
+			encStr = "https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fatcs%2F-char%2Fja";
+		} else {
+			encStr = "https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fatcs%2F-char%2Fen";
+		}
+				location.href = decodeURIComponent(encStr);
+				return;
+	}
+}
+function hBack(){
+		var ans;
+		var ref = document.referrer;
+		re = new RegExp(location.hostname,"i");
+		if(ref.match(re)){
+				ans = false;
+		}else{
+				ans = true
+		}
+		if(!ans){
+			history.back();
+		} else {
+			location.href = "https://www.jstage.jst.go.jp/browse/-char/en";
+		}
+}
+</script>
+</body>
+</html>

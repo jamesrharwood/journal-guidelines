@@ -4,7 +4,7 @@ from scrapy import Request, Spider
 from scrapy.http import TextResponse
 
 from data.scrape.utils import get_bytes_from_pdf
-from data.constants import PREPROCESSED_DATA_FILE_PATH
+from data.data import PREPROCESSED_DATA_FILE_PATH
 from .load_urls import load_journal_urls_df_from_csv
 from .link_extractors import extract_links
 from .utils import clean_url

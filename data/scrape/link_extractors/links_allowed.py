@@ -1,4 +1,4 @@
-from .texts_allowed import text_list, join_with_or
+from .texts_allowed import ALLOWED_TEXTS, join_with_or
 
 
 def create_link_matcher_string(list_):
@@ -7,4 +7,4 @@ def create_link_matcher_string(list_):
     return string
 
 
-string = create_link_matcher_string(text_list)
+string = create_link_matcher_string(ALLOWED_TEXTS)

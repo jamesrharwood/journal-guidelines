@@ -1,7 +1,7 @@
 import os
 
 from .utils import load_json_from_file, write_json_to_file, get_sample_dir_path
-from data.constants import PREPROCESSED_DATA_FILE_PATH
+from data.data import PREPROCESSED_DATA_FILE_PATH
 from data.preprocess.transform.transform import load_csv_to_df
 
 FILENAME = "reference.json"

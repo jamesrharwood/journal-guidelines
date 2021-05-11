@@ -32,13 +32,14 @@ sciencedirect = Strategy(
     "www.sciencedirect.com/journal", restrict_text=[r"guide\s*for\s*authors"]
 )
 elsevier = Strategy(
-    "www.elsevier.com/journals", restrict_text=[r"guide\s*for\s*authors\s*in\s*pdf"]
+    f"www.elsevier.com/journals/{ID}",
+    restrict_text=[r"guide\s*for\s*authors\s*in\s*pdf"],
 )
 wiley = Strategy(
-    "onlinelibrary.wiley.com/journal", restrict_text=[r"author\s*guidelines"]
+    f"onlinelibrary.wiley.com/journal/{ID}$", restrict_text=[r"author\s*guidelines"]
 )
 springer = Strategy(
-    "www.springer.com/journal", restrict_text=[r"submission\s*guidelines"]
+    f"www.springer.com/journal/{ID}$", restrict_text=[r"submission\s*guidelines"]
 )
 tandf = Strategy(
     "www.tandfonline.com/(loi|toc)/", restrict_text=[r"instructions\s*for\s*authors"]
@@ -60,6 +61,11 @@ cambridge_information = Strategy(
     f"www.cambridge.org/core/journals/{ID}/information",
     restrict_text=[r"instructions\s*for\s*authors"],
 )
+acs = Strategy(f"pubs.acs.org/journal/{ID}", restrict_text=["^authors$"])
+jama = Strategy(
+    f"jamanetwork.com/journals/{ID}/issue$", restrict_text=[r"for\s*authors"]
+)
+hindawi = Strategy(f"www.hindawi.com/journals/{ID}$", restrict_text=[r"for\s*authors"])
 
 
 def get_strategy_for_url(url):

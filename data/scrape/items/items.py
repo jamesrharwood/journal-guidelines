@@ -19,6 +19,7 @@ class PageData(Item):
     link_text = Field()
     char_count = Field()
     word_count = Field()
+    origin = Field()
 
 
 for field in FIELDS:

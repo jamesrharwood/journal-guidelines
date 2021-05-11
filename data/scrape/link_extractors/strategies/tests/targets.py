@@ -26,4 +26,7 @@ TARGETS = {
         "british-journal-for-the-history-of-science/information/instructions-contributors"
     ),
     "wiley": "https://onlinelibrary.wiley.com/page/journal/16121880/homepage/forauthors.html",
+    "hindawi": "https://www.hindawi.com/journals/jitc/guidelines/",
+    "acs": "https://pubs.acs.org/page/aidcbc/submission/authors.html",
+    "jama": "https://jamanetwork.com/journals/jamaotolaryngology/pages/for-authors",
 }

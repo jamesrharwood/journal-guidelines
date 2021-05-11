@@ -7,9 +7,9 @@ from scrapy.crawler import CrawlerProcess
 from data.data import PREPROCESSED_DATA_FILE_PATH
 from data.scrape.load_urls import load_journal_urls_df_from_csv
 from data.scrape.spiders import JournalSpider
-from .utils import get_sample_dir_path
+from .utils import get_sample_dir_path, now, Timer, get_filepath_for_sample_and_feed
 from .reference import get_reference_filepath
-
+from .evaluate import Evaluation
 
 settings = get_project_settings()
 FIELDS = list(settings["FEEDS"].values())[0]["fields"]
@@ -19,20 +19,23 @@ def scrape(sample_name):
     Spider = make_spider(sample_name)
     process = CrawlerProcess(settings=settings)
     process.crawl(Spider)
-    process.start()
-    return list(Spider.custom_settings["FEEDS"].keys())[0]
+    with Timer():
+        process.start()
+    evaluation = Evaluation(sample_name, feed_path=Spider.feed_path)
+    return evaluation
 
 
 def make_spider(sample_name):
     logpath = get_log_filepath(sample_name)
     sample_data_frame = get_sample_df(sample_name)
-    feeds_filepath = get_feeds_filepath(sample_name)
+    feed_filepath = get_feeds_filepath(sample_name)
 
     class SampleSpider(JournalSpider):
         name = "journals_sample_spider"
         journal_urls_df = sample_data_frame
+        feed_path = feed_filepath
         custom_settings = {
-            "FEEDS": {feeds_filepath: {"format": "csv", "fields": FIELDS}},
+            "FEEDS": {feed_path: {"format": "csv", "fields": FIELDS}},
             "LOG_FILE": logpath,
         }
 
@@ -40,13 +43,8 @@ def make_spider(sample_name):
 
 
 def get_feeds_filepath(sample_name):
-    feed_name = "%(time)s.json"
+    feed_name = f"{now()}.json"
     return get_filepath_for_sample_and_feed(sample_name, feed_name)
-
-
-def get_filepath_for_sample_and_feed(sample_name, feed_name):
-    dirpath = get_sample_dir_path(sample_name)
-    return os.path.join(dirpath, feed_name)
 
 
 def get_log_filepath(sample_name):

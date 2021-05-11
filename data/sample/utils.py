@@ -23,3 +23,30 @@ def now():
 
 def get_sample_dir_path(name):
     return os.path.join(DATADIR, name)
+
+
+class Timer:
+    """
+    Context manager as a python timer
+    """
+
+    def __init__(self):
+        self.start = None
+
+    def __enter__(self):
+        """
+        Notes the time at the start of the iteration
+        """
+        self.start = time.time()
+        return self
+
+    def __exit__(self, exc_type, exc_value, exc_traceback):
+        """
+        Prints the time taken at the end of the iteration
+        """
+        print("Time to finish the task: ", time.time() - self.start)
+
+
+def get_filepath_for_sample_and_feed(sample_name, feed_name):
+    dirpath = get_sample_dir_path(sample_name)
+    return os.path.join(dirpath, feed_name)

@@ -1,13 +1,16 @@
 from scrapy.linkextractors import LinkExtractor
 
-from .texts_allowed import ALLOWED_TEXTS, turn_texts_into_regexps
+from .texts_allowed import (
+    NON_RESTRICTIVE_TEXTS_REGEXS,
+    turn_texts_into_regexps,
+)
 from .links_not_allowed import string as NOT_ALLOWED_LINKS
-from .links_allowed import string as ALLOWED_LINKS
+from .links_allowed import ALLOWED_LINKS
 from .utils import create_allowed_domains_including_current_url
 
 
-TAGS = ["a", "area"]
-XPATH = f'//*[{" or ".join(TAGS)} and not(ancestor::footer)]'
+TAGS = ("a", "area")
+XPATH = "//*[(self::a or self::area) and not(ancestor-or-self::footer)]"
 ALLOWED_EXTENSIONS = [".pdf", ".doc", ".docx", "", ".asp"]
 KWARGS = dict(
     deny=NOT_ALLOWED_LINKS,
@@ -22,7 +25,7 @@ def create_link_extractor(url):
 
 
 def create_text_extractor(url):
-    return create_extractor(url, restrict_text=ALLOWED_TEXTS)
+    return create_extractor(url, restrict_text=NON_RESTRICTIVE_TEXTS_REGEXS)
 
 
 def create_extractor(url, **kwargs):

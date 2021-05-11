@@ -21,7 +21,12 @@ class JournalSpider(Spider):
             Request(
                 row[URL],
                 callback=self.parse,
-                meta={IDX: row[IDX], "visited_urls": [], "link_text": None},
+                meta={
+                    IDX: row[IDX],
+                    "visited_urls": [],
+                    "link_text": None,
+                    "origin": "",
+                },
             )
             for idx, row in self.journal_urls_df.iterrows()
         ]
@@ -55,4 +60,5 @@ class JournalSpider(Spider):
         for link in links_to_follow:
             meta = {k: v for k, v in response.meta.items()}
             meta.update({"link_text": link.text.strip()})
+            meta.update({"origin": response.url})
             yield Request(link.url, callback=self.parse, meta=meta)

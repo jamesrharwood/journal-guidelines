@@ -1,4 +1,4 @@
-from unittest import TestCase
+import unittest
 from scrapy.http import HtmlResponse, Request
 
 
@@ -9,7 +9,7 @@ TARGET = "author-guidelines"
 DISABLE = False
 
 
-class Base(TestCase):
+class Base(unittest.TestCase):
     def check_urls_from_url(self, urls, url, target=None, start_url=None):
         html = [f'<a href="{url}""></a>' for url in urls]
         html = "".join(html)
@@ -28,20 +28,13 @@ class Base(TestCase):
 
 
 class TestLinkExtractors(Base):
-    def test_get_domain(self):
-        data = [
-            ("https://www.test.com", "test.com"),
-            ("https://subdomain.domain.co.uk/path/to/page", "domain.co.uk"),
-        ]
-        for url, target in data:
-            self.assertEqual(le.utils.get_domain_from_url(url), target)
-
     def test_link_extractor_follows(self):
         urls = [
             TARGET,
             "instructions-for-authors",
             TARGET + ".asp",
             TARGET + ".manuscript-composition",
+            "wp-content/uploads/2017/01/Manuscript-Cheklist_Original-article.pdf",
         ]
         urls = [URL + url for url in urls]
         self.check_urls_from_url(urls, URL)
@@ -133,8 +126,3 @@ class TestLinkExtractors(Base):
         self.check_urls_from_url([url], URL, target=0)
         url = f"https://www.{bad_word}.com/"
         self.check_urls_from_url([url + TARGET], url)
-
-    def test_acs(self):
-        url = "https://pubs.acs.org/page/aidcbc/submission/authors.html"
-        start = "http://pubs.acs.org/journal/aidcbc"
-        self.check_urls_from_url([url], start)

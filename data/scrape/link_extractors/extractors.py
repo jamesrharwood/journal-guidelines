@@ -1,8 +1,5 @@
 from ..utils import clean_url
-from .utils import (
-    is_service_subdomain,
-    urls_from_same_subdomain,
-)
+from .utils import is_service_subdomain, urls_from_same_subdomain, is_pdf
 from .constants import TEXT_LENGTH_LIMIT
 from .texts_not_allowed import regular_expression as DISALLOWED_TEXTS_REGEX
 from .create_extractor import create_link_extractor, create_text_extractor
@@ -12,6 +9,8 @@ from .strategies.strategies import get_extractor_for_url
 def extract_links(response):
     is_same_domain = urls_from_same_subdomain(response.url, response.meta["start_url"])
     if not is_same_domain:
+        return []
+    if is_pdf(response.url):
         return []
     strategy_extractor = get_extractor_for_url(response.url)
     if strategy_extractor:

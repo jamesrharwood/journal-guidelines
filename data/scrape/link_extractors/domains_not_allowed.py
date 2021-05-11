@@ -26,5 +26,8 @@ DENIED_DOMAINS.extend(
         "springer.com/gp/authors-editors",
         "elsevier.com/about/policies",
         "biomedcentral.com/getpublished",
+        "jamanetwork.com/pages/for-authors",
+        "nature.com/nature-portfolio/for-authors",
+        "nature.com/authors/index.html",
     ]
 )

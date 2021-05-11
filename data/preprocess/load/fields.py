@@ -28,7 +28,7 @@ FIELDS = [
     TextField(INDEX_COL, "NlmUniqueID"),
     TextField("title", "TitleMain"),
     ListField(LANGUAGES_COL_NAME, "Language"),
-    ListField("publisher", "PublicationInfo/Imprint/Entity"),
+    ListField("publishers_raw", "PublicationInfo/Imprint/Entity"),
     ListField(PUBLICATION_TYPES_COL_NAME, "PublicationTypeList/PublicationType"),
     ListField("mesh_headings", "MeshHeadingList/MeshHeading"),
     ListField(URLS_RAW_COL_NAME, "ELocationList/ELocation/ELocationID"),

@@ -1,4 +1,6 @@
-from .texts_allowed import ALLOWED_TEXTS, join_with_or
+import re
+
+from .texts_allowed import RESTRICTIVE_TEXTS, join_with_or
 
 
 def create_link_matcher_string(list_):
@@ -7,4 +9,5 @@ def create_link_matcher_string(list_):
     return string
 
 
-string = create_link_matcher_string(ALLOWED_TEXTS)
+string = create_link_matcher_string(RESTRICTIVE_TEXTS)
+ALLOWED_LINKS = re.compile(string, flags=re.IGNORECASE)

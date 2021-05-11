@@ -38,6 +38,9 @@ URLS = [
         s.cambridge_information,
     ),
     ("https://onlinelibrary.wiley.com/journal/16121880", s.wiley),
+    ("https://pubs.acs.org/journal/aidcbc", s.acs),
+    ("https://jamanetwork.com/journals/jamaotolaryngology/issue", s.jama),
+    ("https://www.hindawi.com/journals/jitc/", s.hindawi),
 ]
 
 
@@ -79,6 +82,7 @@ class TestStrategyExtractors(unittest.TestCase):
             target = TARGETS[strategy_name]
             response = make_response_for_strategy_name(strategy_name)
             extractor = s.get_extractor_for_url(response.url)
+            self.assertTrue(extractor, f"No extractor for URL: {response.url}")
             links = extractor.extract_links(response)
             self.assertTrue(
                 len(links),

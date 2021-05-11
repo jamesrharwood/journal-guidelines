@@ -3,7 +3,7 @@ import re
 from data.fields import FIELDS
 from data.fields.abstract import AbstractField, AbstractListField
 from data.constants import PIVOT_FROM_COL
-from data.scrape.link_extractors.utils import get_root_from_url
+from data.scrape.link_extractors.utils import get_root_from_url, get_domain_from_url
 
 
 class TransformedFieldBase:
@@ -45,11 +45,16 @@ def count_publishers(publishers):
 
 
 def clean_publishers(publishers):
-    publishers = [publisher.strip(",") for publisher in publishers]
+    publishers = [publisher.strip(", ") for publisher in publishers]
+    return publishers
 
 
 def get_url_roots(urls):
     return [get_root_from_url(url) for url in urls]
+
+
+def get_url_domains(urls):
+    return [get_domain_from_url(url) for url in urls]
 
 
 FIELDS = [
@@ -60,6 +65,7 @@ FIELDS = [
     ),
     TransformedField("is_english", FIELDS.languages_, is_english),
     TransformedListField(PIVOT_FROM_COL, FIELDS.urls_raw_, url_filter),
-    TransformedListField("publishers_cleaned", FIELDS.publisher_, clean_publishers),
+    TransformedListField("publishers", FIELDS.publishers_raw_, clean_publishers),
     TransformedListField("url_roots", PIVOT_FROM_COL, get_url_roots),
+    TransformedListField("url_domains", PIVOT_FROM_COL, get_url_domains),
 ]

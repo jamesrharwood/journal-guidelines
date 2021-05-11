@@ -20,6 +20,8 @@ text_list = [
     r"log\W*in",
     "reviewer",
     "cookie",
+    r"log\W*in",
+    r"sign\W*in",
 ]
 
 string = create_link_matcher_string(text_list)

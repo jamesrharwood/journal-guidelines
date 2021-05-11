@@ -96,7 +96,7 @@ HTTPCACHE_ENABLED = True
 HTTPCACHE_ALWAYS_STORE = True
 HTTPCACHE_EXPIRATION_SECS = 0
 HTTPCACHE_DIR = "httpcache"
-HTTPCACHE_IGNORE_HTTP_CODES = [400, 404, 301, 302, 500, 503, 502, 504, 408]
+HTTPCACHE_IGNORE_HTTP_CODES = [400, 404, 301, 302, 303, 500, 503, 502, 504, 408]
 HTTPCACHE_STORAGE = "scrapy.extensions.httpcache.FilesystemCacheStorage"
 HTTPCACHE_GZIP = True
 HTTPCACHE_IGNORE_RESPONSE_CACHE_CONTROLS = ["no-cache", "no-store"]
@@ -105,7 +105,7 @@ HTTPCACHE_IGNORE_RESPONSE_CACHE_CONTROLS = ["no-cache", "no-store"]
 FEEDS = {
     SCRAPED_DATA_FILE_PATH: {
         "format": "csv",
-        "fields": ["url", "id", "status", "link_text", "char_count", "word_count"]
+        "fields": ["url", "id", "status", "link_text", "char_count", "word_count", "origin"]
         + [f.name for f in FIELDS],
     }
 }

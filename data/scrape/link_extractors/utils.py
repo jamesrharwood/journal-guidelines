@@ -1,6 +1,9 @@
+import re
 import tldextract
 
 from .equivalent_urls import EQUIVALENT_URLS
+
+PDF_REGEX = re.compile(r"\.pdf\b", flags=re.IGNORECASE)
 
 
 def urls_from_same_subdomain(url1, url2):
@@ -16,7 +19,7 @@ def get_root_from_url(url):
     # www.sub2.domain.com/page/page -> www.sub2.domain.com
     url = tldextract.extract(url)
     url = ".".join(url)
-    url = url.lower()
+    url = url.lower().strip(".")
     return url
 
 
@@ -40,3 +43,7 @@ def is_service_subdomain(url):
     url = tldextract.extract(url)
     if "service" in url[0]:
         return True
+
+
+def is_pdf(url):
+    return bool(PDF_REGEX.search(url))

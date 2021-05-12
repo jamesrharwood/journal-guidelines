@@ -1,6 +1,6 @@
 import re
 
-from ..create_extractor import create_extractor
+from data.scrape.link_extractors.create_extractor import create_extractor
 from data.scrape.utils import clean_url
 
 ID = r"[\w-]*/?"

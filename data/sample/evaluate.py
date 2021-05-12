@@ -1,6 +1,6 @@
 import json
-import pandas
 
+from data.data.load import load_csv_to_df
 from .reference import get_reference_filepath
 from .utils import get_filepath_for_sample_and_feed
 from data.preprocess.transform.transform import load_csv_to_df
@@ -67,9 +67,8 @@ class Evaluation:
 
 
 def get_reference_df(sample_name):
-    with open(get_reference_filepath(sample_name), "r") as file_:
-        data = json.load(file_)
-    df = pandas.DataFrame(data)
+    fp = get_reference_filepath(sample_name)
+    df = load_csv_to_df(fp)
     df["url"] = df.apply(combine_url_lists, axis=1)
     df = df.explode("url")
     df = df.dropna(subset=["url"])

@@ -41,7 +41,6 @@ class TargetCollection:
             return True
 
     def _load_guidelines(self):
-        print("Loading targets from ", self._module_dir)
         for root, dir, files in os.walk(self._module_file_path):
             if root.endswith("_"):
                 continue

@@ -1,5 +1,3 @@
-import pandas as pd
-
 from data.fields import FIELDS
 from . import (
     PREPROCESSED_DATA_FILE_PATH,
@@ -8,9 +6,21 @@ from . import (
 )
 from ..constants import INDEX_COL, PIVOT_TO_COL
 
+pd = None
+
+
+def get_pandas():
+    global pd
+    if pd is None:
+        import pandas
+
+        pd = pandas
+    return pd
+
 
 def load_csv_to_df(in_file_path, index_cols=[]):
     assert FIELDS.id
+    pd = get_pandas()
     df = pd.read_csv(
         in_file_path,
         index_col=index_cols,

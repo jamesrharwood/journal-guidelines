@@ -115,7 +115,7 @@ class TestLinkExtractors(Base):
 
     def test_springer(self):
         urls = ["https://www.springer.com/journal/10544/submission-guidelines"]
-        url = "https://link.springer.com/journal/10544"
+        url = "https://link.springer.com/journal/10544/test-not-home-page"
         self.check_urls_from_url(urls, url)
 
     def test_words_allowed_in_domain_but_not_path(self):

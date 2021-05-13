@@ -23,6 +23,8 @@ class ListField(LoadedFieldBase, AbstractListField):
 LANGUAGES_COL_NAME = "languages"
 PUBLICATION_TYPES_COL_NAME = "publication_types"
 URLS_RAW_COL_NAME = "urls_raw"
+ISSN_PRINT_COL_NAME = "issn_print"
+ISSN_ELECTRONIC_COL_NAME = "issn_electronic"
 
 FIELDS = [
     TextField(INDEX_COL, "NlmUniqueID"),
@@ -32,4 +34,6 @@ FIELDS = [
     ListField(PUBLICATION_TYPES_COL_NAME, "PublicationTypeList/PublicationType"),
     ListField("mesh_headings", "MeshHeadingList/MeshHeading"),
     ListField(URLS_RAW_COL_NAME, "ELocationList/ELocation/ELocationID"),
+    TextField(ISSN_PRINT_COL_NAME, "ISSN[@IssnType='print']"),
+    TextField(ISSN_ELECTRONIC_COL_NAME, "ISSN[@IssnType='electronic']"),
 ]

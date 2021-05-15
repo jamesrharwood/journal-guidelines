@@ -4,6 +4,7 @@ from data.fields import FIELDS
 from data.fields.abstract import AbstractField, AbstractListField
 from data.constants import PIVOT_FROM_COL
 from data.scrape.link_extractors.utils import get_root_from_url, get_domain_from_url
+from data.strategies.strategies import get_guideline_urls_for_row
 
 
 class TransformedFieldBase:
@@ -13,7 +14,10 @@ class TransformedFieldBase:
         self.method = method
 
     def apply_to_dataframe(self, df):
-        return df[self.from_field_name].apply(self.method)
+        if self.from_field_name:
+            return df[self.from_field_name].apply(self.method)
+        else:
+            return df.apply(self.method, axis=1)
 
 
 class TransformedField(TransformedFieldBase, AbstractField):
@@ -57,6 +61,20 @@ def get_url_domains(urls):
     return [get_domain_from_url(url) for url in urls]
 
 
+def include(row):
+    if row["is_english"] is True:
+        if row["is_periodical"] is True:
+            if bool(row["urls"]) is True:
+                return True
+    return False
+
+
+def get_first(list_):
+    if list_:
+        return list_[0]
+    return None
+
+
 FIELDS = [
     TransformedField(
         "is_periodical",
@@ -68,4 +86,10 @@ FIELDS = [
     TransformedListField("publishers", FIELDS.publishers_raw_, clean_publishers),
     TransformedListField("url_roots", PIVOT_FROM_COL, get_url_roots),
     TransformedListField("url_domains", PIVOT_FROM_COL, get_url_domains),
+    TransformedField("issn_electronic", FIELDS.issns_electronic_, get_first),
+    TransformedField("issn_print", FIELDS.issns_print_, get_first),
+    TransformedListField(
+        "urls_generated_guideline_pages", None, get_guideline_urls_for_row
+    ),
+    TransformedField("include", None, include),
 ]

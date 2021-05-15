@@ -29,8 +29,13 @@ def load_csv_to_df(in_file_path, index_cols=[]):
     return df
 
 
-def load_preprocessed():
+def load_preprocessed_all():
     return load_csv_to_df(PREPROCESSED_DATA_FILE_PATH, [INDEX_COL])
+
+
+def load_preprocessed():
+    df = load_preprocessed_all()
+    return df[df.include]
 
 
 def load_scraped():

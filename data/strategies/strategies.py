@@ -1,5 +1,4 @@
 from .publishers import STRATEGIES
-from data.fields import FIELDS
 
 
 def get_strategy_for_url(url):
@@ -10,18 +9,22 @@ def get_strategy_for_url(url):
 
 def get_extractor_for_url(url):
     strategy = get_strategy_for_url(url)
-    extractor = strategy.create_link_extractor(url) if strategy else None
+    if not strategy:
+        return None
+    extractor = strategy.create_link_extractor(url)
     return extractor
 
 
 def get_guideline_urls_for_url(url, row):
     strategy = get_strategy_for_url(url)
+    if not strategy:
+        return []
     urls = strategy.generate_guideline_urls(url, row)
     return urls
 
 
 def get_guideline_urls_for_row(row):
     urls = []
-    for url in row[FIELDS.urls]:
+    for url in row["urls"]:
         urls += get_guideline_urls_for_url(url, row)
     return urls

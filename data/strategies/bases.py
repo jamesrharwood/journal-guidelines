@@ -14,10 +14,12 @@ class Strategy:
         self.extractor_args = extractor_args
         self.guideline_url_template = template
 
-    def matches_url(self, url):
+    def match_url(self, url):
         url = clean_url(url)
-        match = self.url_regex.search(url)
-        return bool(match)
+        return self.url_regex.search(url)
+
+    def matches_url(self, url):
+        return bool(self.match_url(url))
 
     def create_link_extractor(self, url):
         return create_extractor(url, allow_domains=[], **self.extractor_args)
@@ -25,9 +27,8 @@ class Strategy:
     def generate_guideline_urls(self, url, row):
         if self.guideline_url_template is None:
             return []
-        match = self.url_regex.search(url)
-        id_ = match.groupdict()["id"]
-        urls = [self.guideline_url_template.format(ID=id_, **row)]
+        match = self.match_url(url)
+        urls = [self.guideline_url_template.format(**match.groupdict(), **row)]
         urls = [url for url in urls if url]
         return urls
 

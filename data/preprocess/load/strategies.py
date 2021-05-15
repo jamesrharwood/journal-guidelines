@@ -1,6 +1,8 @@
 def text_from_tag(tag, tree):
     texts = text_list_from_tag(tag, tree)
-    assert len(texts) == 1, f"More than one {tag} tag"
+    if not texts:
+        return None
+    assert len(texts) == 1, f"More than one {tag} tag: {texts}"
     text = texts[0]
     return text
 

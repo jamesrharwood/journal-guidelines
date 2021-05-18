@@ -9,7 +9,7 @@ text_rx = RX(
 )
 
 domain_rx = DOMAIN_RX(
-    "EQUATOR_domain",
+    "ICMJE_domain",
     pattern=r"icmje\.org",
     matches=[
         ("http://www/icmje.org", 1),

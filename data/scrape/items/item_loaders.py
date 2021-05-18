@@ -17,6 +17,8 @@ class PageDataLoader(ItemLoader):
         loader.add_value("char_count", len(text))
         loader.add_value("word_count", len(text.split()))
         loader.add_value("origin", response.meta["origin"])
+        loader.add_value("spider", response.meta["spider"])
+        loader.add_value("links_of_interest", response.meta["links_of_interest"])
         for field in FIELDS:
             field.add_to_item_loader(loader)
         return loader

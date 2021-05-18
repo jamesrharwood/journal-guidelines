@@ -1,4 +1,4 @@
-from data.data.load import load_csv_to_df
+from data.data.load import load_csv_to_df, load_json_to_df
 from .reference import get_reference_filepath
 from .utils import get_filepath_for_sample_and_feed
 from data.scrape.utils import clean_url as clean_url_params
@@ -65,7 +65,7 @@ class Evaluation:
 
 def get_reference_df(sample_name):
     fp = get_reference_filepath(sample_name)
-    df = load_csv_to_df(fp)
+    df = load_json_to_df(fp)
     df["url"] = df.apply(combine_url_lists, axis=1)
     df = df.explode("url")
     df = df.dropna(subset=["url"])

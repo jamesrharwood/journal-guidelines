@@ -10,7 +10,7 @@ from data.data import SCRAPED_DATA_FILE_PATH
 from data.scrape.fields import FIELDS
 
 
-LOG_LEVEL = "DEBUG"
+LOG_LEVEL = "INFO"
 LOG_FILE = "scraper_log.txt"
 BOT_NAME = None
 
@@ -105,7 +105,15 @@ HTTPCACHE_IGNORE_RESPONSE_CACHE_CONTROLS = ["no-cache", "no-store"]
 FEEDS = {
     SCRAPED_DATA_FILE_PATH: {
         "format": "csv",
-        "fields": ["url", "id", "status", "link_text", "char_count", "word_count", "origin"]
+        "fields": [
+            "url",
+            "id",
+            "status",
+            "link_text",
+            "char_count",
+            "word_count",
+            "origin",
+        ]
         + [f.name for f in FIELDS],
     }
 }

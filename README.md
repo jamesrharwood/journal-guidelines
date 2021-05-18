@@ -14,3 +14,9 @@
 1. Install [pdftotext](https://github.com/jalan/pdftotext)
 2. Install dependencies `pip install -r requirements.txt` (install [pip](https://pip.pypa.io/en/stable/installing/) first if necessary)
 3. ...TODO
+
+
+##Tests TODO
+
+- Test that 404s get filtered properly
+- Test all strategies URL matchers and Link Extractors

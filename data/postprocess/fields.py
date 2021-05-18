@@ -4,7 +4,7 @@ from data.scrape.fields.targets import TARGETS, GUIDELINE_TARGETS, EQUATOR_TARGE
 
 class HasAny(AbstractField):
     def __init__(self, name, field_names):
-        self.name = name
+        self.name = "has_" + name.lower()
         self.field_names = field_names
 
     def apply_to_dataframe(self, df):

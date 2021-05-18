@@ -1,7 +1,18 @@
-from data.constants import PIVOT_FROM_COL, PIVOT_TO_COL
-from data.preprocess.transform.transform import load_csv_to_df
-from data.data import PREPROCESSED_DATA_FILE_PATH
+import os
+
+from data.constants import PIVOT_FROM_COL, PIVOT_TO_COL, INDEX_COL
+from data.data.load import load_csv_to_df, load_scraped
+from data.data import PREPROCESSED_DATA_FILE_PATH, SCRAPED_DATA_FILE_PATH
 from data.fields import FIELDS
+
+
+def load_unscraped_urls_df_from_csv(csv_file=PREPROCESSED_DATA_FILE_PATH):
+    df = load_journal_urls_df_from_csv(csv_file)
+    if not os.path.isfile(SCRAPED_DATA_FILE_PATH):
+        return df
+    scraped_df = load_scraped()
+    df = df.loc[~df[INDEX_COL].isin(scraped_df[INDEX_COL])]
+    return df
 
 
 def load_journal_urls_df_from_csv(csv_file=PREPROCESSED_DATA_FILE_PATH):
@@ -17,7 +28,6 @@ def load_generated_guideline_urls_from_csv(csv_file=PREPROCESSED_DATA_FILE_PATH)
         {i: [] for i in df.index}
     )
     df = explode_and_exclude_blanks(df)
-    df = df.sample(frac=0.1)
     return df
 
 

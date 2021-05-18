@@ -1,8 +1,12 @@
+import os
+import json
+
 from data.fields import FIELDS
 from . import (
     PREPROCESSED_DATA_FILE_PATH,
     SCRAPED_DATA_FILE_PATH,
     POSTPROCESSED_DATA_FILE_PATH,
+    BROKEN_LINKS_DIR,
 )
 from ..constants import INDEX_COL, PIVOT_TO_COL
 
@@ -44,3 +48,18 @@ def load_scraped():
 
 def load_postprocessed():
     return load_csv_to_df(POSTPROCESSED_DATA_FILE_PATH)
+
+
+def load_404s():
+    fp = os.path.join(BROKEN_LINKS_DIR, "404.txt")
+    with open(fp, "r") as file_:
+        urls = file_.read().splitlines()
+        return urls
+
+
+def load_json_to_df(fp):
+    with open(fp, "r") as file_:
+        data = json.load(file_)
+    pd = get_pandas()
+    df = pd.DataFrame(data)
+    return df

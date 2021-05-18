@@ -20,6 +20,8 @@ class PageData(Item):
     char_count = Field()
     word_count = Field()
     origin = Field()
+    spider = Field()
+    links_of_interest = Field()
 
 
 for field in FIELDS:

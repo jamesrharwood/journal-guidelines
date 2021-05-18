@@ -6,7 +6,7 @@ from scrapy.crawler import CrawlerProcess
 
 from data.data import PREPROCESSED_DATA_FILE_PATH
 from data.scrape.load_urls import load_journal_urls_df_from_csv
-from data.scrape.spiders import JournalSpider
+from data.scrape.spiders import FallbackSpider
 from .utils import get_sample_dir_path, now, Timer, get_filepath_for_sample_and_feed
 from .reference import get_reference_filepath
 from .evaluate import Evaluation
@@ -15,8 +15,8 @@ settings = get_project_settings()
 FIELDS = list(settings["FEEDS"].values())[0]["fields"]
 
 
-def scrape(sample_name):
-    Spider = make_spider(sample_name)
+def scrape(sample_name, spider=FallbackSpider):
+    Spider = make_spider(sample_name, spider)
     process = CrawlerProcess(settings=settings)
     process.crawl(Spider)
     with Timer():
@@ -25,12 +25,12 @@ def scrape(sample_name):
     return evaluation
 
 
-def make_spider(sample_name):
+def make_spider(sample_name, spider):
     logpath = get_log_filepath(sample_name)
     sample_data_frame = get_sample_df(sample_name)
     feed_filepath = get_feeds_filepath(sample_name)
 
-    class SampleSpider(JournalSpider):
+    class SampleSpider(spider):
         name = "journals_sample_spider"
         journal_urls_df = sample_data_frame
         feed_path = feed_filepath
@@ -43,7 +43,7 @@ def make_spider(sample_name):
 
 
 def get_feeds_filepath(sample_name):
-    feed_name = f"{now()}.json"
+    feed_name = f"{now()}.csv"
     return get_filepath_for_sample_and_feed(sample_name, feed_name)
 
 

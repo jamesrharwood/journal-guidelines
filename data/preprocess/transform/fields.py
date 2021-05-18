@@ -1,5 +1,7 @@
 import re
+from urllib.parse import urlparse
 
+from data.data.load import load_404s
 from data.fields import FIELDS
 from data.fields.abstract import AbstractField, AbstractListField
 from data.constants import PIVOT_FROM_COL
@@ -32,8 +34,26 @@ def include_url(url):
     return not re.search(r"\.(ovid|ncbi)\.", url)
 
 
-def url_filter(urls):
+def urls_filter_and_add_schemes(urls):
+    urls = urls_filter(urls)
+    urls = urls_add_scheme(urls)
+    return urls
+
+
+def urls_filter(urls):
     return [url for url in urls if include_url(url)]
+
+
+def urls_add_scheme(urls):
+    return [url_add_scheme(url) for url in urls]
+
+
+def url_add_scheme(url):
+    parsed_url = urlparse(url)
+    if not parsed_url.scheme:
+        print("adding http to: ", url)
+        url = "http://" + url
+    return url
 
 
 def is_periodical(types):
@@ -75,6 +95,14 @@ def get_first(list_):
     return None
 
 
+def filter_out_404s(list_):
+    broken_links = load_404s()
+    return [url for url in list_ if url not in broken_links]
+
+
+URLS_GENERATED_COL = "urls_generated_guideline_pages"
+URLS_GENERATED_INC_404_COL = URLS_GENERATED_COL + "_inc_404s"
+
 FIELDS = [
     TransformedField(
         "is_periodical",
@@ -82,14 +110,15 @@ FIELDS = [
         is_periodical,
     ),
     TransformedField("is_english", FIELDS.languages_, is_english),
-    TransformedListField(PIVOT_FROM_COL, FIELDS.urls_raw_, url_filter),
+    TransformedListField(PIVOT_FROM_COL, FIELDS.urls_raw_, urls_filter_and_add_schemes),
     TransformedListField("publishers", FIELDS.publishers_raw_, clean_publishers),
     TransformedListField("url_roots", PIVOT_FROM_COL, get_url_roots),
     TransformedListField("url_domains", PIVOT_FROM_COL, get_url_domains),
     TransformedField("issn_electronic", FIELDS.issns_electronic_, get_first),
     TransformedField("issn_print", FIELDS.issns_print_, get_first),
+    TransformedListField(URLS_GENERATED_INC_404_COL, None, get_guideline_urls_for_row),
     TransformedListField(
-        "urls_generated_guideline_pages", None, get_guideline_urls_for_row
+        URLS_GENERATED_COL, URLS_GENERATED_INC_404_COL, filter_out_404s
     ),
     TransformedField("include", None, include),
 ]
